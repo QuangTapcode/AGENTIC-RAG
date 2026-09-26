@@ -96,15 +96,15 @@
 
 ## 9. Evaluation Dataset
 
-- [ ] Tạo tối thiểu 30 câu hỏi.
-- [ ] Tạo 15 câu tiếng Việt có thể trả lời từ corpus tiếng Anh.
-- [ ] Tạo 5 câu tiếng Anh có thể trả lời từ corpus tiếng Anh.
-- [ ] Tạo 5 câu hỏi thiếu thông tin trong corpus.
-- [ ] Tạo 5 câu hỏi ngoài phạm vi.
-- [ ] Đánh giá riêng theo `detected_language`.
-- [ ] Ghi expected answer, expected source và expected page.
-- [ ] Lưu dataset tại `eval/questions.jsonl`.
-- [ ] Lưu generated answer, retrieved chunks, result và failure type.
+- [x] Tạo tối thiểu 30 câu hỏi.
+- [x] Tạo 15 câu tiếng Việt có thể trả lời từ corpus tiếng Anh.
+- [x] Tạo 5 câu tiếng Anh có thể trả lời từ corpus tiếng Anh.
+- [x] Tạo 5 câu hỏi thiếu thông tin trong corpus.
+- [x] Tạo 5 câu hỏi ngoài phạm vi.
+- [x] Gắn nhãn để đánh giá riêng theo `detected_language`.
+- [x] Ghi expected answer, expected source và expected page; page thiếu được biểu diễn bằng `null`.
+- [x] Lưu dataset tại `eval/questions.jsonl`.
+- [x] Lưu schema cho generated answer, retrieved chunks, result và failure type ở trạng thái rỗng để evaluator điền kết quả.
 
 ## 10. Automated Evaluation
 
