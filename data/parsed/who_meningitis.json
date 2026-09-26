@@ -1,0 +1,91 @@
+{
+  "document_id": "who_meningitis",
+  "title": "Meningitis",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+  "source_language": "en",
+  "published_date": "2025-04-01",
+  "input_file": "data/raw/who_meningitis.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.303467+00:00",
+  "content": "Title: Meningitis\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/meningitis\n\nMarkdown Content:\n\n## Key facts\n\n- Meningitis is a devastating disease that can be deadly and often results in serious long-term health issues.\n- Meningitis remains a major global public health challenge.\n- Many organisms can cause meningitis, including bacteria, viruses, fungi and parasites.\n- Bacterial meningitis is of particular concern. Around 1 in 6 people who get this type of meningitis die and 1 in 5 have severe complications.\n- Epidemics of meningitis are seen across the world, particularly in sub-Saharan Africa.\n- Vaccines are the most effective way to deliver long-lasting protection.\n\n## Overview\n\nMeningitis is the inflammation of the tissues surrounding the brain and spinal cord. It can be infectious or non-infectious in origin, can be associated with high risk of death and long-term complications, and requires urgent medical care.\n\nMeningitis remains a significant global health threat. It can be caused by several species of bacteria, viruses, fungi and parasites. Injuries, cancers and drugs cause a small number of cases.\n\nBacterial meningitis is the most serious type of meningitis. It is a severe, life-threatening condition that can often lead to long-term adverse health consequences. There are four main causes of acute bacterial meningitis:\n\n- *Neisseria meningitidis* (meningococcus)\n- *Streptococcus pneumoniae* (pneumococcus)\n- *Haemophilus influenzae*\n- *Streptococcus agalactiae* (group B streptococcus).\n\nThese bacteria are responsible for more than half of the deaths from meningitis globally and can cause other severe diseases like sepsis and pneumonia.\n\nAdditional important causes of meningitis worldwide include other bacteria species (e.g. *Mycobacterium tuberculosis*, non-typhoidal *Salmonella spp*, Listeria monocytogenes), viruses (e.g. enteroviruses, herpesviruses an arboviruses), fungi (e.g. *Cyptococcus spp.),* and parasites (e.g. some species of amoebae).\n\n## Who is at risk?\n\nMeningitis can affect anyone anywhere, and at any age. The pathogens that cause it can vary, based on a person’s age and immune system, and level of exposure to risk, which can be influenced by their living conditions and geographical location.\n\nNewborn babies are most at risk from Group B streptococcus, whereas children and adolescents are at most risk of meningococcus, pneumococcus and *Haemophilus influenzae*. Pneumococcus and meningococcus also account for most cases of bacterial meningitis among adults.\n\nImmunocompromised and/or people living with HIV are at increased risk of different types of meningitis.\n\nGlobally, the highest burden of disease is seen in a region of sub-Saharan Africa, known as the African meningitis belt, which stretches from Senegal to Ethiopia, and is at high risk of recurrent epidemics of meningococcal meningitis.\n\nMeningococcal meningitis outbreaks occur more frequently under special risk conditions, such as crowded settings where people are in close proximity, mining areas, mass gatherings, such as religious or sporting events, settings with refugees or displaced persons, closed institutions, military camps and areas with high migration, such as high-traffic markets and border areas.\n\n## Transmission\n\nThe route of transmission varies by organism. Most bacteria that cause meningitis, including meningococcus, pneumococcus and *Haemophilus influenzae*, are carried in the human nose and throat. They are spread from person to person by respiratory droplets or throat secretions. Group B streptococcus is often carried in the human gut or vagina and can spread from mother to child around the time of birth.\n\nCarriage of these organisms is usually harmless and contributes to building up immunity against infection, but the bacteria occasionally invade the body, causing meningitis, sepsis and other forms of invasive disease.\n\n## Signs and symptoms\n\nThe symptoms of meningitis can differ based on the cause, how quickly the disease progresses, how long it lasts, brain involvement, and other serious complications like sepsis.\n\nCommon symptoms of meningitis are fever, neck stiffness, confusion or altered mental status, headache, sensitivity to light, nausea and vomiting. Less frequent symptoms include seizures, coma and neurological deficits, such as weakness of the limbs.\n\nInfants often have different symptoms compared to adults:\n\n- unusual behaviour, such as the child being less active and difficult to wake\n- irritability\n- weak, continuous cry\n- poor feeding\n- bulging of the soft spot in their head.\n\nSome bacterial pathogens may also account for other symptoms as a result of bloodstream infection, which can quickly lead to sepsis, including cold hands and feet, fast breathing and low blood pressure. A characteristic, non-blanching skin rash may appear with meningococcal sepsis.\n\n## Complications and sequelae\n\nOne in 5 people surviving an episode of bacterial meningitis may have long lasting after-effects. These after-effects include hearing loss, seizures, limb weakness, difficulties with vision, speech, language, memory and communication, as well as scarring and limb amputations after sepsis.\n\n## Prevention\n\nVaccines offer the best protection against common types of bacterial meningitis.\n\nVaccines can prevent meningitis caused by:\n\n- meningococcus\n- pneumococcus\n- *Haemophilus influenzae* type b (Hib).\n\nMaternal Group B streptococcus vaccines to prevent invasive GBS disease in infants are in the final stages of clinical development.\n\nBacterial and viral meningitis can spread from person to person. If you live with someone who has either type of meningitis, you should:\n\n- talk to your doctor or nurse about taking antibiotics (in case of bacterial meningitis)\n- wash hands frequently, especially before eating\n- avoid close contact and sharing cups, utensils or toothbrushes.\n\n### 1\\. Vaccination\n\nLicensed vaccines against meningococcal, pneumococcal and *Haemophilus influenzae* disease have been available for many years. These bacteria have several different strains (known as serotypes or serogroups) and vaccines are designed to protect against the most harmful strains. No universal vaccine exists.\n\nHib vaccine is used in most national childhood immunization programmes globally. WHO also recommends universal use pneumococcal conjugate vaccines (PCV). [Meningococcal vaccines](https://www.who.int/teams/immunization-vaccines-and-biologicals/diseases/meningitis) include multivalent polysaccharide conjugate vaccines (MMCV), which include 4 to 5 meningococcal serogroups (A,C,W,Y,X); protein-based vaccines, which include meningococcal serogroup B, and combination vaccines combining the latter with 4-valent MMCV. Polysaccharide vaccines are still marketed internationally but are gradually being replaced by MMCV.\n\nIn the African meningitis belt, meningococcus serogroup A accounted for 80–85% of meningitis epidemics before the large-scale deployment of a meningococcal A conjugate vaccine starting in 2010. In 2023, the first pentavalent MMCV protecting against serogroups A, C, W, Y and X (Men5CV) was prequalified by WHO and recommended for use in countries of the African meningitis belt. Roll-out of Men5CV has the potential to eliminate meningitis epidemics and make the meningitis belt history.\n\n### 2\\. Antibiotics for prevention (chemoprophylaxis)\n\nPost-exposure prophylaxis with antibiotics is given to close contacts of individuals with meningococcal disease to eradicate asymptomatic meningococcal carriage in the nose and decrease the risk of transmission.\n\nIdentifying mothers whose babies are at risk of getting Group B streptococcal (GBS) disease is recommended in many countries. Mothers at risk of transmitted GBS to their babies are offered intravenous penicillin during labour to prevent their babies developing GBS infection.\n\n## Diagnosis\n\nTo diagnose meningitis, a lumbar puncture is needed to examine the cerebrospinal fluid (CSF). This should be done before starting antibiotics; however, if bacterial meningitis is suspected based on the signs and symptoms, a lumbar puncture should never delay antibiotic treatment.\n\nLaboratories will then perform specific tests with CSF or blood to identify the pathogen causing the infection. The tests will also help identify the treatments needed, and specifically for bacterial infections the susceptibility to types of antibiotics, as well as identify the strain(s) of the pathogen responsible and inform public health responses.\n\n## Treatment\n\nMeningitis is a medical emergency and requires urgent medical attention in an appropriate health-care facility.\n\nAntibiotic treatment should be started as soon as possible when bacterial meningitis is suspected. The first dose of antibiotic treatment should not be delayed until the results of the lumbar puncture are available. The choice of antibiotic treatment should consider the age of the patient, presence of immunosuppression, and local prevalence of antimicrobial resistance patterns. In non-epidemic settings, intravenous corticosteroids (e.g., dexamethasone) are initiated with the first dose of antibiotics to reduce the inflammatory response and the risk of neurological sequelae and death,\n\nThose who have lived through meningitis can have complications such as deafness, learning impairment or behavioural problem and require long-term treatment and care. The ongoing psychosocial impacts of disability from meningitis can have medical, educational, social and human rights-based implications. Access to both services and support for these conditions is often insufficient, especially in low- and middle-income countries.\n\nIndividuals and families with members disabled by meningitis should be encouraged to seek services and guidance from local and national organizations of disabled people and other disability focused organizations, which can provide vital advice about legal rights, economic opportunities and social engagement to ensure people disabled by meningitis are able to live full and rewarding lives.\n\nWHO has also developed an [Intersectoral global action plan on epilepsy and other neurological disorders](http://www.who.int/publications/i/item/9789240076624) to address the many challenges and gaps in providing care and services for people with epilepsy and other neurological disorders that exist worldwide, including those suffering from meningitis sequelae.\n\n## Surveillance\n\nSurveillance, from case detection to investigation and laboratory confirmation, is essential to the control of meningitis. Main objectives include:\n\n- detect and confirm outbreaks;\n- monitor the incidence trends, including the distribution and evolution of serogroups and serotypes;\n- estimate the disease burden;\n- monitor the antibiotic resistance profile;\n- monitor the circulation, distribution, and evolution of specific strains (clones); and\n- estimate the impact of meningitis control strategies, particularly preventive vaccination programmes.\n\n## WHO response\n\nIn 2020, the 73 rd World Health Assembly approved resolution (WHA73.9), in which all Member States committed to implementing the [Defeating meningitis by 2030 global road map](http://www.who.int/initiatives/defeating-meningitis-by-2030).\n\nThe roadmap sets a comprehensive vision “Towards a world free of meningitis” and has 3 visionary goals:\n\n- elimination of bacterial meningitis epidemics;\n- reduction of cases of vaccine-preventable bacterial meningitis by 50% and deaths by 70%; and\n- reduction of disability and improvement of quality of life after meningitis due to any cause.\n",
+  "char_count": 11597,
+  "word_count": 1658,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 16
+    },
+    {
+      "level": 2,
+      "text": "Who is at risk?",
+      "line": 33
+    },
+    {
+      "level": 2,
+      "text": "Transmission",
+      "line": 45
+    },
+    {
+      "level": 2,
+      "text": "Signs and symptoms",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Complications and sequelae",
+      "line": 67
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 71
+    },
+    {
+      "level": 3,
+      "text": "1\\. Vaccination",
+      "line": 89
+    },
+    {
+      "level": 3,
+      "text": "2\\. Antibiotics for prevention (chemoprophylaxis)",
+      "line": 97
+    },
+    {
+      "level": 2,
+      "text": "Diagnosis",
+      "line": 103
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 109
+    },
+    {
+      "level": 2,
+      "text": "Surveillance",
+      "line": 121
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 132
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Meningitis",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/meningitis"
+  },
+  "quality_flags": [],
+  "error": null
+}

@@ -1,0 +1,61 @@
+{
+  "document_id": "who_copd",
+  "title": "Chronic obstructive pulmonary disease (COPD)",
+  "topic": "respiratory disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+  "source_language": "en",
+  "published_date": "2026-06-10",
+  "input_file": "data/raw/who_copd.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.272728+00:00",
+  "content": "Title: Chronic obstructive pulmonary disease (COPD)\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)\n\nMarkdown Content:\n\n## Key facts\n\n- Chronic obstructive pulmonary disease (COPD) is the third leading cause of death worldwide, causing 3.4 million deaths in 2023, approximately 6% of all global deaths *(1)*.\n- Nearly 90% of COPD deaths in those under 70 years of age occur in low- and middle-income countries (LMIC).\n- COPD is the seventh leading cause of poor health worldwide (measured by disability-adjusted life years).\n- Tobacco smoking accounts for over 70% of COPD cases in high-income countries. In LMIC tobacco smoking accounts for 30–40% of COPD cases, and household air pollution is a major risk factor.\n\n## Overview\n\nChronic obstructive pulmonary disease (COPD) is a common lung disease causing restricted airflow and breathing problems. It is sometimes called emphysema or chronic bronchitis.\n\nIn people with COPD, the lungs can get damaged or clogged with phlegm. Symptoms include cough, sometimes with phlegm, difficulty breathing, wheezing and tiredness.\n\nSmoking and air pollution are the most common causes of COPD. People with COPD are at higher risk of other health problems.\n\nCOPD is not curable but symptoms can improve if one avoids smoking and exposure to air pollution and gets vaccines to prevent infections. It can also be treated with medicines, oxygen and pulmonary rehabilitation.\n\n## Symptoms\n\nThe most common symptoms of COPD are difficulty breathing, chronic cough (sometimes with phlegm) and feeling tired.\n\nCOPD symptoms can get worse quickly. These are called flare-ups. These usually last for a few days and often require additional medicine.\n\nPeople with COPD also have a higher risk for other health problems. These include:\n\n- lung infections, like the flu or pneumonia\n- lung cancer\n- heart problems\n- weak muscles and brittle bones\n- depression and anxiety.\n\nCommon symptoms of COPD develop from mid-life onwards. As COPD progresses, people find it more difficult to carry out their normal daily activities, often due to breathlessness. There may be a considerable financial burden due to limitation of workplace and home productivity, and costs of medical treatment.\n\nCOPD is sometimes called emphysema or chronic bronchitis. Emphysema usually refers to destruction of the tiny air sacs at the end of the airways in the lungs. Chronic bronchitis refers to a chronic cough with the production of phlegm resulting from inflammation in the airways. COPD and asthma share common symptoms (cough, wheeze and difficulty breathing) and people may have both conditions.\n\n## Causes\n\nSeveral processes can cause the airways to become narrow and lead to COPD. There may be destruction of parts of the lung, mucus blocking the airways, and inflammation and swelling of the airway lining.\n\nCOPD develops gradually over time, often resulting from a combination of risk factors:\n\n- tobacco exposure from active smoking or passive exposure to second-hand smoke;\n- occupational exposure to dusts, fumes or chemicals;\n- indoor air pollution: biomass fuel (wood, animal dung, crop residue) or coal is frequently used for cooking and heating in low- and middle-income countries with high levels of smoke exposure;\n- early life events such as poor growth in utero, prematurity, and frequent or severe respiratory infections in childhood that prevent maximum lung growth;\n- asthma in childhood; and\n- a rare genetic condition called alpha-1 antitrypsin deficiency, which can cause COPD at a young age.\n\nCOPD should be suspected if a person has typical symptoms, and the diagnosis confirmed by a breathing test called spirometry, which measures how the lungs are working. In low- and middle-income countries, spirometry is often not available and so the diagnosis may be missed.\n\n## Treatment\n\nCOPD isn’t curable, but it can get better by not smoking, avoiding air pollution and getting vaccines. It can be treated with medicines, oxygen and pulmonary rehabilitation.\n\nThere are several treatments available for COPD.\n\nInhaled medicines that open and reduce swelling in the airways are the main treatments.\n\nBronchodilator inhalers are the most important medicines for treating COPD. They relax the airways to keep them open.\n\nShort-acting bronchodilators start to work in seconds and can last for 4–6 hours. These are often used during flare-ups.\n\nLong-acting bronchodilators take longer to start working but last longer. These are taken daily and can be combined with inhaled steroids.\n\nOther treatments may also be used:\n\n- Steroid pills and antibiotics are often used to treat flare-ups.\n- Oxygen is used for people who have had COPD for a long time or have severe COPD.\n- Pulmonary rehabilitation teaches exercises to improve your breathing and ability to exercise.\n- Surgery may improve symptoms for some people with severe COPD.\n\nSome inhalers open the airways and may be given regularly to prevent or reduce symptoms, and to relieve symptoms during acute flare-ups. Inhaled corticosteroids are sometimes given in combination with these to reduce inflammation in the lungs.\n\nInhalers must be taken using the correct technique, and in some cases with a spacer device to help deliver the medication into the airways more effectively. Access to inhalers is limited in many low- and middle-income countries; in 2023 salbutamol inhalers were generally available in public primary health care facilities in less than two-thirds of low- and low-middle income countries.\n\nFlare-ups are often caused by a respiratory infection, and people may be given an antibiotic or steroid tablets in addition to inhaled or nebulised treatment as needed.\n\n## Living with COPD\n\nLifestyle changes can help improve symptoms of COPD.\n\nQuit smoking or vaping. This is the most important thing to do. Even if you have been smoking for many years, quitting can still help.\n\nAvoid second-hand smoke or smoke from indoor cooking fires.\n\nStay physically active.\n\nProtect yourself from lung infections:\n\n- Get a flu vaccine every year.\n- Get the pneumonia vaccine.\n- Get all available COVID-19 vaccines and make sure you have had the latest boosters.\n\nPeople living with COPD must be given information about their condition, treatment and self-care to help them to stay as active and healthy as possible.\n\n## WHO response\n\nCOPD is included in the WHO Global Action Plan for the Prevention and Control of Noncommunicable Diseases (NCDs) and the United Nations 2030 Agenda for Sustainable Development.\n\nWHO is taking action to extend diagnosis of and treatment for COPD in a number of ways.\n\nThe WHO Package of Essential Noncommunicable Disease Interventions (PEN) was developed to help improve NCD management in primary health care in low-resource settings. PEN includes protocols for the assessment, diagnosis and management of chronic respiratory diseases (asthma and chronic obstructive pulmonary disease), and modules on healthy lifestyle counselling, including tobacco cessation and self-care.\n\nWHO is currently developing new guidelines for the diagnosis and management of COPD in primary care.\n\nRehabilitation 2030 is a strategic approach to prioritize and strengthen rehabilitation services in health systems. Pulmonary rehabilitation for COPD is included in the Package of Interventions for Rehabilitation, developed as part of this WHO initiative.\n\nReducing tobacco smoke exposure is important for both primary prevention of COPD and disease management. The Framework Convention on Tobacco Control is enabling progress in this area as are WHO initiatives such as MPOWER and mTobacco Cessation.\n\nFurther prevention activities include the WHO Clean Household Energy Solutions Toolkit (CHEST) to promote clean and safe interventions in the home and facilitate the design of policies that promote the adoption of clean household energy at local, programmatic and national levels.\n\nThe Global Alliance against Chronic Respiratory Diseases (GARD) contributes to WHO’s work to prevent and control chronic respiratory diseases. GARD is a voluntary alliance of national and international organizations and agencies from many countries committed to the vision of a world where all people breathe freely.\n\n**References**\n\n*(1)* Global Burden of Disease Collaborative Network. [Global Burden of Disease 2023: Findings from the GBD 2023 Study](https://www.healthdata.org/research-analysis/library/global-burden-disease-2023-findings-gbd-2023-study). Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2025.\n",
+  "char_count": 8581,
+  "word_count": 1322,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 14
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 24
+    },
+    {
+      "level": 2,
+      "text": "Causes",
+      "line": 42
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 57
+    },
+    {
+      "level": 2,
+      "text": "Living with COPD",
+      "line": 84
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 102
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Chronic obstructive pulmonary disease (COPD)",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+  },
+  "quality_flags": [],
+  "error": null
+}

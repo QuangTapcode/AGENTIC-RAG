@@ -1,0 +1,96 @@
+{
+  "document_id": "who_malaria",
+  "title": "Malaria",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+  "source_language": "en",
+  "published_date": "2025-12-04",
+  "input_file": "data/raw/who_malaria.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.256370+00:00",
+  "content": "Title: Fact sheet about malaria\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/malaria\n\nMarkdown Content: Key facts\n\n- Globally in 2024, there were an estimated 282 million malaria cases and 610 000 malaria deaths in 80 countries.\n- The WHO African Region carries a disproportionately high share of the global malaria burden.\n- In 2024, the WHO African Region was home to 95% of malaria cases (265 million) and 95% (579 000) of malaria deaths.\n- Children under 5 accounted for about 75% of all malaria deaths in the Region.\n\n## Overview\n\nMalaria is a life-threatening disease spread to humans by some types of mosquitoes. It is mostly found in tropical countries. It is preventable and curable.\n\nThe infection is caused by a parasite and does not spread from person to person.\n\nSymptoms can be mild or life-threatening. Mild symptoms are fever, chills and headache. Severe symptoms include fatigue, confusion, seizures, and difficulty breathing.\n\nInfants, children under 5 years, pregnant women and girls, travellers and people with HIV or AIDS are at higher risk of severe infection.\n\nMalaria can be prevented by avoiding mosquito bites and with medicines. Treatments can stop mild cases from getting worse.\n\nMalaria mostly spreads to people through the bites of some infected female *Anopheles* mosquitoes. Blood transfusion and contaminated needles may also transmit malaria. The first symptoms may be mild, similar to many febrile illnesses, and difficulty to recognize as malaria. Left untreated, *P. falciparum* malaria can progress to severe illness and death within 24 hours.\n\nThere are 5 *Plasmodium* parasite species that cause malaria in humans and 2 of these species –*P. falciparum* and *P. vivax*– pose the greatest threat. *P. falciparum* is the deadliest malaria parasite and the most prevalent on the African continent. *P. vivax* is the dominant malaria parasite in most countries outside of sub-Saharan Africa. The other malaria species which can infect humans are *P. malariae, P. ovale* and *P. knowlesi*.\n\n## Symptoms\n\nThe most common early symptoms of malaria are fever, headache and chills.\n\nSymptoms usually start within 10–15 days of getting bitten by an infected mosquito.\n\nSymptoms may be mild for some people, especially for those who have had a malaria infection before. Because some malaria symptoms are not specific, getting tested early is important.\n\nSome types of malaria can cause severe illness and death. Infants, children under 5 years, pregnant women, travellers and people with HIV or AIDS are at higher risk. Severe symptoms include:\n\n- extreme tiredness and fatigue\n- impaired consciousness\n- multiple convulsions\n- difficulty breathing\n- dark or bloody urine\n- jaundice (yellowing of the eyes and skin)\n- abnormal bleeding.\n\nPeople with severe symptoms should get emergency care right away. Getting treatment early for mild malaria can stop the infection from becoming severe.\n\nMalaria infection during pregnancy can also cause premature delivery or delivery of a baby with low birth weight.\n\n## Disease burden\n\nAccording to the latest World malaria report,there were 282 million cases of malaria in 2024, an increase of about 9 million cases (3%) compared with 2023. The estimated number of malaria deaths stood at 610 000 in 2024 compared to 598 000 in 2023.\n\nThe WHO African Region continues to carry a disproportionately high share of the global malaria burden. In 2024 the Region was home to about 95% of all malaria cases and deaths. Children under 5 years of age accounted for about 76% of all malaria deaths in the Region.\n\nOver half of all deaths in the Region occurred in three countries: Nigeria (31.9%), the Democratic Republic of the Congo (11.7%), and Niger (6.1%). Children under 5 years of age accounted for about 75% of all malaria deaths in the Region.\n\n## Prevention\n\nMalaria can be prevented by avoiding mosquito bites and by taking medicines. Talk to a doctor about taking medicines such as chemoprophylaxis before travelling to areas where malaria is common.\n\nLower the risk of getting malaria by avoiding mosquito bites:\n\n- Use mosquito nets when sleeping in places where malaria is present.\n- Use mosquito repellents (containing DEET, IR3535 or Icaridin) after dusk.\n- Use coils and vaporizers.\n- Wear protective clothing.\n- Use window screens.\n\n### Vector control\n\n[Vector control](http://www.who.int/teams/global-malaria-programme/prevention/vector-control) is a vital component of malaria control and elimination strategies as it is highly effective in preventing infection and reducing disease transmission. The 2 core interventions are insecticide-treated nets (ITNs) and indoor residual spraying (IRS).\n\nProgress in global malaria control is threatened by emerging resistance to insecticides among *Anopheles* mosquitoes. However, new generation nets, which provide better protection against malaria than pyrethroid-only nets, are becoming more widely available and represent an important tool in global efforts to combat malaria.\n\n*Anopheles stephensi* presents an added challenge for malaria control in Africa. Originally native to parts of south Asia and the Arabian Peninsula, the invasive mosquito species has been expanding its range over the last decade, with detections reported to date in eight African countries. *An. stephensi* thrives in urban settings, endures high temperatures and is resistant to many of the insecticides used in public health.\n\n### Chemoprophylaxis\n\nTravellers to malaria endemic areas should consult their doctor several weeks before departure. The medical professional will determine which chemoprophylaxis drugs are appropriate for the country of destination. In some cases, chemoprophylaxis drugs must be started 2–3 weeks before departure. All prophylactic drugs should be taken on schedule for the duration of the stay in the malaria risk area and should be continued for 4 weeks after the last possible exposure to infection since parasites may still emerge from the liver during this period.\n\n### Preventive chemotherapies\n\n[Preventive chemotherapy](http://www.who.int/teams/global-malaria-programme/prevention/preventive-chemotherapies)is the use of medicines, either alone or in combination, to prevent malaria infections and their consequences. It requires giving a full treatment course of an antimalarial medicine to vulnerable populations at designated time points during the period of greatest malarial risk, regardless of whether the recipients are infected with malaria.\n\nPreventive chemotherapy includes perennial malaria chemoprevention (PMC),seasonal malaria chemoprevention (SMC), intermittent preventive treatment of malaria in pregnancy (IPTp) and school-aged children (IPTsc), post-discharge malaria chemoprevention (PDMC) and mass drug administration (MDA). These safe and cost-effective strategies are intended to complement ongoing malaria control activities, including vector control measures, prompt diagnosis of suspected malaria, and treatment of confirmed cases with antimalarial medicines.\n\n### Vaccine\n\nSince October 2021, WHO has recommended broad use of the RTS,S/AS01 malaria vaccine among children living in regions with moderate to high *P. falciparum* malaria transmission. The vaccine has been shown to significantly reduce malaria, and deadly severe malaria, among young children. In October 2023, WHO recommended a second safe and effective malaria vaccine, R21/Matrix-M. Vaccines are now being rolled out in routine childhood immunization programmes across Africa. Malaria vaccines in Africa are expected to save tens of thousands of young lives every year. The highest impact will be achieved, however, when the vaccines are introduced alongside a mix of other WHO-recommended malaria interventions such as bed nets and chemoprophylaxis.\n\n[Questions and answers on malaria vaccines](https://www.who.int/news-room/questions-and-answers/item/q-a-on-rts-s-malaria-vaccine)\n\n## Treatment\n\n[Early diagnosis and treatment](https://www.who.int/publications/i/item/guidelines-for-malaria) of malaria reduces disease, prevents deaths and contributes to reducing transmission. WHO recommends that all suspected cases of malaria be confirmed using parasite-based [diagnostic testing](http://www.who.int/teams/global-malaria-programme/case-management/diagnosis) (through either microscopy or a rapid diagnostic test).\n\nMalaria is a serious infection and always requires treatment with medicine.\n\nMultiple medicines are used to prevent and treat malaria. Doctors will choose one or more based on:\n\n- the type of malaria\n- whether a malaria parasite is resistant to a medicine\n- the weight or age of the person infected with malaria\n- whether the person is pregnant.\n\nThese are the most common medicines for malaria:\n\n- Artemisinin-based combination therapy medicines are the most effective treatment for *P. falciparum* malaria.\n- Chloroquine is recommended for treatment of infection with the *P. vivax* parasite only in places where it is still sensitive to this medicine.\n- Primaquine should be added to the main treatment to prevent relapses of infection with the *P. vivax* and *P. ovale* parasites.\n\nMost medicines used are in pill form. Some people may need to go to a health centre or hospital for injectable medicines.\n\n### Antimalarial drug resistance\n\nSubsequent to the emergence of partial artemisinin resistance in the Greater Mekong subregion, WHO is very concerned about confirmed partial artemisinin resistance in Eritrea, Rwanda, Uganda and the United Republic of Tanzania. Based on available evidence, such resistance is also suspected in Ethiopia, Namibia, Sudan and Zambia.\n\nIn 2022, WHO developed a [strategy to curb antimalarial drug resistance in Africa](http://www.who.int/publications/i/item/9789240060265). Regular monitoring of antimalarial drug efficacy is needed to inform treatment policies in malaria-endemic countries, and to ensure early detection of, and response to, drug resistance.\n\nFor more on WHO’s work on antimalarial drug resistance in the Greater Mekong subregion, visit the [Mekong Malaria Elimination Programme](http://www.who.int/initiatives/mekong-malaria-elimination-programme) webpage.\n\n## Genetic mutations\n\nMost rapid diagnostic tests (RDTs) for malaria target one or two specific proteins produced by the *P. falciparum* malaria parasite: HRP2 and HRP3. However, parasites with genetic mutations, that prevent the expression of these proteins, are not detected by these tests. This means that malaria patients may not be diagnosed, allowing these mutated parasites to spread. In 2024, these mutated parasites were reported in 42 malaria endemic countries; with Viet Nam reporting for the first time in 2024. Although the estimated prevalence is still low in most countries, it exceeds 15% in Brazil, Djibouti, Eritrea, Ethiopia, Nicaragua and Peru.\n\n## Elimination\n\nMalaria elimination is defined as the interruption of local transmission of a specified malaria parasite species in a defined geographical area as a result of deliberate activities. Continued measures to prevent re-establishment of transmission are required.\n\nIn 2024, 37 countries reported fewer than 1000 indigenous cases of the disease, up from just 13 countries in 2000. Countries that have achieved at least 3 consecutive years of zero indigenous cases of malaria are eligible to apply for the [WHO certification of malaria elimination](http://www.who.int/teams/global-malaria-programme/elimination/certification-process). Since 2017, 14 countries have been certified by the WHO Director-General as malaria-free, including Maldives (2015), Sri Lanka (2016), Kyrgyzstan (2016), Paraguay (2018), Uzbekistan (2018), Argentina (2019), Algeria (2019), China (2021), El Salvador (2021), Azerbaijan (2023), Tajikistan (2023), Belize (2023), Cabo Verde (2024), Egypt (2024), Georgia (2025), Suriname (2025) and Timor-Leste (2025).\n\n[Countries and territories certified malaria-free by WHO](http://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who).\n\n## Surveillance\n\n[Malaria surveillance](http://www.who.int/teams/global-malaria-programme/surveillance) is the continuous and systematic collection, analysis and interpretation of malaria-related data, and the use of that data in the planning, implementation and evaluation of public health practice. Improved surveillance of malaria cases and deaths helps ministries of health determine which areas or population groups are most affected and enables countries to monitor changing disease patterns. Strong malaria surveillance systems also help countries design effective health interventions and evaluate the impact of their malaria control programmes.\n\n## WHO response\n\nThe WHO[Global technical strategy for malaria 2016–2030](https://www.who.int/publications/i/item/9789240031357), updated in 2021, provides a technical framework for all malaria-endemic countries. It is intended to guide and support regional and country programmes as they work towards malaria control and elimination.\n\nThe strategy sets ambitious but achievable global targets, including:\n\n- reducing malaria case incidence by at least 90% by 2030\n- reducing malaria mortality rates by at least 90% by 2030\n- eliminating malaria in at least 35 countries by 2030\n- preventing a resurgence of malaria in all countries that are malaria-free.\n\nGuided by this strategy, the [Global Malaria Programme](http://www.who.int/teams/global-malaria-programme)coordinates the WHO’s global efforts to control and eliminate malaria by:\n\n- playing a leadership role in malaria, effectively supporting member states and rallying partners to reach universal health coverage and achieve goals and targets of the Global Technical Strategy for Malaria;\n- shaping the research agenda and promoting the generation of evidence to support global guidance for new tools and strategies to achieve impact;\n- developing ethical and evidence based global guidance on malaria with effective dissemination to support adoption and implementation by national malaria programmes and other relevant stakeholders; and\n- monitoring and responding to global malaria trends and threats.\n",
+  "char_count": 14197,
+  "word_count": 2115,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 12
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 28
+    },
+    {
+      "level": 2,
+      "text": "Disease burden",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 58
+    },
+    {
+      "level": 3,
+      "text": "Vector control",
+      "line": 70
+    },
+    {
+      "level": 3,
+      "text": "Chemoprophylaxis",
+      "line": 78
+    },
+    {
+      "level": 3,
+      "text": "Preventive chemotherapies",
+      "line": 82
+    },
+    {
+      "level": 3,
+      "text": "Vaccine",
+      "line": 88
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 94
+    },
+    {
+      "level": 3,
+      "text": "Antimalarial drug resistance",
+      "line": 115
+    },
+    {
+      "level": 2,
+      "text": "Genetic mutations",
+      "line": 123
+    },
+    {
+      "level": 2,
+      "text": "Elimination",
+      "line": 127
+    },
+    {
+      "level": 2,
+      "text": "Surveillance",
+      "line": 135
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 139
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Fact sheet about malaria",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/malaria"
+  },
+  "quality_flags": [],
+  "error": null
+}

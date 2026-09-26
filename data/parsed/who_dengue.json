@@ -1,0 +1,76 @@
+{
+  "document_id": "who_dengue",
+  "title": "Dengue and severe dengue",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+  "source_language": "en",
+  "published_date": "2025-08-21",
+  "input_file": "data/raw/who_dengue.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.220791+00:00",
+  "content": "Title: Dengue\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue\n\nMarkdown Content:\n\n## Key facts\n\n- Dengue is a viral infection caused by the dengue virus (DENV), which is transmitted to humans through the bite of infected mosquitoes.\n- About half of the world's population is now at risk of dengue, with an estimated 100–400 million infections occurring each year.\n- Dengue is found in tropical and sub-tropical climates worldwide, mostly in urban and semi-urban areas.\n- While many DENV infections are asymptomatic or produce only mild illness, DENV can occasionally cause more severe cases, and even death.\n- Prevention and control of dengue rely on vector control. There is no specific treatment for dengue/severe dengue, and early detection and access to proper medical care greatly lower fatality rates of severe dengue.\n\n## Overview\n\nDengue (break-bone fever) is a viral infection that is spread from mosquitoes to people. It is more common in tropical and subtropical than in temperate climates.\n\nMost people who get dengue do not have symptoms. For those who do, the most common symptoms are high fever, headache, body aches, nausea and rash. Most get better in 1–2 weeks. Some develop severe dengue and need care in a hospital.\n\nIn severe cases, dengue can be fatal.\n\nYou can lower your risk of dengue by avoiding mosquito bites, especially during the day.\n\nDengue is treated through pain management as there is no specific treatment currently.\n\n## Symptoms\n\nMost people with dengue have mild or no symptoms and will get better in 1–2 weeks. Rarely, dengue can be severe and lead to death.\n\nIf symptoms occur, they usually begin 4–10 days after infection and last for 2–7 days. Symptoms may include:\n\n- high fever (40°C/104°F)\n- severe headache\n- pain behind the eyes\n- muscle and joint pains\n- nausea\n- vomiting\n- swollen glands\n- rash.\n\nIndividuals who are infected for the second time are at greater risk of severe dengue.The symptoms of severe dengue often come after the fever has gone away and may include:\n\n- severe abdominal pain\n- persistent vomiting\n- rapid breathing\n- bleeding gums or nose\n- fatigue\n- restlessness\n- blood in vomit or stool\n- being very thirsty\n- pale and cold skin\n- feeling weak.\n\nPeople with these severe symptoms should seek care immediately.\n\nAfter recovery, people who have had dengue may experience fatigue for several weeks.\n\n## Diagnostics and treatment\n\nLaboratory-based and point of care diagnostics are critical to control and manage dengue, yet global disparities in laboratory capabilities present significant challenges. The diagnostic algorithms, testing strategies and test methodologies employed vary, depending on the capabilities of national laboratory systems. The wide range of available tests – including nucleic acid amplification tests (NAATs), enzyme-linked immunosorbent assays (ELISAs) and rapid diagnostic tests (RDTs) – vary significantly in quality and performance.\n\nLaboratory testing for arboviruses can be accomplished through either direct detection methods such as virus isolation, molecular detection of nucleic acid or antigen testing, including rapid diagnostic tests (RDTs) within the first week of illness.\n\nThere is no specific treatment for dengue, although pain can be managed with medication such as paracetamol (acetaminophen). Non-steroidal anti-inflammatory medicines such as ibuprofen and aspirin should be avoided as they can increase the risk of bleeding.\n\nFor people with severe dengue, hospitalization is often necessary.\n\nGlobal burden\n\nThe incidence of dengue has grown dramatically worldwide in recent decades, with the number of cases reported to WHO increasing from 505 430 cases in 2000 to 14.6 million in 2024. The vast majority of cases are asymptomatic or mild and self-managed, and hence the actual numbers of dengue cases are under-reported. The disease is now endemic in more than 100 countries.\n\nIn 2024, more cases of dengue were recorded than ever before in a 12-month period, affecting over 100 countries on all continents. During 2024, ongoing transmission, combined with an unexpected spike in dengue cases, resulted in a historic high of over 14.6 million cases and more than 12 000 dengue-related deaths reported. The Region of the Americas contributed a significant proportion of the global burden, with over 13 million cases reported to WHO.\n\nSeveral factors are associated with the increasing risk of spread of the dengue epidemic, including the changing distribution of the responsible vectors (chiefly *Aedes aegypti and Aedes albopictus*), especially in previously dengue-naive countries; climate change leading to increasing temperatures, high rainfall and humidity; fragile and overburdened health systems; limitations in surveillance and reporting; and political and financial instabilities in countries facing complex humanitarian crises and high population movements.\n\nOne modelling estimate indicates 390 million dengue virus infections per year, of which 96 million manifest clinically(1).A recent study on the prevalence of dengue estimates that 5.6 billion people are at risk of infection with dengue and other arboviruses(2).\n\nFrom January to July 2025, over 4 million cases and over 3000 deaths have been reported to WHO from 97 countries.\n\nDengue is spreading to new areas, including the European and Eastern Mediterranean regions. In 2024, 308 cases were reported to WHO from three European countries (France, Italy and Spain) and an additional 1291 cases and four deaths were recorded in the French overseas territories of Mayotte and Réunion.\n\nTransmission\n\n### Transmission through the mosquito bite\n\nThe dengue virus is transmitted to humans through the bites of infected female mosquitoes, primarily the *Aedes aegypti* mosquito. Other species within the *Aedes* genus can also act as vectors, but their contribution is normally secondary to *Aedes aegypti*.\n\nAfter feeding on a DENV-infected person, the virus replicates in the mosquito midgut before disseminating to secondary tissues, including the salivary glands. The time it takes from ingesting the virus to actual transmission to a new host is termed the extrinsic incubation period (EIP). The EIP takes about 8–12 days when the ambient temperature is 25–28°C. Variations in the EIP are not only influenced by ambient temperature but also by several other factors– such as the magnitude of daily temperature fluctuations, the virus genotype, and the initial viral concentration– which can also alter the time it takes for a mosquito to transmit the virus. Once infectious, a mosquito can transmit the virus for the rest of its life.\n\n### Human-to-mosquito transmission\n\nMosquitoes can become infected by people who are viremic with DENV. This can be someone who has a symptomatic dengue infection, someone who is yet to have a symptomatic infection (those who are pre-symptomatic), and also someone who shows no signs of illness (those who are asymptomatic).\n\nHuman-to-mosquito transmission can occur up to 2 days before someone shows symptoms of the illness, and up to 2 days after the fever has resolved.\n\nThe risk of mosquito infection is positively associated with high viremia and high fever in the patient; conversely, high levels of DENV-specific antibodies are associated with a decreased risk of mosquito infection. Most people are viremic for about 4–5 days, but viremia can last as long as 12 days.\n\n### Maternal transmission\n\nThe primary mode of transmission of the DENV between humans involves mosquito vectors. There is evidence, however, of the possibility of maternal transmission (i.e. from a pregnant mother to her baby). At the same time, vertical transmission rates appear low, with the risk of vertical transmission seemingly linked to the timing of acquiring the dengue infection during pregnancy. When a mother does have a dengue infection when she is pregnant, babies may suffer from pre-term birth, low birthweight and fetal distress.\n\n### Other transmission modes\n\nRare cases of transmission via blood products, organ donation and transfusions have been recorded. Similarly, transovarial transmission of the virus within mosquitoes has also been recorded.\n\n## Risk factors\n\nPrevious infection with DENV increases the risk of an individual developing severe dengue.\n\nUrbanization (especially rapid, unplanned urbanization), is associated with dengue transmission through multiple social and environmental factors: population density, human mobility, access to reliable water source, water storage practices, etc.\n\nCommunity risks to dengue also depend on population knowledge, attitudes and practices towards dengue, as exposure is closely related to behaviours such as water storage, plant-keeping and self-protection against mosquito bites. Routine vector surveillance and control activities and targeted community engagement greatly enhance resilience.\n\nVectors can adapt to new environments and climate. The interaction between the dengue virus, the host and the environment is dynamic. Consequently, disease risks may change and shift with climate change in tropical and subtropical areas, in combination with increased urbanization and population movement.\n\n## Prevention and control\n\nThe mosquitoes that spread dengue are active during the day.\n\nTo lower your risk of getting dengue, protect yourself from mosquito bites by using:\n\n- clothes that cover as much of your body as possible;\n- mosquito nets, ideally sprayed with insect repellent, if sleeping during the day;\n- window screens;\n- mosquito repellents (containing DEET, Picaridin or IR3535); and\n- coils and vaporizers.\n\nTo prevent mosquitoes from breeding:\n\n- implement environmental management and modification practices to stop mosquitoes from accessing egg-laying habitats;\n- dispose of solid waste properly and remove artificial habitats that can hold water;\n- cover, empty and clean domestic water storage containers on a weekly basis; and\n- apply appropriate insecticides to water storage outdoor containers.\n\nIf you get dengue, it’s important to:\n\n- rest;\n- drink plenty of liquids;\n- use acetaminophen (paracetamol) for pain;\n- avoid non-steroidal anti-inflammatory medication such as ibuprofen and aspirin; and\n- watch for severe symptoms and contact your doctor as soon as possible if you notice any.\n\nCurrently, one vaccine (QDenga) is available and licensed in some countries. However, it is recommended only for those aged 6–16 years in high transmission settings. Several additional vaccines are under evaluation.\n\nWHO response\n\nWHO responds to dengue by:\n\n- supporting countries in the confirmation of outbreaks through its collaborating network of laboratories;\n- providing technical advice and guidance to countries for the effective management of dengue outbreaks;\n- supporting countries to improve their reporting systems and capture the true burden of the disease;\n- providing training on clinical management, diagnosis and vector control at the country and regional levels in collaboration with its collaborating centres;\n- formulating evidence-based strategies and policies;\n- supporting countries to develop dengue prevention and control strategies and adopt the Global Vector Control Response (2017–2030) and the Global Arbovirus Initiative (2022–2025);\n- reviewing and making recommendations on the development of new tools, including insecticide products and application technologies;\n- gathering official records of dengue and severe dengue from over 100 Member States; and\n- publishing guidance and handbooks for surveillance, case management, diagnosis, dengue prevention and control for Member States.\n\n**References**\n\n1. [Bhatt S, Gething PW, Brady OJ, Messina JP, Farlow AW, Moyes CL, et al. The global distribution and burden of dengue. Nature. 2013;496(7446):504–507. doi: 10.1038/nature12060](https://pubmed.ncbi.nlm.nih.gov/23563266/)\n2. [Lim A, Shearer FM, Sewalk K, Pigott DM, Clarke J, Ghouse A, et al. The overlapping global distribution of dengue, chikungunya, Zika and yellow fever. Nat Commun. 2025;16(1):3418. doi: 10.1038/s41467-025-58609-5.](https://pubmed.ncbi.nlm.nih.gov/40210848/)\n",
+  "char_count": 12153,
+  "word_count": 1842,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 27
+    },
+    {
+      "level": 2,
+      "text": "Diagnostics and treatment",
+      "line": 59
+    },
+    {
+      "level": 3,
+      "text": "Transmission through the mosquito bite",
+      "line": 85
+    },
+    {
+      "level": 3,
+      "text": "Human-to-mosquito transmission",
+      "line": 91
+    },
+    {
+      "level": 3,
+      "text": "Maternal transmission",
+      "line": 99
+    },
+    {
+      "level": 3,
+      "text": "Other transmission modes",
+      "line": 103
+    },
+    {
+      "level": 2,
+      "text": "Risk factors",
+      "line": 107
+    },
+    {
+      "level": 2,
+      "text": "Prevention and control",
+      "line": 117
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Dengue",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+  },
+  "quality_flags": [],
+  "error": null
+}

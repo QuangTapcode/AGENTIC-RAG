@@ -1,0 +1,71 @@
+{
+  "document_id": "who_hypertension",
+  "title": "Hypertension",
+  "topic": "cardiovascular disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+  "source_language": "en",
+  "published_date": "2025-09-25",
+  "input_file": "data/raw/who_hypertension.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.249953+00:00",
+  "content": "Title: Hypertension\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/hypertension\n\nMarkdown Content:\n\n## Key facts\n\n- An estimated 1.4 billion adults aged 30–79 years worldwide had hypertension in 2024; this represents 33% of the popluation in this age range.\n- Two-thirds of adults aged 30–79 years who have hypertension live in low- and middle-income countries.\n- An estimated 600 million adults with hypertension (44%) are unaware that they have the condition.\n- Approximately 630 million adults with hypertension (44%) are diagnosed and treated.\n- Approximately 320 million adults with hypertension (23%) have it under control.\n- Hypertension is a major cause of premature death worldwide.\n- One of the global targets for noncommunicable diseases is to reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025.\n\n## Overview\n\nHypertension (high blood pressure) is when the pressure in your blood vessels is too high (140/90 mmHg or higher). It is common but can be serious if not treated.\n\nPeople with high blood pressure may not feel symptoms. The only way to know is to get your blood pressure checked.\n\nThings that increase the risk of having high blood pressure include:\n\n- older age\n- genetics\n- being overweight or obese\n- not being physically active\n- high-salt diet\n- drinking too much alcohol\n\nLifestyle changes like eating a healthier diet, quitting tobacco and being more active can help lower blood pressure. Some people may still need to take medicines.\n\nBlood pressure is written as two numbers. The first (systolic) number represents the pressure in blood vessels when the heart contracts or beats. The second (diastolic) number represents the pressure in the vessels when the heart rests between beats.\n\nHypertension is diagnosed if, when it is measured on two different days, the systolic blood pressure readings on both days is ≥140 mmHg and/or the diastolic blood pressure readings on both days is ≥90 mmHg.\n\n## Risk factors\n\nModifiable risk factors include unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables), physical inactivity, consumption of tobacco and alcohol, and being overweight or obese. In addition, there are environmental risk factors for hypertension and associated diseases, where air pollution is the most significant.\n\nNon-modifiable risk factors include a family history of hypertension, age over 65 years and co-existing diseases such as diabetes or kidney disease.\n\n## Symptoms\n\nMost people with hypertension don’t feel any symptoms. Very high blood pressures can cause headaches, blurred vision, chest pain and other symptoms.\n\nChecking your blood pressure is the best way to know if you have high blood pressure. If hypertension isn’t treated, it can cause other health conditions like kidney disease, heart disease and stroke.\n\nPeople with very high blood pressure (usually 180/120 or higher) can experience symptoms including:\n\n- severe headaches\n- chest pain\n- dizziness\n- difficulty breathing\n- nausea\n- vomiting\n- blurred vision or other vision changes\n- anxiety\n- confusion\n- buzzing in the ears\n- nosebleeds\n- abnormal heart rhythm\n\nIf you are experiencing any of these symptoms and a high blood pressure, seek care immediately.\n\nThe only way to detect hypertension is to have a health professional measure blood pressure. Having blood pressure measured is quick and painless. Although individuals can measure their own blood pressure using automated devices, an evaluation by a health professional is important for assessment of risk and associated conditions.\n\n## Treatment\n\nLifestyle changes can help lower high blood pressure. These include:\n\n- eating a healthy, low-salt diet\n- losing weight\n- being physically active\n- quitting tobacco.\n\nIf you have high blood pressure, your doctor may recommend one or more medicines. Your recommended blood pressure goal may depend on what other health conditions you have.\n\nBlood pressure goal is less than 130/80 if you have:\n\n- cardiovascular disease (heart disease or stroke)\n- diabetes (high blood sugar)\n- chronic kidney disease\n- high risk for cardiovascular disease.\n\nFor most people, the goal is to have a blood pressure less than 140/90.\n\nThere are several common blood pressure medicines:\n\n- ACE inhibitors including enalapril and lisinopril relax blood vessels and prevent kidney damage.\n- Angiotensin-2 receptor blockers (ARBs) including losartan and telmisartan relax blood vessels and prevent kidney damage.\n- Calcium channel blockers including amlodipine and felodipine relax blood vessels.\n- Diuretics including hydrochlorothiazide and chlorthalidone eliminate extra water from the body, lowering blood pressure.\n\n## Prevention\n\nLifestyle changes can help lower high blood pressure and can help anyone with hypertension. Many who make these changes will still need to take medicine.\n\nThese lifestyle changes can help prevent and lower high blood pressure.\n\nDo:\n\n- Eat more vegetables and fruits.\n- Sit less.\n  - Get at least 150 minutes per week of moderate-intensity aerobic activity or 75 minutes per week of vigorous aerobic activity.\n  - Do strength building exercises 2 or more days each week.\n- Lose weight if you’re overweight or obese.\n- Take medicines as prescribed by your health care professional.\n- Keep appointments with your health care professional.\n\nDon’t:\n\n- eat too much salty food (try to stay under 2 grams per day)\n- eat foods high in saturated or trans fats\n- smoke or use tobacco\n- drink too much alcohol (1 drink daily max for women, 2 for men)\n- miss or share medication.\n\nReducing hypertension prevents heart attack, stroke and kidney damage, as well as other health problems.\n\nReduce the risks of hypertension by:\n\n- reducing and managing stress\n- regularly checking blood pressure\n- treating high blood pressure\n- managing other medical conditions\n- reducing exposure to polluted air.\n\n## Complications of uncontrolled hypertension\n\nAmong other complications, hypertension can cause serious damage to the heart. Excessive pressure can harden arteries, decreasing the flow of blood and oxygen to the heart. This elevated pressure and reduced blood flow can cause:\n\n- chest pain, also called angina;\n- heart attack, which occurs when the blood supply to the heart is blocked and heart muscle cells die from lack of oxygen. The longer the blood flow is blocked, the greater the damage to the heart;\n- heart failure, which occurs when the heart cannot pump enough blood and oxygen to other vital body organs; and\n- irregular heart beat which can lead to a sudden death.\n\nHypertension can also burst or block arteries that supply blood and oxygen to the brain, causing a stroke.\n\nIn addition, hypertension can cause kidney damage, leading to kidney failure.\n\n## Prevalence of hypertension\n\nThe prevalence of hypertension varies across regions and country income groups. The WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%) while the WHO Western Pacific Region has the lowest prevalence of hypertension (29%).\n\nThe number of adults with hypertension increased from 650 million in 1990 to 1.4 billion in 2024, with the increase seen largely in low- and middle-income countries. This increase is due mainly to a rise in the number of older adults in those countries.\n\n## WHO response\n\nThe World Health Organization (WHO) supports countries to reduce hypertension as a public health problem.\n\nIn 2021, WHO released a [new guideline for on the pharmacological treatment of hypertension](https://apps.who.int/iris/bitstream/handle/10665/344424/9789240033986-eng.pdf) in adults. The publication provides evidence-based recommendations for the initiation of treatment of hypertension, and recommended intervals for follow-up. The document also includes target blood pressure to be achieved for control, and information on who, in the health-care system, can initiate treatment.\n\nTo support governments in strengthening the prevention and control of cardiovascular disease, WHO and the United States Centers for Disease Control and Prevention (U.S. CDC) launched the [Global Hearts Initiative](https://www.who.int/news/item/15-09-2016-global-hearts-initiative)in September 2016, which includes the HEARTS technical package. The six modules of the [HEARTS technical package](http://www.who.int/publications/i/item/9789240001367) (Healthy-lifestyle counselling, Evidence-based treatment protocols, Access to essential medicines and technology, Risk-based management, Team-based care, and Systems for monitoring) provide a strategic approach to improve cardiovascular health in countries across the world.\n\nIn September 2017, WHO began a partnership with Resolve to Save Lives, an initiative of Vital Strategies, to support national governments to implement the Global Hearts Initiative. Other partners contributing to the Global Hearts Initiative are the CDC Foundation, the Global Health Advocacy Incubator, the Johns Hopkins Bloomberg School of Public Health, the Pan American Health Organization (PAHO) and the U.S. CDC. Since implementation of the programme in 2017, in more than 40 low- and middle-income countries, 13.5 million people have been put on protocol-based hypertension treatment through person-centred models of care. These programmes demonstrate the feasibility and effectiveness of standardized hypertension control programmes.\n",
+  "char_count": 9413,
+  "word_count": 1421,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 17
+    },
+    {
+      "level": 2,
+      "text": "Risk factors",
+      "line": 38
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 69
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 96
+    },
+    {
+      "level": 2,
+      "text": "Complications of uncontrolled hypertension",
+      "line": 130
+    },
+    {
+      "level": 2,
+      "text": "Prevalence of hypertension",
+      "line": 143
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 149
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Hypertension",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/hypertension"
+  },
+  "quality_flags": [],
+  "error": null
+}

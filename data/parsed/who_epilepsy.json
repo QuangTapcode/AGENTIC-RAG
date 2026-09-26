@@ -1,0 +1,71 @@
+{
+  "document_id": "who_epilepsy",
+  "title": "Epilepsy",
+  "topic": "neurological disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+  "source_language": "en",
+  "published_date": "2024-02-07",
+  "input_file": "data/raw/who_epilepsy.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.282369+00:00",
+  "content": "Title: Epilepsy\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/epilepsy\n\nMarkdown Content:\n\n## Overview\n\nEpilepsy is a chronic noncommunicable disease of the brain that affects around 50 million people worldwide. It is characterized by recurrent seizures, which are brief episodes of involuntary movement that may involve a part of the body (partial) or the entire body (generalized) and are sometimes accompanied by loss of consciousness and control of bowel or bladder function.\n\nSeizure episodes are a result of excessive electrical discharges in a group of brain cells. Different parts of the brain can be the site of such discharges. Seizures can vary from the briefest lapses of attention or muscle jerks to severe and prolonged convulsions. Seizures can also vary in frequency, from less than one per year to several per day.\n\nOne seizure does not signify epilepsy (up to 10% of people worldwide have one seizure during their lifetime). Epilepsy is defined as having two or more unprovoked seizures. Epilepsy is one of the world’s oldest recognized conditions, with written records dating back to 4000 BCE. Fear, misunderstanding, discrimination and social stigma have surrounded epilepsy for centuries. This stigma continues in many countries today and can impact on the quality of life for people with the disease and their families.\n\n## Signs and symptoms\n\nCharacteristics of seizures vary and depend on where in the brain the disturbance first starts, and how far it spreads. Temporary symptoms occur, such as loss of awareness or consciousness, and disturbances of movement, sensation (including vision, hearing and taste), mood, or other cognitive functions.\n\nPeople with epilepsy tend to have more physical problems (such as fractures and bruising from injuries related to seizures), as well as higher rates of psychological conditions, including anxiety and depression. Similarly, the risk of premature death in people with epilepsy is up to three times higher than in the general population, with the highest rates of premature mortality found in low- and middle-income countries and in rural areas.\n\nA great proportion of the causes of death related to epilepsy, especially in low- and middle-income countries, are potentially preventable, such as falls, drowning, burns and prolonged seizures.\n\n## Rates of disease\n\nEpilepsy accounts for a significant proportion of the world’s disease burden, affecting around 50 million people worldwide. The estimated proportion of the general population with active epilepsy (i.e. continuing seizures or with the need for treatment) at a given time is between 4 and 10 per 1000 people.\n\nGlobally, an estimated 5 million people are diagnosed with epilepsy each year. In high-income countries, there are estimated to be 49 per 100 000 people diagnosed with epilepsy each year. In low- and middle-income countries, this figure can be as high as 139 per 100 000. This is likely due to the increased risk of endemic conditions such as malaria or neurocysticercosis; the higher incidence of road traffic injuries; birth-related injuries; and variations in medical infrastructure, the availability of preventive health programmes and accessible care. Close to 80% of people with epilepsy live in low- and middle-income countries.\n\n## Causes\n\nEpilepsy is not contagious. Although many underlying disease mechanisms can lead to epilepsy, the cause of the disease is still unknown in about 50% of cases globally. The causes of epilepsy are divided into the following categories: structural, genetic, infectious, metabolic, immune and unknown. Examples include:\n\n- brain damage from prenatal or perinatal causes (e.g. a loss of oxygen or trauma during birth, low birth weight);\n- congenital abnormalities or genetic conditions with associated brain malformations;\n- a severe head injury;\n- a stroke that restricts the amount of oxygen to the brain;\n- an infection of the brain such as meningitis, encephalitis or neurocysticercosis,\n- certain genetic syndromes; and\n- a brain tumour.\n\n## Treatment\n\nSeizures can be controlled. Up to 70% of people living with epilepsy could become seizure free with appropriate use of antiseizure medicines. Discontinuing antiseizure medicine can be considered after 2 years without seizures and should take into account relevant clinical, social and personal factors. A documented etiology of the seizure and an abnormal electroencephalography (EEG) pattern are the two most consistent predictors of seizure recurrence.\n\n- In low-income countries, about three quarters of people with epilepsy may not receive the treatment they need. This is called the “treatment gap”.\n- In many low- and middle-income countries, there is low availability of antiseizure medicines. A recent study found the average availability of generic antiseizure medicines in the public sector of low- and middle-income countries to be less than 50%. This may act as a barrier to accessing treatment.\n- It is possible to diagnose and treat most people with epilepsy at the primary health-care level without the use of sophisticated equipment.\n- WHO pilot projects have indicated that training primary health-care providers to diagnose and treat epilepsy can effectively reduce the epilepsy treatment gap.\n- Surgery might be beneficial to patients who respond poorly to drug treatments.\n\n## Prevention\n\nAn estimated 25% of epilepsy cases are potentially preventable.\n\n- Preventing head injury, for example by reducing falls, traffic accidents and sports injuries, is the most effective way to prevent post-traumatic epilepsy.\n- Adequate perinatal care can reduce new cases of epilepsy caused by birth injury.\n- The use of drugs and other methods to lower the body temperature of a feverish child can reduce the chance of febrile seizures.\n- The prevention of epilepsy associated with stroke is focused on cardiovascular risk factor reduction, e.g. measures to prevent or control high blood pressure, diabetes and obesity, and the avoidance of tobacco and excessive alcohol use.\n- Central nervous system infections are common causes of epilepsy in tropical areas, where many low- and middle-income countries are concentrated. Elimination of parasites in these environments and education on how to avoid infections can be effective ways to reduce epilepsy worldwide, for example those cases due to neurocysticercosis.\n\n## Social and economic impacts\n\nEpilepsy accounts for more than 0.5% of the global burden of disease, a time-based measure that combines years of life lost due to premature mortality and time lived in less than full health. Epilepsy has significant economic implications in terms of health-care needs, premature death and lost work productivity.\n\nOut-of-pocket costs and productivity losses can create substantial burdens on households. An economic study from India estimated that public financing for both first- and second-line therapy and other medical costs alleviates the financial burden from epilepsy and is cost-effective.\n\nThe stigma and discrimination that surround epilepsy worldwide are often more difficult to overcome than the seizures themselves. People living with epilepsy and their families can be targets of prejudice. Pervasive myths that epilepsy is incurable, or contagious, or a result of morally bad behaviour can keep people isolated and discourage them from seeking treatment.\n\n## Human rights\n\nPeople with epilepsy can experience reduced access to educational opportunities, a withholding of the opportunity to obtain a driving license, barriers to enter particular occupations, and reduced access to health and life insurance. In many countries legislation reflects centuries of misunderstanding about epilepsy, for example, laws which permit the annulment of a marriage on the grounds of epilepsy and laws that deny people with seizures access to restaurants, theatres, recreational centres and other public buildings.\n\nLegislation based on internationally accepted human rights standards can prevent discrimination and rights violations, improve access to health-care services, and raise the quality of life for people with epilepsy.\n\n## WHO response\n\nThe ﬁrst global report on epilepsy produced in 2019 by WHO and key partners, [Epilepsy: A public health imperative](http://www.who.int/publications/i/item/epilepsy-a-public-health-imperative), highlighted the available evidence on the burden of epilepsy and the public health response required at global, regional and national levels.\n\nThe 75th WHA adopted the Intersectoral global action plan on epilepsy and other neurological disorders 2022–2031, which recognizes the shared preventive, pharmacological and psychosocial approaches between epilepsy and other neurological disorders that can serve as valuable entry points for accelerating and strengthening services and support for these conditions.\n\nRecently, WHO published an epilepsy technical brief, which outlines actions for policy makers and healthcare planners to reduce the burden of epilepsy in countries through finding and prioritizing the most effective solutions in a wide range of societal sectors.\n\nWHO, the International League Against Epilepsy (ILAE) and the International Bureau for Epilepsy (IBE) led the Global Campaign Against Epilepsy to bring the disease out of the shadows to provide better information and raise awareness about epilepsy and to strengthen public and private efforts to improve care and reduce the disease’s impact.\n\nThese efforts have contributed to the prioritization of epilepsy in many countries and projects have been carried out to reduce the treatment gap and morbidity of people with epilepsy, to train and educate health professionals, to dispel stigma, to identify potential prevention strategies, and to develop models integrating epilepsy care into local health systems. Combining several innovative strategies, these projects have shown that there are simple, cost-effective ways to treat epilepsy in low-resource settings. The WHO Programme on reducing the epilepsy treatment gap and the mental health Gap Action Programme (mhGAP) achieved these goals in Ghana, Mozambique, Myanmar and Viet Nam, where 6.5 million more people have access to treatment for epilepsy should they need it.\n",
+  "char_count": 10254,
+  "word_count": 1552,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Signs and symptoms",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Rates of disease",
+      "line": 23
+    },
+    {
+      "level": 2,
+      "text": "Causes",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 41
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Social and economic impacts",
+      "line": 61
+    },
+    {
+      "level": 2,
+      "text": "Human rights",
+      "line": 69
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 75
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Epilepsy",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/epilepsy"
+  },
+  "quality_flags": [],
+  "error": null
+}

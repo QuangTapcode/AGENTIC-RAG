@@ -1,0 +1,56 @@
+{
+  "document_id": "who_depression",
+  "title": "Depressive disorder (depression)",
+  "topic": "mental health",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+  "source_language": "en",
+  "published_date": "2026-09-11",
+  "input_file": "data/raw/who_depression.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.278015+00:00",
+  "content": "Title: Depressive disorder (depression)\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/depression\n\nMarkdown Content:\n\n## Key facts\n\n- Depression is a common mental disorder.\n- Globally, an estimated 5.2% of adults suffer from depression.\n- More women are affected by depression than men.\n- Depression can lead to suicide.\n- There is effective treatment for mild, moderate and severe depression.\n\nOverview\n\nDepressive disorder (also known as depression) is a common mental disorder. It is different from regular mood changes and feelings about everyday life It involves a depressed mood or loss of pleasure or interest in activities for long periods of time.\n\nDepression can affect all aspects of life, including relationships with family, friends and community. It can result from, or lead to, problems at school or work.\n\nDepression can happen to anyone. People who have lived through abuse, severe losses or other stressful events are more likely to develop depression. Women are more likely to have depression than men.\n\nIn 2023, an estimated 4% of the population experienced depression, including 5.2% of adults (4.1% among men and 6.2% among women), and 5.4% of adults aged 70 years and older. Approximately 322 million people in the world have depression *(1)*. Depression is about 1.5 times more common among women than among men. Worldwide, more than 10% of pregnant women and women who have just given birth experience depression *(2)*. In 2021, an estimated 727 000 people lost their lives to suicide. Suicide is the third leading cause of death in 15–29-year-olds.\n\nIn high-income countries, only about one third of people with depression receive mental health treatment *(3)*.\n\nBarriers to effective care include a lack of investment in mental health care, lack of trained health care providers and social stigma associated with mental disorders.\n\n## Symptoms and patterns\n\nDuring a depressive episode, a person experiences a depressed mood (feeling sad, irritable, empty). They may feel a loss of pleasure or interest in activities.\n\nA depressive episode is different from regular mood fluctuations. They last most of the day, nearly every day, for at least two weeks.\n\nOther symptoms are also present, which may include:\n\n- poor concentration\n- feelings of excessive guilt or low self-worth\n- hopelessness about the future\n- thoughts about dying or suicide\n- disrupted sleep\n- changes in appetite or weight\n- feeling very tired or low in energy.\n\nDepression can cause difficulties in all aspects of life, including in the community and at home, work and school.\n\nA depressive episode can be categorized as mild, moderate, or severe depending on the number and severity of symptoms, as well as the impact on the individual’s functioning.\n\nThere are different patterns of depressive episodes including:\n\n- single episode depressive disorder, meaning the person’s first and only episode;\n- recurrent depressive disorder, meaning the person has a history of at least two depressive episodes; and\n- [bipolar disorder](http://www.who.int/news-room/fact-sheets/detail/bipolar-disorder), meaning that depressive episodes alternate with periods of manic symptoms, which include euphoria or irritability, increased activity or energy, and other symptoms such as increased talkativeness, racing thoughts, increased self-esteem, decreased need for sleep, distractibility, and impulsive, reckless behaviour.\n\n## Contributing factors and prevention\n\nDepression results from a complex interaction of social, psychological, and biological factors. People who have gone through adverse life events (unemployment, bereavement, traumatic events) are more likely to develop depression. Depression can, in turn, lead to more stress and dysfunction and worsen the affected person’s life situation and the depression itself.\n\nDepression is closely related to, and affected by, physical health. Many of the factors that influence depression (such as physical inactivity or harmful use of alcohol) are also known risk factors for diseases such as cardiovascular disease, cancer, diabetes and respiratory diseases. In turn, people with these diseases may also find themselves experiencing depression due to the difficulties associated with managing their condition.\n\nPrevention programmes have been shown to reduce depression. Effective community approaches to prevent depression include school-based programmes to enhance a pattern of positive coping in children and adolescents. Interventions for parents of children with behavioural problems may reduce parental depressive symptoms and improve outcomes for their children. Exercise programmes for older adults can also be effective in preventing depression.\n\n## Diagnosis and treatment\n\nThere are effective treatments for depression. These include psychological treatment and medicines. Seek care if you have symptoms of depression.\n\nPsychological treatments are the first treatments for depression. They can be combined with antidepressant medicines in moderate and severe depression. Antidepressant medicines are not needed for mild depression.\n\nPsychological treatments can teach new ways of thinking, coping or relating to others. They may include talk therapy with professionals and supervised lay therapists. Talk therapy can happen in person or online. Psychological treatments may be accessed through self-help manuals, websites and apps.\n\nEffective psychological treatments for depression include:\n\n- behavioural activation\n- cognitive behavioural therapy\n- interpersonal psychotherapy\n- problem-solving therapy.\n\nAntidepressant medicines include selective serotonin reuptake inhibitors (SSRIs), such as fluoxetine.\n\nHealth-care providers should keep in mind the possible adverse effects associated with antidepressant medicines, the ability to deliver either intervention (in terms of expertise, and/or treatment availability), and individual preferences.\n\nAntidepressant medicines should not be used for treating depression in children and are not the first line of treatment in adolescents, among whom they should be used with extra caution.\n\nDifferent medicines and treatments are used for bipolar disorder.\n\n## Self-care\n\nSelf-care can play an important role in managing symptoms of depression and promoting overall well-being.\n\nWhat you can do:\n\n- try to keep doing activities you used to enjoy\n- stay connected to friends and family\n- exercise regularly, even if it’s just a short walk\n- stick to regular eating and sleeping habits as much as possible\n- avoid or cut down on alcohol and don’t use illicit drugs, which can make depression worse\n- talk to someone you trust about your feelings\n- seek help from a healthcare provider.\n\nIf you have thoughts of suicide:\n\n- remember you are not alone, and that many people have gone through what you’re experiencing and found help\n- talk to someone you trust about how you feel\n- talk to a health worker, such as a doctor or counsellor\n- join a support group.\n\nIf you think you are in immediate danger of harming yourself, contact any available emergency services or a crisis line.\n\n## WHO response\n\n[WHO’s Comprehensive Mental Health Action Plan 2013–2030](http://www.who.int/publications/i/item/9789240031029) highlights the steps required to provide appropriate interventions for people with mental disorders including depression.\n\nDepression and self-harm/suicide are among the priority conditions covered by WHO’s [Mental Health Gap Action Programme (mhGAP).](http://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme) The programme aims to help countries increase services for people with mental, neurological and substance use disorders through care provided by health workers who are not specialists in mental health.\n\nWHO has developed brief psychological intervention manuals for depression that can be delivered by lay therapists to individuals and groups. An example is the [Problem Management Plus (PM+) manual](http://www.who.int/publications/i/item/WHO-MSD-MER-18.5), which describes the use of behavioural activation, stress management, problem solving treatment and strengthening social support. The [Group Interpersonal Therapy for Depression manual](http://www.who.int/publications/i/item/WHO-MSD-MER-16.4)describes group treatment of depression. Finally, the [Thinking Healthy manual](http://www.who.int/publications/i/item/WHO-MSD-MER-15.1) covers the use of cognitive-behavioural therapy for perinatal depression.\n\n**References**\n\n1. 2023 Global Burden of Disease (GBD) [online database]. Seattle: Institute for Health Metrics and Evaluation; 2024 (<https://vizhub.healthdata.org/gbd-results/>).\n2. Woody CA, Ferrari AJ, Siskind DJ, Whiteford HA, Harris MG. A systematic review and meta-regression of the prevalence and incidence of perinatal depression. J Affect Disord. 2017;219:86–92(https://doi.org/10.1016/j.jad.2017.05.003).\n3. Evans-Lacko S, Aguilar-Gaxiola S, Al-Hamzawi A, Alonso J, Benjet C, Bruffaerts R, et al. Socio-economic variations in the mental health treatment gap for people with anxiety, mood, and substance use disorders: results from the WHO World Mental Health (WMH) surveys. Psychol Med. 2018;48(9):1560–71 (https://doi.org/10.1017/s0033291717003336).\n",
+  "char_count": 9264,
+  "word_count": 1394,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Symptoms and patterns",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Contributing factors and prevention",
+      "line": 55
+    },
+    {
+      "level": 2,
+      "text": "Diagnosis and treatment",
+      "line": 63
+    },
+    {
+      "level": 2,
+      "text": "Self-care",
+      "line": 86
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 109
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Depressive disorder (depression)",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/depression"
+  },
+  "quality_flags": [],
+  "error": null
+}

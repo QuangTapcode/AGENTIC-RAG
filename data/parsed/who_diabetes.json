@@ -1,0 +1,76 @@
+{
+  "document_id": "who_diabetes",
+  "title": "Diabetes",
+  "topic": "metabolic disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+  "source_language": "en",
+  "published_date": "2024-11-14",
+  "input_file": "data/raw/who_diabetes.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.238886+00:00",
+  "content": "Title: Diabetes\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/diabetes\n\nMarkdown Content:\n\n## Key facts\n\n- The number of people living with diabetes rose from 200 million in 1990 to 830 million in 2022. Prevalence has been rising more rapidly in low- and middle-income countries than in high-income countries.\n- More than half of people living with diabetes did not take medication for their diabetes in 2022. Diabetes treatment coverage was lowest in low- and middle-income countries.\n- Diabetes causes blindness, kidney failure, heart attacks, stroke and lower limb amputation.\n- In 2021, diabetes and kidney disease due to diabetes caused over 2 million deaths. In addition, around 11% of cardiovascular deaths were caused by high blood glucose.\n- A healthy diet, regular physical activity, maintaining a normal body weight and avoiding tobacco use are ways to prevent or delay the onset of type 2 diabetes.\n- Diabetes can be treated and its consequences avoided or delayed with diet, physical activity, medication and regular screening and treatment for complications.\n\n## Overview\n\nDiabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose. Hyperglycaemia, also called raised blood glucose or raised blood sugar, is a common effect of uncontrolled diabetes and over time leads to serious damage to many of the body's systems, especially the nerves and blood vessels.\n\n[In 2022](http://www.who.int/data/gho/data/themes/topics/noncommunicable-diseases-risk-factors), 14% of adults aged 18 years and older were living with diabetes, an increase from 7% in 1990. More than half (59%) of adults aged 30 years and over living with diabetes were not taking medication for their diabetes in 2022. Diabetes treatment coverage was lowest in low- and middle-income countries.\n\nIn 2021, diabetes was the direct cause of 1.6 million deaths and 47% of all deaths due to diabetes occurred before the age of 70 years. Another 530 000 kidney disease deaths were caused by diabetes, and high blood glucose causes around 11% of cardiovascular deaths *(1)*.\n\nSince 2000, mortality rates from diabetes have been increasing. By contrast, the probability of dying from any one of the four main noncommunicable diseases (cardiovascular diseases, cancer, chronic respiratory diseases or diabetes) between the ages of 30 and 70 decreased by 20% globally between 2000 and 2019.\n\n## Symptoms\n\nSymptoms of diabetes may occur suddenly. In type 2 diabetes, the symptoms can be mild and may take many years to be noticed.\n\nSymptoms of diabetes include:\n\n- feeling very thirsty\n- needing to urinate more often than usual\n- blurred vision\n- feeling tired\n- losing weight unintentionally\n\nOver time, diabetes can damage blood vessels in the heart, eyes, kidneys and nerves.\n\nPeople with diabetes have a higher risk of health problems including heart attack, stroke and kidney failure.\n\nDiabetes can cause permanent vision loss by damaging blood vessels in the eyes.\n\nMany people with diabetes develop problems with their feet from nerve damage and poor blood flow. This can cause foot ulcers and may lead to amputation.\n\n## Type 1 diabetes\n\nType 1 diabetes (previously known as insulin-dependent, juvenile or childhood-onset) is characterized by deficient insulin production and requires daily administration of insulin. In 2017 there were 9 million people with type 1 diabetes; the majority of them live in high-income countries.Neither its cause nor the means to prevent it are known.\n\n## Type 2 diabetes\n\nType 2 diabetes affects how your body uses sugar (glucose) for energy. It stops the body from using insulin properly, which can lead to high levels of blood sugar if not treated.\n\nOver time, type 2 diabetes can cause serious damage to the body, especially nerves and blood vessels.\n\nType 2 diabetes is often preventable. Factors that contribute to developing type 2 diabetes include being overweight, not getting enough exercise, and genetics.\n\nEarly diagnosis is important to prevent the worst effects of type 2 diabetes. The best way to detect diabetes early is to get regular check-ups and blood tests with a healthcare provider.\n\nSymptoms of type 2 diabetes can be mild. They may take several years to be noticed. Symptoms may be similar to those of type 1 diabetes but are often less marked. As a result, the disease may be diagnosed several years after onset, after complications have already arisen.\n\nMore than 95% of people with diabetes have type 2 diabetes. Type 2 diabetes was formerly called non-insulin dependent, or adult onset. Until recently, this type of diabetes was seen only in adults but it is now also occurring increasingly frequently in children.\n\n## Gestational diabetes\n\nGestational diabetes is hyperglycaemia with blood glucose values above normal but below those diagnostic of diabetes. Gestational diabetes occurs during pregnancy.\n\nWomen with gestational diabetes are at an increased risk of complications during pregnancy and at delivery. These women and possibly their children are also at increased risk of type 2 diabetes in the future.\n\nGestational diabetes is diagnosed through prenatal screening, rather than through reported symptoms.\n\n## Impaired glucose tolerance and impaired fasting glycaemia\n\nImpaired glucose tolerance (IGT) and impaired fasting glycaemia (IFG) are intermediate conditions in the transition between normality and diabetes. People with IGT or IFG are at high risk of progressing to type 2 diabetes, although this is not inevitable.\n\n## Prevention\n\nLifestyle changes are the best way to prevent or delay the onset of type 2 diabetes.\n\nTo help prevent type 2 diabetes and its complications, people should:\n\n- reach and keep a health body weight\n- stay physically active with at least 150 minutes of moderate exercise each week\n- eat a healthy diet and avoid sugar and saturated fat\n- not smoke tobacco.\n\n## Diagnosis and treatment\n\nEarly diagnosis can be accomplished through relatively inexpensive testing of blood glucose. People with type 1 diabetes need insulin injections for survival.\n\nOne of the most important ways to treat diabetes is to keep a healthy lifestyle.\n\nSome people with type 2 diabetes will need to take medicines to help manage their blood sugar levels. These can include insulin injections or other medicines. Some examples include:\n\n- metformin\n- sulfonylureas\n- sodium-glucose co-transporters type 2 (SGLT-2) inhibitors.\n\nAlong with medicines to lower blood sugar, people with diabetes often need medications to lower their blood pressure and statins to reduce the risk of complications.\n\nAdditional medical care may be needed to treat the effects of diabetes:\n\n- foot care to treat ulcers\n- screening and treatment for kidney disease\n- eye exams to screen for retinopathy (which causes blindness).\n\n## WHO response\n\nWHO aims to stimulate and support the adoption of effective measures for the surveillance, prevention and control of diabetes and its complications, particularly in low- and middle-income countries. To this end, WHO:\n\n- provides scientific guidelines for the prevention of major noncommunicable diseases including diabetes;\n- develops norms and standards for diabetes diagnosis and care;\n- builds awareness on the global epidemic of diabetes, marking World Diabetes Day (14 November); and\n- conducts surveillance of diabetes and its risk factors.\n\nIn April 2021 WHO launched the Global Diabetes Compact, a global initiative aiming for sustained improvements in diabetes prevention and care, with a particular focus on supporting low- and middle-income countries.\n\nIn May 2021, the World Health Assembly agreed a Resolution on strengthening prevention and control of diabetes. In May 2022 the World Health Assembly endorsed five global diabetes coverage targets to be achieved by 2030.\n\nTo learn more about the Global Diabetes Compact, to access diabetes-related technical publications to get involved in upcoming initiatives, visit the [Global Diabetes Compact webpage](https://www.who.int/initiatives/the-who-global-diabetes-compact).\n\n**References**\n\n1.Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2021. Results. Institute for Health Metrics and Evaluation. 2024 (<https://vizhub.healthdata.org/gbd-results/>).\n",
+  "char_count": 8396,
+  "word_count": 1301,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 16
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 26
+    },
+    {
+      "level": 2,
+      "text": "Type 1 diabetes",
+      "line": 46
+    },
+    {
+      "level": 2,
+      "text": "Type 2 diabetes",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "text": "Gestational diabetes",
+      "line": 64
+    },
+    {
+      "level": 2,
+      "text": "Impaired glucose tolerance and impaired fasting glycaemia",
+      "line": 72
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 76
+    },
+    {
+      "level": 2,
+      "text": "Diagnosis and treatment",
+      "line": 87
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 107
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Diabetes",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/diabetes"
+  },
+  "quality_flags": [],
+  "error": null
+}

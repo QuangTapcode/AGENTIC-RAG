@@ -1,0 +1,66 @@
+{
+  "document_id": "who_sepsis",
+  "title": "Sepsis",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+  "source_language": "en",
+  "published_date": "2024-05-03",
+  "input_file": "data/raw/who_sepsis.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.390278+00:00",
+  "content": "Title: Sepsis\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/sepsis\n\nMarkdown Content:\n\n- [Home](http://www.who.int/)\n- [Health Topics](http://www.who.int/mega-menu/health-topics)\n- [Countries](http://www.who.int/mega-menu/countries)\n- [Newsroom](http://www.who.int/news-room)\n- [Emergencies](http://www.who.int/mega-menu/emergencies)\n- [Data](http://www.who.int/mega-menu/data)\n- [About WHO](http://www.who.int/mega-menu/about-us)\n\nWHO\n\n©Credits\n\n## Key facts\n\n- Sepsis is one of the most frequent causes of death worldwide, but there are challenges in collecting reliable data at the population level *(1).*\n- From data published in 2020, there were 48.9 million cases and 11 million sepsis-related deaths worldwide, representing 20% of all global deaths *(* *2).*\n- Almost half (20 million) of all [estimated sepsis cases](http://www.who.int/publications/i/item/9789240010789) worldwide occurred in children under 5 years of age.\n- For every 1000 hospitalized patients, an estimated 15 patients will develop sepsis as a complication of receiving health care.\n- While sepsis can affect any individual worldwide, significant regional disparities in incidence and mortality exist with the highest rates in lower-middle-income countries (LMICs) *(2).*\n- Sepsis is costly; the average hospital-wide cost of sepsis was estimated to be more than US$32 000 per patient in high-income countries *(3)*.\n\n## Overview\n\nSepsis is a life-threatening condition that happens when the body’s immune system has an extreme response to an infection, causing organ dysfunction *(4)*. The body’s reaction causes damage to its own tissues and organs and it can lead to shock, multiple organ failure and sometimes death, especially if not recognized early and treated promptly.\n\nSepsis can affect anyone, but people who are older, very young, pregnant or have other health problems are at higher risk.\n\nCommon signs of sepsis include fever, fast heart rate, rapid breathing, confusion and body pain. It can lead to septic shock, multiple organ failure and death.\n\nSepsis is usually caused by bacterial infections but may be the result of other infections such as viruses, parasites or fungi. Its treatment requires medical care, including the use of antimicrobials, intravenous fluids and other measures.\n\nSepsis acquired in health care settings is one of the most frequent adverse events during care delivery and affect hundreds of millions of patients worldwide every year.\n\nHealthcare associated infections are caused by pathogens that are often resistant to drugs and can rapidly lead to deteriorating clinical conditions. Antimicrobial resistance is a major factor determining clinical unresponsiveness to treatment and rapid evolution to sepsis and septic shock. Sepsis patients with resistant pathogens have been found to have a higher risk of hospital mortality. There were an estimated 4.95 million deaths associated with antimicrobial resistance in 2019, including 1.27 million deaths directly attributable to it *(5)*.\n\nImplementing preventive measures against infections, such as good hygiene practices, ensuring access to vaccination programmes, improved sanitation and water quality and availability, and other infection prevention and control best practices both in the community and health care settings, are key steps in reducing the occurrence of sepsis. Early diagnosis and timely and appropriate clinical management of sepsis, such as optimal antimicrobial use and fluid resuscitation, are crucial to increase the likelihood of survival. Even though the onset of sepsis can be acute and poses a short-term mortality burden, it can also be the cause of significant long-term morbidity requiring treatment and support. Thus, sepsis requires a multidisciplinary approach.\n\n## Who is at risk?\n\nAnyone affected by an infection, severe injury, or serious non-communicable disease can progress to sepsis but vulnerable populations are at higher risk (*6,7*) including:\n\n- older persons\n- pregnant or recently pregnant women\n- neonates\n- hospitalized patients\n- patients in intensive care units\n- people with weakened immune systems (for example HIV, cancer)\n- people with chronic medical conditions (for example kidney disease, cirrhosis).\n\n## Signs and symptoms\n\nSepsis is a medical emergency. It can cause different signs and symptoms at different times. People who think they may have sepsis should seek medical care right away.\n\nCommon signs and symptoms include:\n\n- fever or low temperature and shivering\n- confusion\n- difficulty breathing\n- clammy and sweaty skin\n- extreme body pain or discomfort\n- high heart rate, weak pulse or low blood pressure\n- low urine output.\n\nSymptoms in children include:\n\n- fast breathing\n- convulsions\n- pale skin\n- lethargy\n- difficulty waking up\n- feeling cold to the touch.\n\nIn children under 5 years old, it can cause difficulty feeding, frequent vomiting or lack of urination.\n\n## Prevention\n\nSepsis can be prevented by treating infections early and through good hygiene at home and in healthcare settings.\n\nThe best way to reduce the risk of sepsis is to avoid infections. Steps include:\n\n- good personal hygiene, like washing hands and preparing food safely\n- avoiding unclean water or unsanitary toilets\n- getting vaccines recommended by local health officials\n- eating a healthy diet\n- breastfeeding for newborns.\n\nHospitals and clinics should follow effective rules for infection prevention and control. Antibiotics should be used appropriately to treat infections.\n\nSepsis is always a serious condition but people living with HIV, tuberculosis, malaria and other infectious diseases are at higher risk.\n\n## Treatment\n\nTreatment for sepsis is most effective when started early.\n\nHealth workers watch for concerning signs and use tests to diagnose sepsis. They will then work to find the source of the infection. Early use of antimicrobials to treat bacteria, parasites, fungus or viruses is essential to improve outcomes from sepsis.\n\nLow blood pressure is treated by intravenous fluids and sometimes medicines called vasopressors, which can increase blood pressure.\n\nAntibiotic resistance can make treatment more difficult.\n\n## Sustainable Development Goals\n\nSepsis is a significant cause of maternal, neonatal and child mortality. Consequently, combating sepsis will contribute to achievement of Sustainable Development Goals (SDGs) targets 3.8 on quality of care, and 3.1 and 3.2 by improving mortality rates in these vulnerable populations. Sepsis can also ultimately lead to death in patients affected by HIV, tuberculosis, malaria, and other infectious diseases that are included in target 3.3. The prevention and/or appropriate diagnosis and management of sepsis is also linked to adequate vaccine coverage, quality universal health coverage, capacity to comply with the International Health Regulations, preparedness, and water and sanitation services. The challenge, however, remains how to achieve universal prevention, diagnosis and management of sepsis.\n\n## WHO response\n\nTo combat this important global health threat, WHO responded with a WHO Secretariat Report and, in May 2017, the Seventieth World Health Assembly adopted Resolution WHA70.7 on improving the prevention, diagnosis and clinical management of sepsis. The key pillars of Resolution WHA70.7 are to:\n\n- develop WHO guidelines on the clinical management of sepsis and on the prevention of bloodstream infections;\n- draw attention to public health impacts of sepsis and estimate the global burden of sepsis;\n- support Member States to define and implement standards and establish guidelines, infrastructure, laboratory capacity, strategies and tools for identifying, reducing incidence of, and morbidity and mortality due to sepsis; and\n- collaborate with UN organizations, partners, international organizations and stakeholders to enhance sepsis treatment and infection prevention and control including vaccinations.\n\nIn collaboration and coordination with WHO regional offices, Member States and other stakeholders, several WHO headquarters programmes are currently working on the public health impact of sepsis and providing guidance and country support on sepsis prevention, early and appropriate diagnosis, and timely and appropriate clinical management.\n\n**References**\n\n1. Fleischmann-Struzek C, Rudd K. Challenges of assessing the burden of sepsis. Med Klin Intensivmed Notfmed. 2023 Dec;118(Suppl 2):68-74. doi: 10.1007/s00063-023-01088-7.\n2. Rudd KE, Johnson SC, Agesa KM, Shackelford KA, Tsoi D, Kievlan DR, Colombara DV, Ikuta KS, Kissoon N, Finfer S, Fleischmann-Struzek C, Machado FR, Reinhart KK, Rowan K, Seymour CW, Watson RS, West TE, Marinho F, Hay SI, Lozano R, Lopez AD, Angus DC, Murray CJL, Naghavi M. Global, regional, and national sepsis incidence and mortality, 1990-2017: analysis for the Global Burden of Disease Study. Lancet. 2020 Jan 18;395(10219):200-211. doi: 10.1016/S0140-6736(19)32989-7.\n3. Arefian H, Heublein S, Scherag A, Brunkhorst FM, Younis MZ, Moerer O, Fischer D, Hartmann M. Hospital-related cost of sepsis: A systematic review. J Infect. 2017 Feb;74(2):107-117. doi: 10.1016/j.jinf.2016.11.006.\n4. Singer M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, Hotchkiss RS, Levy MM, Marshall JC, Martin GS, Opal SM, Rubenfeld GD, van der Poll T, Vincent JL, Angus DC. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016 Feb 23;315(8):801-10. doi: 10.1001/jama.2016.0287.\n5. Antimicrobial Resistance Collaborators. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. Lancet. 2022 Feb 12;399(10325):629-655. doi: 10.1016/S0140-6736(21)02724-0.\n6. Cecconi M, Evans L, Levy M, Rhodes A. Sepsis and septic shock. Lancet. 2018 Jul 7;392(10141):75-87. doi: 10.1016/S0140-6736(18)30696-2.\n7. Gotts JE, Matthay MA. Sepsis: pathophysiology and clinical management. British Medical Journal 2016.\n",
+  "char_count": 9996,
+  "word_count": 1521,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 28
+    },
+    {
+      "level": 2,
+      "text": "Who is at risk?",
+      "line": 44
+    },
+    {
+      "level": 2,
+      "text": "Signs and symptoms",
+      "line": 56
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 81
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 97
+    },
+    {
+      "level": 2,
+      "text": "Sustainable Development Goals",
+      "line": 107
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 111
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Sepsis",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/sepsis"
+  },
+  "quality_flags": [],
+  "error": null
+}

@@ -1,0 +1,71 @@
+{
+  "document_id": "who_stroke",
+  "title": "Stroke",
+  "topic": "neurological disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/stroke",
+  "source_language": "en",
+  "published_date": "2025-12-19",
+  "input_file": "data/raw/who_stroke.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.320697+00:00",
+  "content": "Title: Stroke\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/stroke\n\nMarkdown Content:\n\n## Key facts\n\n- In 2021, stroke was the third leading cause of death and disability globally, with an estimated 93.8 million cases.\n- In 2021, there were 11.9 million new cases of stroke.\n- The lifetime risk of stroke has increased by 50 % over the past 20 years, with 1 in 4 adults predicted to experience a stroke in their lifetime.\n- The global burden of stroke measured in Disability-Adjusted Life Years (DALYs) increased from 137 million in the year 2000 to 160 million in 2021 *(1)*.\n- Most of the stroke burden is attributable to 10 modifiable risk factors, including high blood pressure, air pollution, smoking, high LDL cholesterol, diet high in sodium, high fasting blood glucose, kidney dysfunction, excess body weight, physical inactivity, and harmful use of alcohol.\n\n## Overview\n\nA stroke is a medical emergency that occurs when blood flow to the brain is interrupted, either due to a blockage or bleeding. This lack of blood flow can lead to brain cell death and serious complications. Strokes can be fatal and need immediate treatment.\n\nThe types of strokes are:\n\n- ischaemic stroke: a blood clot blocks a blood vessel in your brain leading to loss of blood flow;\n- haemorrhagic stroke: intracerebral haemorrhage (ICH) by rupture of a blood vessel in the brain leading to bleeding; and\n- transient ischaemic attack (TIA): a short period of symptoms similar to those of a stroke, caused by a brief blockage of blood flow to the brain. A TIA usually lasts only a few minutes and doesn't cause long-term damage.\n\n## Risk factors\n\nThere are by modifiable and non-modifiable risk factors for stroke.\n\nModifiable risk factors are:\n\n- hypertension: the leading contributor to stroke. Individuals with hypertension have a nearly three times higher risk of stroke compared to those without hypertension;\n- tobacco use: associated with approximately two-fifths of all stroke deaths among individuals under the age of 65; and\n- other risk factors: high blood cholesterol, diabetes mellitus, high levels of low-density lipoprotein cholesterol, overweight and obesity, physical inactivity, unhealthy diet (particularly diets high in sodium and low in fruits and vegetables), harmful use of alcohol, use of illicit drugs (e.g. cocaine), air pollution, high fasting blood glucose and kidney dysfunction.\n\nNon‑modifiable risk factors are:\n\n- age\n- a prior stroke\n- pre-existing cardiac conditions (e.g. atrial fibrillation, heart failure), and chronic kidney disease.\n\n## Symptoms\n\nThe following symptoms can be signs of stroke:\n\n- balance – sudden dizziness, loss of balance or coordination\n- eyes – sudden vision loss\n- face – facial droop\n- arms – weakness in one or both arms\n- speech – slurred or strange speech.\n\n## Diagnosis and treatment\n\nWhen a stroke is suspected, it should be treated as a health emergency. Rapid care is essential. Immediate diagnostic imagining (a CT or MRI scan) should be carried out as soon as possible.\n\nIn the case of ischaemic stroke, thrombolytic therapy (e.g. tPA) should be carried out as soon as possible, and within hours of symptom onset. An endovascular thrombectomy may be indicated, depending on the severity and location of symptoms.\n\nIn the case of haemorrhagic stroke, management includes action to control blood pressure; intensive care in a specialized stroke unit; and possibly surgical intervention.\n\nAdmission to a specialist stroke unit with rehabilitation services enhances outcomes and decreases mortality and morbidity.\n\n## Prevention\n\nLifestyle changes and effective management of high blood pressure can significantly reduce the risk of stroke.\n\nEveryone can reduce their risk of stroke by:\n\n- controlling high blood pressure through a healthy lifestyle and appropriate antihypertensive treatment;\n- reducing tobacco use and limiting exposure to second-hand smoke;\n- adopting a healthy balanced diet, including at least five servings of fruit and vegetables daily and reducing intake of salt, saturated fats, and sugars;\n- engaging in regular physical activity, aiming for at least 150 minutes of moderate-intensity exercise per week;\n- effectively managing comorbid conditions such as diabetes, dyslipidaemia, and atrial fibrillation;\n- limiting use of alcohol; and\n- improving indoor and outdoor air quality.\n\nAction can also be taken for individuals at particular risk:\n\n- antiplatelet therapy or anticoagulants can be given, as appropriate, to prevent recurrent strokes;\n- lipid-lowering therapy can be initiated for individuals at risk of atherosclerotic cardiovascular disease; and\n- assessment for carotid artery stenosis can be carried out and when clinically indicated, revascularization (a medical procedure aimed at restoring the blood flow to the brain when the flow is limited or there is a blockage, as in ischemic stroke) can be considered.\n\n## Complications\n\nStroke can lead to a wide range of complications, including serious effects on the brain, heart and other parts of the body.\n\nAcute complications (that appear within days to weeks) are:\n\n- brain oedema or swelling of the brain\n- aphasia or other speech disorders\n- trouble swallowing (dysphagia)\n- aspiration pneumonia, a lung infection\n- seizure\n- depression\n- pressure ulcers\n- limb contracture\n- spasticity\n- shoulder pain\n- deep venous thrombosis.\n\nLong-term complications (months to years) are:\n\n- persistent motor deficits and gait disturbances (abnormalities in movement and walking pattern)\n- chronic pain and spasticity\n- cognitive impairment and memory loss\n- emotional and psychological conditions, including depression and anxiety\n- post-stroke epilepsy\n- urinary incontinence\n- loss of independence and reduced ability to perform daily activities.\n\n## Rehabilitation after stroke\n\nRehabilitation is a critical component of stroke care and recovery. It aims to help individuals regain functional abilities, improve quality of life, and restore independence to the greatest extent possible. Stroke rehabilitation should begin as soon as the person is medically stable – ideally within the first few days after the stroke.\n\nRehabilitation involves a multidisciplinary approach, including:\n\n- physiotherapy to improve mobility, muscle strength, balance, and coordination;\n- occupational therapy to enhance the ability to perform daily activities such as bathing, dressing, and cooking;\n- speech and language therapy to address difficulties with communication, speech, and swallowing;\n- neuropsychological and cognitive therapy to support cognitive function, memory, and emotional well-being; and\n- psychological support and counselling to address depression, anxiety, and emotional adjustment after stroke.\n\n## WHO response\n\nThe World Health Organization (WHO) helps countries reduce the burden of stroke and improve prevention, treatment, and rehabilitation.\n\nIn 2024, WHO published a [framework for organizing care for stroke and acute coronary syndrome](http://www.who.int/publications/i/item/9789240103665). It offers guidance on timely diagnosis, effective treatment, and rehabilitation, helping countries improve services and reduce deaths and disability. WHO also supports integrating stroke care into broader health strategies and universal health coverage, ensuring services are accessible and sustainable. The [WHO STEPwise approach to stroke surveillance](http://www.who.int/publications/i/item/9241594047) manual helps countries collect reliable data on stroke cases and outcomes, supporting evidence-based policies.\n\nStroke is also part of WHO’s broader work on neurological disorders. The [Intersectoral global action plan on epilepsy and other neurological disorders (2022–2031)](http://www.who.int/publications/i/item/9789240076624) promotes better access to care and improved quality of life for people with conditions like stroke. Similarly, stroke rehabilitation care is included in the [WHO Package of interventions for rehabilitation: module 3: neurological conditions](http://www.who.int/publications/i/item/9789240071131).\n\nManaging high blood pressure is key to preventing stroke. WHO’s 2021 [guideline for the pharmacological treatment of hypertension in adults](http://www.who.int/publications/i/item/9789240033986) supports health systems in treating hypertension effectively. To strengthen heart and stroke prevention, WHO launched the HEARTS initiative in 2016. It promotes healthy lifestyles, access to medicines, and team-based care.\n\nStroke remains a major global health challenge. Without better care, it will be difficult to reach the goal of reducing premature deaths from noncommunicable diseases by one-third by 2030 (SDG 3.4).\n\n(1) GBD 2021 Stroke Risk Factor Collaborators. [Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021](https://www.healthdata.org/research-analysis/library/global-regional-and-national-burden-stroke-and-its-risk-factors-1990-2021). The Lancet Neurology. 18 September 2024. doi: 10.1016/S1474-4422(24)00369-7.\n",
+  "char_count": 9113,
+  "word_count": 1332,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Risk factors",
+      "line": 25
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 41
+    },
+    {
+      "level": 2,
+      "text": "Diagnosis and treatment",
+      "line": 51
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 61
+    },
+    {
+      "level": 2,
+      "text": "Complications",
+      "line": 81
+    },
+    {
+      "level": 2,
+      "text": "Rehabilitation after stroke",
+      "line": 109
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 121
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Stroke",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/stroke"
+  },
+  "quality_flags": [],
+  "error": null
+}

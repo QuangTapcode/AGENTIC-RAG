@@ -1,0 +1,66 @@
+{
+  "document_id": "who_anaemia",
+  "title": "Anaemia",
+  "topic": "blood disorder",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+  "source_language": "en",
+  "published_date": "2025-02-10",
+  "input_file": "data/raw/who_anaemia.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.337041+00:00",
+  "content": "Title: Anaemia\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/anaemia\n\nMarkdown Content:\n\n## Overview\n\nAnaemia is a condition in which the number of red blood cells or the haemoglobin concentration within them is lower than normal. It mainly affects women and children.\n\nAnaemia occurs when there isn’t enough haemoglobin in the body to carry oxygen to the organs and tissues.\n\nIn severe cases, anaemia can cause poor cognitive and motor development in children. It can also cause problems for pregnant women and their babies.\n\nAnaemia can be caused by poor nutrition, infections, chronic diseases, heavy menstruation, pregnancy issues and family history. It is often caused by a lack of iron in the blood.\n\nAnaemia is preventable and treatable.\n\nIn many low- and lower-middle income settings, the most commonly- recognized causes of anaemia are iron deficiency and malaria.\n\n## Scope of the problem\n\nThe population groups most vulnerable to anaemia include children under 5 years of age, particularly infants and children under 2 years of age, menstruating adolescent girls and women, and pregnant and postpartum women.\n\nAnaemia is estimated to affect half a billion women 15–49 years of age and 269 million children 6–59 months of age worldwide. In 2019, 30% (539 million) of non-pregnant women and 37% (32 million) of pregnant women aged 15–49 years were affected by anaemia.\n\nThe WHO Regions of Africa and South-East Asia are most affected with an estimated 106 million women and 103 million children affected by anaemia in Africa and 244 million women and 83 million children affected in South-East Asia.\n\n## Signs and symptoms\n\nAnaemia causes symptoms such as fatigue, reduced physical work capacity, and shortness of breath. Anaemia is an indicator of poor nutrition and other health problems.\n\nCommon and non-specific symptoms of anaemia include:\n\n- tiredness\n- dizziness or feeling light-headed\n- cold hands and feet\n- headache\n- shortness of breath, especially upon exertion.\n\nSevere anaemia can cause more serious symptoms including:\n\n- pale mucous membranes (in the mouth, nose etc.)\n- pale skin and under the fingernails\n- rapid breathing and heart rate\n- dizziness when standing up\n- bruising more easily.\n\n## Causes\n\nAnaemia is diagnosed based on blood haemoglobin concentrations falling below specified thresholds established based on age, sex, and physiological status. It is considered a symptom of an underlying condition(s).\n\nAnaemia may be caused by several factors: nutrient deficiencies, inadequate diet (or the inadequate absorption of nutrients), infections, inflammation, chronic diseases, gynaecological and obstetric conditions, and inherited red blood cell disorders.\n\nIron deficiency, primarily due to inadequate dietary iron intake, is considered the most common nutritional deficiency leading to anaemia. Deficiencies in vitamin A, folate, vitamin B12 and riboflavin can also result in anaemia due to their specific roles in the synthesis of haemoglobin and/or erythrocyte production. Additional mechanisms include nutrient losses (e.g. blood loss from parasitic infections, haemorrhage associated with childbirth, or menstrual loss), impaired absorption, low iron stores at birth, and nutrient interactions affecting iron bioavailability.\n\nInfections can be another important cause of anaemia, depending on the local burden of infectious diseases, such as malaria, tuberculosis, HIV and parasitic infections. Infections can impair nutrient absorption and metabolism (e.g. malaria, ascariasis) or can cause nutrient loss (e.g. schistosomiasis, hookworm infection). Many different chronic conditions can cause inflammation and lead to anaemia of inflammation or anaemia of chronic disease. HIV infection causes anaemia through a wide range of mechanisms including ineffective production or excessive destruction of red blood cells, blood loss, and side effects of the drug treatment.\n\nConsistent heavy menstrual losses, maternal blood volume expansion during pregnancy, and blood loss during and after childbirth, particularly in cases of postpartum haemorrhage, commonly lead to anaemia.\n\nAdditionally, in some regions, inherited red blood cell disorders are a common cause of anaemia. These include conditions such as α- and β-thalassemia due to abnormalities of haemoglobin synthesis, sickle cell disorders due to changes in the haemoglobin structure, other haemoglobinopathies due to haemoglobin gene variants, abnormalities of red cell enzymes, or abnormalities of the red blood cell membrane.\n\n## Treatment and prevention\n\nThe treatment and prevention of anaemia depend on the underlying cause of the condition. There are many effective ways to treat and prevent anaemia.\n\nChanges in diet can help reduce anaemia in some cases, including:\n\n- eating foods that are rich in iron, folate, vitamin B12, vitamin A, and other nutrients\n- eating a healthy diet with a variety of foods\n- taking supplements if a qualified health-care provider recommends them.\n\nOther health conditions can cause anaemia. Actions include:\n\n- prevent and treat malaria\n- prevent and treat schistosomiasis and other infections caused by soil-transmitted helminths (parasitic worms)\n- get vaccinated and practice good hygiene to prevent infections\n- manage chronic diseases like obesity and digestive problems\n- wait at least 24 months between pregnancies and use birth control to prevent unintended pregnancies\n- prevent and treat heavy menstrual bleeding and haemorrhage before or after birth\n- delay umbilical cord clamping after childbirth (not earlier than 1 minute)\n- treat inherited red blood cell disorders like sickle-cell disease and thalassemia.\n\n## Self-care\n\nThere are several ways to help prevent and manage anaemia in daily life, including eating a healthy and diverse diet and speaking to a health-care provider early if you have symptoms of anaemia.\n\nTo keep a healthy and diverse diet:\n\n- eat iron-rich foods, including lean red meats, fish and poultry, legumes (e.g. lentils and beans), fortified cereals and dark green leafy vegetables;\n- eat foods rich in vitamin C (such as fruits and vegetables) which help the body absorb iron; and\n- avoid foods that slow down iron absorption when consuming iron-rich foods, such as bran in cereals (wholewheat flour, oats), tea, coffee, cocoa and calcium.\n\nIf you take calcium and iron supplements, take them at different times during the day.\n\nPeople with heavy menstrual bleeding should see their doctor for treatment. Doctors may recommend iron supplements or hormonal contraceptives.\n\nSome infections can cause anaemia. Wash your hands with soap and water and use clean toilets to reduce the risk of infection.\n\nMalaria can also cause anaemia. People living in places where malaria is common should follow prevention advice from local health authorities. Seek prompt treatment if you suspect you have malaria.\\*\\*\\*\\*\n\n## Global impact\n\nThe consequences of anaemia can vary. It can affect school performance (through developmental delays and behavioural disturbances such as decreased motor activity, social interaction and attention to tasks), productivity in adult life and overall quality of life in general. During pregnancy, anaemia has been associated with poor maternal and birth outcomes, including premature birth, low birth weight and maternal mortality. In addition to the health consequences, anaemia can have important financial impacts for individuals, families, communities and countries. It is estimated that for every US$ 1 invested in reducing anaemia in women, US$ 12 in economic returns could potentially be produced *(2)*.\n\n## WHO response\n\nAnaemia reduction is included as one of six World Health Assembly Global Nutrition Targets within the [Comprehensive implementation plan on maternal, infant and young child nutrition](https://www.who.int/publications/i/item/WHO-NMH-NHD-14.1). Additionally, anaemia in women 15–49 years of age is one of the targets for the United Nations 2030 Agenda for Sustainable Development.\n\nWHO has committed to supporting countries to reduce anaemia. At the Nutrition for Growth Summit in 2021, WHO committed to develop a comprehensive framework for action to prevent, diagnose and manage anaemia through a multisectoral approach. WHO, together with UNICEF, is also establishing an Anaemia Action Alliance, bringing partners across sectors together to support implementation of the framework at the country level.\n\n**References**\n\n1. Global Health Metrics. Anaemia–Level 1 impairment. Lancet. 2019; 393 <https://www.healthdata.org/research-analysis/diseases-injuries-risks/factsheets/2021-anemia-level-1-impairment>\n2. Walters D, Kakietek J, Eberwein JD, Shekar M. An investment framework for meeting the global nutrition target for anemia. Washington DC: World Bank; 2017.\n",
+  "char_count": 8811,
+  "word_count": 1316,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Scope of the problem",
+      "line": 21
+    },
+    {
+      "level": 2,
+      "text": "Signs and symptoms",
+      "line": 29
+    },
+    {
+      "level": 2,
+      "text": "Causes",
+      "line": 49
+    },
+    {
+      "level": 2,
+      "text": "Treatment and prevention",
+      "line": 63
+    },
+    {
+      "level": 2,
+      "text": "Self-care",
+      "line": 84
+    },
+    {
+      "level": 2,
+      "text": "Global impact",
+      "line": 102
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 106
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Anaemia",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/anaemia"
+  },
+  "quality_flags": [],
+  "error": null
+}

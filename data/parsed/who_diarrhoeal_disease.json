@@ -1,0 +1,61 @@
+{
+  "document_id": "who_diarrhoeal_disease",
+  "title": "Diarrhoeal disease",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+  "source_language": "en",
+  "published_date": "2024-03-07",
+  "input_file": "data/raw/who_diarrhoeal_disease.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.363630+00:00",
+  "content": "Title: Diarrhoeal disease\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease\n\nMarkdown Content:\n\n## Key facts\n\n- Diarrhoeal disease is the third leading cause of death in children 1–59 months of age. It is both preventable and treatable.\n- Each year diarrhoea kills around 443 832 children under 5 and an additional 50 851 children aged 5 to 9 years.\n- A significant proportion of diarrhoeal disease can be prevented through safe drinking-water and adequate sanitation and hygiene.\n- Globally, there are nearly 1.7 billion cases of childhood diarrhoeal disease every year.\n- Diarrhoea is a leading cause of malnutrition in children under 5 years old.\n\n## Overview\n\nDiarrhoeal disease is the third leading cause of death in children under 5 years old and is responsible for killing around 443 832 children every year. Diarrhoea can last several days and can leave the body without the water and salts that are necessary for survival. In the past, for most people, severe dehydration and fluid loss were the main causes of diarrhoea-associated deaths. Now, other causes such as septic bacterial infections are likely to account for an increasing proportion of all diarrhoea-associated deaths. Children who are malnourished or have impaired immunity, as well as people living with HIV, are most at risk of life-threatening diarrhoea.\n\nDiarrhoea is defined as the passage of 3 or more loose or liquid stools per day (or more frequent passage than is normal for the individual). Frequent passing of formed stools is not diarrhoea, nor is the passing of loose, pasty stools by breastfed babies.\n\nDiarrhoea is usually a symptom of an infection in the intestinal tract, which can be caused by a variety of bacterial, viral and parasitic organisms. Infection is spread through contaminated food or drinking-water, or from person-to-person as a result of poor hygiene.\n\nInterventions to prevent diarrhoea, including safe drinking-water, use of improved sanitation and hand washing with soap, can reduce disease risk. Diarrhoea should be treated with oral rehydration solution (ORS), a solution of clean water, sugar and salt. In addition, a 10–14 day supplemental treatment course of dispersible zinc tablets shortens diarrhoea duration and improves outcomes.\n\nThere are 3 clinical types of diarrhoea:\n\n- acute watery diarrhoea – lasts several hours or days and includes cholera\n- acute bloody diarrhoea – also called dysentery\n- persistent diarrhoea – lasts 14 days or longer.\n\n## Scope of diarrhoeal disease\n\nDiarrhoeal disease is a leading cause of child mortality and morbidity in the world, and mostly results from contaminated food and water sources. Worldwide, 780 million individuals lack access to improved drinking-water and 2.5 billion lack improved sanitation. Diarrhoea due to infection is widespread throughout developing countries.\n\nIn low-income countries, children under 3 years old experience on average three episodes of diarrhoea every year. Each episode deprives the child of the nutrition necessary for growth. As a result, diarrhoea is a major cause of malnutrition, and malnourished children are more likely to fall ill from diarrhoea.\n\n## Dehydration\n\nThe most severe threat posed by diarrhoea is dehydration. During a diarrhoeal episode, water and electrolytes (sodium, chloride, potassium and bicarbonate) are lost through liquid stools, vomit, sweat, urine and breathing. Dehydration occurs when these losses are not replaced.\n\nThe degree of dehydration is rated on a scale of 3.\n\n- - lethargy/unconsciousness\n  - sunken eyes\n  - unable to drink or drink poorly\n  - skin pinch goes back very slowly ( ≥2 seconds)\n  - restlessness, irritability\n  - sunken eyes\n  - drinks eagerly, thirsty\n- no dehydration (not enough signs to classify as some or severe dehydration).\n\n## Causes\n\n**Infection:** Diarrhoea is a symptom of infections caused by a host of bacterial, viral and parasitic organisms, most of which are spread by faeces-contaminated water. Infection is more common when there is a shortage of adequate sanitation and hygiene and safe water for drinking, cooking and cleaning. Among children under 5 years of age, the most common viral pathogens are rotavirus, norovirus, adenovirus and astrovirus. Bacterial pathogens include *Escherichia coli, Salmonella spp., Shigella spp., and Campylobacter spp.*, while parasitic pathogens include *Cryptosporidium*, *Giardia*, and *Entamoeba spp*. Rotavirus and *E. coli* are the most common pathogens among children across all age groups, while parasitic pathogens, are prevalent in children aged 3–5 years. Bacterial pathogens, including *E. coli*, *Salmonella*, and *Shigella*, were common in the children age 6 to 10-year age group, as were rotavirus, norovirus, and sapovirus. Location-specific etiologic patterns also need to be considered.\n\n**Malnutrition:** Children who die from diarrhoea often suffer from underlying malnutrition, which makes them more vulnerable to diarrhoea. Each diarrhoeal episode, in turn, makes their malnutrition even worse. Diarrhoea is a leading cause of malnutrition in children under 5 years old.\n\n**Source:** Water contaminated with human faeces, for example from sewage, septic tanks and latrines, is of particular concern. Animal faeces also contain microorganisms that can cause diarrhoea.\n\n**Other causes:** Diarrhoeal disease can also spread from person-to-person, aggravated by poor personal hygiene. Food is another major cause of diarrhoea when it is prepared or stored in unhygienic conditions. Unsafe domestic water storage and handling is also an important risk factor. Fish and seafood from polluted water may also contribute to the disease.\n\n## Prevention and treatment\n\nKey measures to prevent diarrhoea include:\n\n- access to safe drinking-water\n- use of improved sanitation\n- hand washing with soap\n- exclusive breastfeeding for the first 6 months of life\n- good personal and food hygiene\n- health education about how infections spread\n- rotavirus vaccination.\n\nKey measures to treat diarrhoea include the following.\n\n- Rehydration with oral rehydration salts (ORS) solution. ORS is a mixture of clean water, salt and sugar. It costs a few cents per treatment. ORS is absorbed in the small intestine and replaces the water and electrolytes lost in the faeces.\n- Zinc supplements reduce the duration of a diarrhoea episode by 25% and are associated with a 30% reduction in stool volume.\n- Rehydration with intravenous fluids in case of severe dehydration or shock.\n- Nutrient-rich foods. The vicious circle of malnutrition and diarrhoea can be broken by continuing to give nutrient-rich foods – including breast milk – during an episode, and by giving a nutritious diet – including exclusive breastfeeding for the first 6 months of life – to children when they are well.\n- Consulting a health professional, in particular for management of persistent diarrhoea or when there is blood in stool or if there are signs of dehydration.\n\n## WHO response\n\nWHO works with Member States and other partners to:\n\n- promote national policies and investments that support case management of diarrhoea and its complications as well as increasing access to safe drinking-water and sanitation in developing countries;\n- conduct research to develop and test new diarrhoea prevention and control strategies in this area;\n- build capacity in implementing preventive interventions, including sanitation, source water improvements, and household water treatment and safe storage;\n- develop new health interventions, such as the rotavirus immunization; and\n- help to train health workers, especially at community level.\n",
+  "char_count": 7644,
+  "word_count": 1149,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 15
+    },
+    {
+      "level": 2,
+      "text": "Scope of diarrhoeal disease",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "text": "Dehydration",
+      "line": 37
+    },
+    {
+      "level": 2,
+      "text": "Causes",
+      "line": 52
+    },
+    {
+      "level": 2,
+      "text": "Prevention and treatment",
+      "line": 62
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 82
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Diarrhoeal disease",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+  },
+  "quality_flags": [],
+  "error": null
+}

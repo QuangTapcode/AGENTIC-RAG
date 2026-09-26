@@ -1,0 +1,98 @@
+{
+  "document_id": "who_rabies",
+  "title": "Rabies",
+  "topic": "infectious disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+  "source_language": "en",
+  "published_date": "2026-09-17",
+  "input_file": "data/raw/who_rabies.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.314933+00:00",
+  "content": "Title: Rabies\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/rabies\n\nMarkdown Content:\n\n## Key facts\n\n- Rabies is a serious public health problem mainly in Asia and Africa. It is a viral, zoonotic, neglected tropical disease that causes tens of thousands of deaths annually, with 40% being children under 15.\n- Dog bites and scratches cause 99% of the human rabies cases and can be prevented through dog vaccination and bite prevention.\n- Once the virus infects the central nervous system and clinical symptoms appear, rabies is fatal in 100% of cases.\n- However, rabies deaths are preventable with prompt post exposure prophylaxis (PEP) by stopping the virus from reaching the central nervous system. PEP consists of thorough wound washing, administration of a course of human rabies vaccine and, when indicated, rabies immunoglobulins (RIG) or monoclonal antibodies (RmAb).\n- If a person is bitten or scratched by a potentially rabid animal, they should immediately and always wash the wound with water and soap for at least 15 minutes and seek medical attention.\n- WHO and its global partners aim to end human deaths from dog-mediated rabies through a comprehensive One Health approach promoting mass dog vaccination, ensuring access to PEP, health worker training, improved surveillance, and bite prevention through community awareness.\n\n## Overview\n\n### Dog-mediated rabies\n\nRabies is a vaccine-preventable, zoonotic, viral disease affecting the central nervous system. In up to 99% of the human rabies cases, dogs are responsible for virus transmission. Children between the age of 5 and 14 years are frequent victims.\n\nRabies infects mammals, including dogs, cats, livestock and wildlife.\n\nRabies spreads to people and animals via saliva, usually through [bites](https://www.who.int/news-room/fact-sheets/detail/animal-bites), scratches, or direct contact with mucosa (e.g. eyes, mouth, or open wounds). Once clinical symptoms appear, rabies is virtually 100% fatal.\n\nThe global cost of rabies is estimated to be around US$ 8.6 billion per year including lost lives and livelihoods, medical care and associated costs, as well as uncalculated psychological trauma.\n\nRabies is present on all continents except Antarctica. According to the [2021 Global Health Estimates](https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates) model, rabies causes 44 203 annual deaths. However, the exact number of global rabies deaths is uncertain as these are likely substantially underreported due to weak surveillance systems and under- and mis-diagnosis.\n\nRabies, a neglected tropical disease (NTD), predominantly affects marginalized populations. Although effective human vaccines, immunoglobulins and monoclonal antibodies exist for rabies, these are often inaccessible or unaffordable to those in need.\n\nAs of 2018, the average estimated cost of rabies post-exposure prophylaxis (PEP)[was US](http://www.who.int/publications/i/item/9789241513838)[was US$108](http://www.who.int/publications/i/item/9789241513838)nbsp;108(along with travel costs and loss of income), which can be a financial burden on those earning US$ 1–2 per person, daily.\n\nOver 29 million people worldwide receive human rabies vaccine annually.\n\n### Rabies from sources other than dogs\n\nIn the Americas, where dog-mediated rabies is mostly controlled, hematophagous (blood-feeding) bats are now the primary source of human rabies.\n\nHuman deaths following exposure to bats, foxes, raccoons, skunks, and other wild mammals are very rare, and bites from rodents are not known to transmit rabies.\n\nContraction of rabies through inhalation of virus-containing aerosols, consumption of raw meat or milk of infected animals, or through organ transplantation is extremely rare.\n\nHuman-to-human transmission through bites or saliva is theoretically possible but has never been confirmed.\n\n## Symptoms\n\nThe incubation period for rabies is typically 2–3 months but may vary from one week to one year, depending on factors such as the location of virus entry and the viral load. Initial symptoms of rabies include generic signs like fever, pain and unusual or unexplained tingling, pricking, or burning sensations at the wound site. As the virus moves to the central nervous system, progressive and fatal inflammation of the brain and spinal cord develops. Clinical rabies in people can be managed but very rarely cured, and not without severe neurological deficits.\n\nThere are two forms of rabies:\n\n- **Furious rabies**results in hyperactivity, excitable behaviour, hallucinations, lack of coordination, hydrophobia (fear of water) and aerophobia (fear of drafts or of fresh air). Death occurs after a few days due to cardio-respiratory arrest.\n- **Paralytic rabies** accounts for about 20% of the total number of human cases. This form of rabies runs a less dramatic and usually longer course than the furious form. Muscles gradually become paralysed, starting from the wound site. A coma slowly develops and eventually death occurs. The paralytic form of rabies is often misdiagnosed, contributing to the under-reporting of the disease.\n\n## Diagnosis\n\nCurrently there are no WHO-approved diagnostic tools for detecting rabies infection before the onset of clinical disease.\n\nClinical diagnosis of rabies is difficult without a reliable history of contact with a rabid animal or specific symptoms of hydrophobia or aerophobia.\n\nAccurate risk assessment is crucial for deciding whether PEP administration is needed.\n\nOnce symptoms emerge, and death is inevitable, offering comprehensive and compassionate palliative care is recommended.\n\nPostmortem confirmation of rabies infection is done by various diagnostic techniques that detect whole viruses, viral antigens, or nucleic acids in infected tissues (brain, skin or saliva) (Laboratory techniques in rabies [Vol. 1](http://www.who.int/publications/i/item/9789241515153) and [Vol. 2](http://www.who.int/publications/i/item/9789241515306)).\n\nWhere possible, the biting animal should be tested.\n\n## Prevention\n\n### Vaccinating dogs\n\nVaccinating dogs, including puppies, through mass dog vaccination programs is the most cost-effective strategy for preventing rabies in people because it stops the transmission at its source.\n\nCulling free roaming dogs is not effective in controlling rabies.\n\n### Awareness\n\nPublic education for both children and adults on dog behaviour and bite prevention, what to do if bitten or scratched by a potentially rabid animal, and responsible pet ownership are essential extensions of rabies vaccination programmes.\n\n### Vaccinating people\n\nEffective vaccines are available to immunize people both before and after potential exposures. As listed under the [WHO - Prequalification of Medical Products](https://extranet.who.int/prequal/vaccines/prequalified-vaccines), as of 2024, there are only 3 WHO pre-qualified human rabies vaccines available globally: [RABIVAX-S](https://extranet.who.int/prequal/vaccines/p/rabies-vaccine-inactivated-freeze-driedrabivax-s) by Serum Institute of India Pvt. Ltd., [VaxiRab N](https://extranet.who.int/prequal/vaccines/p/vaxirab-n) by Zydus Lifesciences Limited, and [VERORAB](https://extranet.who.int/prequal/vaccines/p/verorab) by Sanofi Pasteur.\n\n**Pre-exposure prophylaxis (PrEP)** is recommended for people in high-risk occupations (laboratory workers handling live rabies and related viruses) and people whose professional or personal activities might lead to direct contact with infected animals (animal disease control staff and wildlife rangers).\n\nPrEP might be indicated before recreation or travel in some areas, and for people living in remote, highly rabies-endemic areas with limited local access to rabies biologicals.\n\nNote that PrEP does not replace the need for PEP. Any person exposed to a suspected rabid animal should still seek post exposure care.\n\n**Post-exposure prophylaxis (PEP)** is the emergency response to rabies exposure. This prevents the virus from entering the central nervous system. A well performed [wound risk assessment and PEP protocol](http://www.who.int/publications/i/item/B09018) consists of:\n\n- extensive wound washing with water and soap for at least 15 minutes soon after an exposure;\n- a course of rabies vaccine; and\n- administration of rabies immunoglobulin or monoclonal antibodies into the wound, if indicated.\n\n### **Exposure risk and indications for PEP**\n\nDepending on the severity of exposure, administration of a full PEP course is recommended as follows:\n\n| Categories of contact with suspect rabid animal | Post-exposure prophylaxis measures |\n| --- | --- |\n| Category I- touching or feeding animals, animal licks on intact skin (no exposure) | Washing of exposed skin surfaces, no PEP |\n| Category II- nibbling of uncovered skin, minor scratches or abrasions without bleeding (exposure) | Wound washing and immediate vaccination |\n| Category III- single or multiple transdermal bites or scratches, contamination of mucous membrane or broken skin with saliva from animal licks, exposures due to direct contact with bats (severe exposure) | Wound washing, immediate vaccination and administration of rabies immunoglobulin/monoclonal antibodies |\n\nNB: Category II and III exposures require human rabies vaccination.\n\n## Vaccine quality\n\nWHO recommends that all human [rabies vaccines comply with WHO standards](http://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/vaccinations-and-immunization).\n\nDeployment of poor-quality rabies vaccines has led to public health failures in several countries.\n\n## Vaccine administration – intradermal (ID) vs intramuscular (IM)\n\nAs detailed in the [guidance on PEP administration](https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/pep-recommendations), WHO recommends moving from intramuscular (IM) to intradermal (ID) administration of human rabies vaccines.\n\n[Intradermal administration](http://www.who.int/publications/i/item/who-wer9316) reduces the amount of necessary vaccine and number of doses, therefore [reducing costs by 60–80%](https://www.who.int/publications/m/item/who-human-rabies-vaccines-global-market-study-december-2020), without compromising safety or efficacy.\n\nFewer doses also promote patient compliance with the recommended regimen.\n\n## WHO response\n\nRabies is included in [WHO’s 2021–2030 Roadmap for the global control of NTDs](https://www.who.int/publications/i/item/9789240010352), which sets regional, progressive targets for the global strategic plan to end human deaths from dog-mediated rabies by 2030 (see also: [Zero by 30](http://www.who.int/publications/i/item/9789241513838)). This entails:\n\n- **improving access to human rabies vaccines**through the efforts of the WHO and its partners, Gavi, the Vaccine Alliance has included rabies vaccine in their investment strategy since 2021 as an available resource to eligible countries. The current Gavi 6.0 funding guidelines cover rabies vaccines under the discretionary fund (flexible funding that countries can allocate across eligible programmes);\n- **providing technical standards and guidance**to support countries in developing and implementing their national rabies plans and procedures, including strengthening surveillance and reporting;\n- **encouraging countries to build the capacity of their One Health workforce** by using rabies elimination programs as a platform for multisectoral collaborations; and\n- **encouraging the use of United Against Rabies (UAR) multi-stakeholder forum**, which was launched in collaboration with WHO, Food and Agriculture Organization (FAO) and World Organisation for Animal Health (WOAH, formerly OIE), to advocate for action and investment in rabies control.\n\nSince the publishing of the Zero by 30 strategic plan, as of 17 September 2026, 3 countries – Bhutan, Chile and Mexico – have been validated by WHO for the elimination of dog-mediated human rabies as a public health problem. Countries can find [more information](https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/elimination-of-rabies-as-a-public-health-problem) on the validation process [on the WHO website](https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/elimination-of-rabies-as-a-public-health-problem).\n\nIn addition, 17 countries – Austria, Bahrain, Belgium, Bulgaria, Czech Republic, Estonia, Germany, Greece, Latvia, Lithuania, Luxembourg, Malta, Montenegro, Portugal, Serbia, Slovenia and Sweden – have [self-declared free from infection with rabies virus to WOAH](https://www.woah.org/en/what-we-offer/self-declared-disease-status/), in compliance with Chapters 1.6 and 8.15 of the Terrestrial Animal Health Code (Terrestrial Code, edition 2025).\n",
+  "char_count": 12734,
+  "word_count": 1888,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 16
+    },
+    {
+      "level": 3,
+      "text": "Dog-mediated rabies",
+      "line": 18
+    },
+    {
+      "level": 3,
+      "text": "Rabies from sources other than dogs",
+      "line": 36
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 46
+    },
+    {
+      "level": 2,
+      "text": "Diagnosis",
+      "line": 55
+    },
+    {
+      "level": 2,
+      "text": "Prevention",
+      "line": 69
+    },
+    {
+      "level": 3,
+      "text": "Vaccinating dogs",
+      "line": 71
+    },
+    {
+      "level": 3,
+      "text": "Awareness",
+      "line": 77
+    },
+    {
+      "level": 3,
+      "text": "Vaccinating people",
+      "line": 81
+    },
+    {
+      "level": 3,
+      "text": "**Exposure risk and indications for PEP**",
+      "line": 97
+    },
+    {
+      "level": 2,
+      "text": "Vaccine quality",
+      "line": 109
+    },
+    {
+      "level": 2,
+      "text": "Vaccine administration – intradermal (ID) vs intramuscular (IM)",
+      "line": 115
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 123
+    }
+  ],
+  "tables": [
+    "Table on page 1 (690 chars)"
+  ],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Rabies",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/rabies"
+  },
+  "quality_flags": [],
+  "error": null
+}

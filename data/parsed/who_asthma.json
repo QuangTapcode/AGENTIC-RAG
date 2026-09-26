@@ -1,0 +1,62 @@
+{
+  "document_id": "who_asthma",
+  "title": "Asthma",
+  "topic": "respiratory disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+  "source_language": "en",
+  "published_date": "2026-04-28",
+  "input_file": "data/raw/who_asthma.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.206561+00:00",
+  "content": "Title: Asthma\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/asthma\n\nPublished Time: Fri, 25 Sep 2026 16:41:04 GMT\n\nMarkdown Content:\n\n- Asthma is a major noncommunicable disease (NCD), affecting both children and adults, and is the most common chronic disease among children.\n- Inflammation and narrowing of the small airways in the lungs cause asthma symptoms, which can be any combination of cough, wheeze, shortness of breath and chest tightness.\n- Asthma affected an estimated 363 million people in 2023 *(1)* and caused 442 000 deaths.\n- Inhaled medication can control asthma symptoms and allow people with asthma to lead a normal, active life.\n- Avoiding asthma triggers can also help to reduce asthma symptoms.\n- Most asthma-related deaths occur in low- and lower-middle-income countries, where under-diagnosis and under-treatment is a challenge.\n- WHO is committed to improving the diagnosis, treatment and monitoring of asthma to reduce the global burden of NCDs and make progress towards universal health coverage.\n\n## Overview\n\nAsthma is a chronic lung disease affecting people of all ages. It is caused by inflammation and muscle tightening around the airways, which makes it harder to breathe.\n\nSymptoms can include coughing, wheezing, shortness of breath and chest tightness. These symptoms can be mild or severe and can come and go over time.\n\nAlthough asthma can be a serious condition, it can be managed with the right treatment. People with symptoms of asthma should speak to a health professional.\n\n## Impact\n\nAsthma is often under-diagnosed and under-treated, particularly in low- and middle-income countries.\n\nPeople with under-treated asthma can suffer sleep disturbance, tiredness during the day, and poor concentration. Asthma sufferers and their families may miss school and work, with financial impact on the family and wider community. If symptoms are severe, people with asthma may need to receive emergency health care and they may be admitted to hospital for treatment and monitoring. In the most severe cases, asthma can lead to death.\n\n## Symptoms\n\nSymptoms of asthma can vary from person to person. Symptoms sometimes get significantly worse. This is known as an asthma attack.Symptoms are often worse at night or during exercise.\n\nCommon symptoms of asthma include:\n\n- a persistent cough, especially at night\n- wheezing when exhaling and sometimes when inhaling\n- shortness of breath or difficulty breathing, sometimes even when resting\n- chest tightness, making it difficult to breathe deeply.\n\nSome people will have worse symptoms when they have a cold or during changes in the weather. Other triggers can include dust, smoke, fumes, grass and tree pollen, animal fur and feathers, strong soaps and perfume.\n\nSymptoms can be caused by other conditions as well. People with symptoms should talk to a healthcare provider.\n\n## Causes\n\nMany factors have been linked to an increased risk of developing asthma, although it is often difficult to find a single, direct cause.\n\n- Asthma is more likely if other family members also have asthma – particularly a close relative, such as a parent or sibling.\n- Asthma is more likely in people who have other allergic conditions, such as eczema and rhinitis (hay fever).\n- Urbanization is associated with increased asthma prevalence, probably due to multiple lifestyle factors.\n- Events in early life affect the developing lungs and can increase the risk of asthma. These include low birth weight, prematurity, exposure to tobacco smoke and other sources of air pollution, as well as viral respiratory infections.\n- Exposure to a range of environmental allergens and irritants are also thought to increase the risk of asthma, including indoor and outdoor air pollution, house dust mites, moulds, and occupational exposure to chemicals, fumes or dust.\n- Children and adults who are overweight or obese are at a greater risk of asthma.\n\n## Treatment\n\nAsthma cannot be cured but there are several treatments available. The most common treatment is to use an inhaler, which delivers medication directly to the lungs.\n\nInhalers can help control the disease and enable people with asthma to enjoy a normal, active life.\n\nThere are three main types of inhaler:\n\n- bronchodilators (such as salbutamol), that open the air passages and relieve symptoms;\n- steroids (such as beclometasone) that reduce inflammation in the air passages, which improves asthma symptoms and reduces the risk of severe asthma attacks and death; and\n- combination inhalers which contain both a bronchodilator and steroid.\n\nPeople with asthma may need to use their inhaler every day. Their treatment will depend on the frequency of symptoms and the types of inhalers available.\n\nUsing an inhaler can be difficult, especially for children and during emergency situations. Using a spacer device makes it easier to use an aerosol inhaler. This helps the medicine to reach the lungs more easily. A spacer is a plastic container with a mouthpiece or mask at one end and a hole for the inhaler in the other. A homemade spacer, made from a 500ml plastic bottle, can be as effective as commercially manufactured spacers.\n\nAccess to inhalers is a problem in many countries. In 2023, potentially lifesaving bronchodilators were available in public primary health care facilities in less than two thirds of low- and low-middle income countries, and steroid inhalers available in less than half.\n\nIt is also important to raise community awareness to reduce the myths and stigma associated with asthma in some settings.\n\n## Self-care\n\nPeople with asthma and their families need education to understand more about their asthma. This includes their treatment options, triggers to avoid, and how to manage their symptoms at home.\n\nIt is important for people with asthma to know how to increase their treatment when their symptoms are worsening to avoid a serious attack. Healthcare providers may give an asthma action plan to help people with asthma to take greater control of their treatment.\n\n## WHO response\n\nAsthma is included in the WHO Global Action Plan for the Prevention and Control of NCDs and the United Nations 2030 Agenda for Sustainable Development.\n\nWHO is taking action to extend diagnosis of and treatment for asthma in a number of ways.\n\nThe WHO Package of Essential Noncommunicable Disease Interventions (PEN) was developed to help improve NCD management in primary health care in low-resource settings. PEN includes protocols for the assessment, diagnosis and management of chronic respiratory diseases (asthma and chronic obstructive pulmonary disease), and modules on healthy lifestyle counselling, including tobacco cessation and self-care.\n\nWHO is currently developing new guidelines for the diagnosis and management of asthma in primary care.\n\nReducing tobacco smoke exposure is important for both primary prevention of asthma and disease management. The Framework Convention on Tobacco Control is enabling progress in this area as are WHO initiatives such as MPOWER and mTobacco Cessation.\n\nAir pollution is an important risk factor for asthma, causing new cases and making existing disease worse. WHO has developed training for health care workers on air pollution which highlights this link and offers practical advice to reduce and mitigate exposure.\n\nThe Global Alliance against Chronic Respiratory Diseases (GARD) contributes to WHO’s work to prevent and control chronic respiratory diseases. GARD is a voluntary alliance of national and international organizations and agencies from many countries committed to the vision of a world where all people breathe freely.\n\n**References**\n\n*1)* Global Burden of Disease Collaborative Network. [Global Burden of Disease Study 2023 (GBD 2023)](https://www.healthdata.org/research-analysis/library/global-burden-disease-2023-findings-gbd-2023-study). Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2025.\n",
+  "char_count": 7942,
+  "word_count": 1233,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 17
+    },
+    {
+      "level": 2,
+      "text": "Impact",
+      "line": 25
+    },
+    {
+      "level": 2,
+      "text": "Symptoms",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "text": "Causes",
+      "line": 46
+    },
+    {
+      "level": 2,
+      "text": "Treatment",
+      "line": 57
+    },
+    {
+      "level": 2,
+      "text": "Self-care",
+      "line": 77
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 83
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Asthma",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/asthma",
+    "published_time": "Fri, 25 Sep 2026 16:41:04 GMT"
+  },
+  "quality_flags": [],
+  "error": null
+}

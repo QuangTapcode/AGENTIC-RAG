@@ -1,0 +1,96 @@
+{
+  "document_id": "who_obesity",
+  "title": "Obesity and overweight",
+  "topic": "metabolic disease",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+  "source_language": "en",
+  "published_date": "2025-12-08",
+  "input_file": "data/raw/who_obesity.md",
+  "parser": "kreuzberg",
+  "parser_version": "4.10.4",
+  "output_format": "markdown",
+  "extracted_at": "2026-09-26T18:48:26.309444+00:00",
+  "content": "Title: Obesity and overweight\n\nURL Source: http://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight\n\nMarkdown Content:\n\n## Key facts\n\n- In 2022, 1 in 8 people in the world were living with obesity.\n- Worldwide adult obesity has more than doubled since 1990, and adolescent obesity has quadrupled.\n- In 2022, 2.5 billion adults (18 years and older) were overweight. Of these, 890 million were living with obesity.\n- In 2022, 43% of adults aged 18 years and over were overweight and 16% were living with obesity.\n- In 2024, 35 million children under the age of 5 were overweight.\n- Over 390 million children and adolescents aged 5–19 years were overweight in 2022, including 160 million who were living with obesity.\n\n## Overview\n\nOverweight is a condition of excessive fat deposits.\n\nObesity is classified by the World Health Organization (WHO) as a chronic, relapsing disease arising from complex interactions between genetics, neurobiology, eating behaviours, access to healthy diet, market forces, and the broader environment. In the last decades, obesity has expanded globally as countries have experienced greater food security, socioeconomic development, and shifts in diet, physical activity, and societal and individual behavior driven by globalization and industrialized food systems. These forces have created increasingly obesogenic environments, contributing to what is now a global public health crisis with more than 1 billion people living with obesity and prevalence rising in nearly every country *(1)*.\n\nA diagnosis of overweight or obesity is made by measuring people’s weight and height and by calculating the body mass index (BMI): weight (kg)/height² (m²). The body mass index is a surrogate marker of fatness and additional measurements, such as the waist circumference, can help the diagnosis of obesity.\n\nThe BMI categories for defining obesity vary by age and gender for adults, adolescents, children and infants.\n\n## Definition of overweight and obesity\n\nWHO defines overweight and obesity as outlined below.\n\n### Adults\n\nFor adults:\n\n- overweight is a BMI greater than or equal to 25; and\n- obesity is a BMI greater than or equal to 30.\n\n### Children\n\nFor children, age needs to be considered when defining overweight and obesity.\n\n### Children aged between 5–19 years\n\nFor children aged 5–19 years:\n\n- overweight is BMI-for-age greater than 1 standard deviation above the WHO Growth Reference median; and\n- obesity is greater than 2 standard deviations above the WHO Growth Reference median.\n\nCharts and tables: [WHO growth reference for children aged between 5–19 years](http://www.who.int/tools/growth-reference-data-for-5to19-years)\n\n### Children under 5 years of age\n\nFor children under 5 years of age:\n\n- overweight is weight-for-height greater than 2 standard deviations above WHO Child Growth Standards median; and\n- obesity is weight-for-height greater than 3 standard deviations above the WHO Child Growth Standards median.\n\nCharts and tables: [WHO child growth standards for children aged under 5 years](http://www.who.int/tools/child-growth-standards)\n\n## Prevalence of overweight and obesity\n\nIn 2022, 2.5 billion adults aged 18 years and older were overweight, including over 890 million adults who were living with obesity *(1)*. This corresponds to 43% of adults aged 18 years and over (43% of men and 44% of women) who were overweight; this is an increase from 1990, when 25% of adults aged 18 years and over were overweight. Prevalence of overweight varied by region, from 31% in the WHO South-East Asia Region and the African Region to 67% in the Region of the Americas.\n\nAbout 16% of adults aged 18 years and older worldwide were obese in 2022. The worldwide prevalence of obesity more than doubled between 1990 and 2022.\n\nIn 2024, an estimated 35 million children under the age of 5 years were overweight *(2)*. Once considered a high-income country problem, overweight is on the rise in low- and middle-income countries. In Africa, the number of overweight children under 5 years has increased by nearly 12.1% since 2000. Almost half of the children under 5 years who were overweight or living with obesity in 2024 lived in Asia.\n\nOver 390 million children and adolescents aged 5–19 years were overweight in 2022. The prevalence of overweight (including obesity) among children and adolescents aged 5–19 has risen dramatically from just 8% in 1990 to 20% in 2022. The rise has occurred similarly among both boys and girls: in 2022 19% of girls and 21% of boys were overweight.\n\nWhile just 2% of children and adolescents aged 5–19 were living with obesity in 1990 (31 million young people), by 2022, 8% of children and adolescents were living with obesity (over 160 million young people).\n\n## Causes of overweight and obesity\n\nOverweight and obesity result from an imbalance of energy intake (diet) and energy expenditure (physical activity).\n\nIn most cases obesity is a multifactorial disease due to environmental and psycho-social factors and genetic variants. In a subgroup of patients, single major etiological factors can be identified (e.g. medications, diseases, immobilization, iatrogenic procedures, and monogenic disease/genetic syndrome).\n\nKey environmental factors affecting the prevalence of overweight and obesity are those that limit the availability of healthy and sustainably-produced food at locally affordable prices spaces for physical activity and the absence of adequate legal and regulatory environments. A further factor is the lack of an effective health system response to identify excess weight gain and fat deposition at an early stage.\n\n## Common health consequences\n\nThe health risks caused by overweight and obesity are increasingly well documented and understood.\n\nIn 2021, higher-than-optimal BMI caused an estimated 3.7 million deaths from noncommunicable diseases (NCDs) such as cardiovascular diseases, diabetes, cancers, neurological disorders, chronic respiratory diseases, and digestive disorders *(3)*.\n\nBeing overweight in childhood and adolescence affects children’s and adolescents’ health and is associated with greater risk and earlier onset of various NCDs, such as type 2 diabetes and cardiovascular disease. [Childhood and adolescent obesity](http://www.who.int/publications/i/item/WHO-NMH-NHD-14.2) have adverse psychosocial consequences; they affects school performance and quality of life, compounded by stigma, discrimination and bullying. Children with obesity are very likely to become adults with obesity and are also at a higher risk of developing NCDs in adulthood.\n\nThe economic impacts of the obesity epidemic are also important. If nothing is done, the global costs of overweight and obesity are predicted to reach US$3 trillion per year by 2030 and more than US$18 trillion by 2060 *(4)*.\n\nFinally, the rise in obesity rates in low-and middle-income countries, including among lower socio-economic groups, is fast globalizing a problem that was once associated only with high-income countries.\n\n## Facing a double burden of malnutrition\n\nMany low- and middle-income countries face a so-called double burden of malnutrition.\n\nWhile these countries continue to deal with the problems of infectious diseases and undernutrition, they are also experiencing a rapid upsurge in noncommunicable disease risk factors such as obesity and overweight.\n\nIt is common to find undernutrition and obesity co-existing within the same country, the same community and the same household.\n\nChildren in low- and middle-income countries are more vulnerable to inadequate pre-natal, infant, and young child nutrition. At the same time, these children are exposed to high-fat, high-sugar, high-salt, energy-dense, and micronutrient-poor foods, which tend to be lower in cost but also lower in nutrient quality. These dietary patterns, in conjunction with lower levels of physical activity, result in sharp increases in childhood obesity while undernutrition issues remain unsolved.\n\n## Prevention and management\n\nOverweight and obesity, as well as their related noncommunicable diseases, are largely preventable and manageable.\n\nAt the individual level, people may be able to reduce their risk by adopting preventive interventions at each step of the life cycle, starting from pre-conception and continuing during the early years. These include:\n\n- ensure appropriate weight gain during pregnancy;\n- practice exclusive breastfeeding in the first 6 months after birth and continued breastfeeding until 24 months or beyond;\n- support behaviours of children around healthy eating, physical activity, sedentary behaviours and sleep, regardless of current weight status;\n- limit screen time;\n- limit consumption of sugar sweetened beverages and energy-dense foods and promote other healthy eating behaviours;\n- enjoy a healthy life (healthy diet, physical activity, sleep duration and quality, avoid tobacco and alcohol, emotional self-regulation);\n- limit energy intake from total fats and sugars and increase consumption of fruit and vegetables, as well as legumes, whole grains and nuts; and\n- engage in regular physical activity.\n\nHealth practitioners need to:\n\n- assess the weight and height of people accessing health facilities;\n- provide counselling on healthy diet and lifestyles;\n- when a diagnosis of obesity is established, advise on management of the disorder, including through healthy diet and regular physical activity, and explain and offer, as appropriate, available therapeutic and surgical measures; and\n- monitor other NCD risk factors (blood glucose, lipids and blood pressure) and assess the presence of comorbidities and disability, including mental health disorders.\n\nDietary and physical activity patterns are largely the result of environmental and societal conditions that greatly constrain personal choice. Obesity is a societal rather than an individual responsibility, with the solutions to be found through the creation of supportive environments and communities that embed healthy diets and regular physical activity as the most accessible, available and affordable behaviours of daily life.\n\nStopping the rise in obesity demands multisectoral actions in areas such as food manufacturing, marketing and pricing and others that seek to address the wider determinants of health (such as poverty reduction and urban planning).\n\nSuch policies and actions include:\n\n- structural, fiscal and regulatory actions aimed at creating healthy food environments that make healthier food options available, accessible and desirable; and\n- health sector responses designed and equipped to identify risk, prevent, treat and manage the disease. These actions need to build upon and be integrated into broader efforts to address NCDs and strengthen health systems through a primary health care approach.\n\nThe food industry can play a significant role in promoting healthy diets by:\n\n- reducing the fat, sugar and salt content of processed foods;\n- ensuring that healthy and nutritious choices are available and affordable to all consumers;\n- restricting marketing of foods high in sugars, salt and fats, especially those foods aimed at children and teenagers; and\n- ensuring the availability of healthy food choices and supporting regular physical activity practice in the workplace.\n\n## WHO response\n\nWHO has recognized the need to tackle the global obesity crisis in an urgent manner for [many years](https://apps.who.int/gb/ebwha/pdf_files/WHA57/A57_R17-en.pdf).\n\nThe World Health Assembly (WHA) [Global Nutrition Targets](http://www.who.int/teams/nutrition-and-food-safety/global-targets-2030) aiming to ensure no increase in childhood overweight, and the [NCD target](http://www.who.int/publications/i/item/ncd-surveillance-global-monitoring-framework) to halt the rise of diabetes and obesity by 2025, were endorsed by WHO Member States in 2012 and extended to 2030 during WHA in 2025.. They recognized that accelerated global action is needed to address pervasive and corrosive problem of the double burden of malnutrition.\n\nAt the Seventy-fifth World Health Assembly in 2022, Member States demanded and adopted new recommendations for the prevention and management of obesity and endorsed the [WHO Acceleration plan to stop obesity](http://www.who.int/publications/i/item/9789240075634). Since its endorsement, the Acceleration plan has shaped the political environment to generate impetus needed for sustainable change, created a platform to shape, streamline and prioritize policy, support implementation in countries and drive impact and strengthen accountability at national and global level.\n\nIn December 2025, [WHO published the guideline on the use of glucagon-like peptide-1 (GLP-1) therapies for the treatment of obesity in adults](http://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity). This guideline aims to support the safe, equitable and appropriate inclusion of pharmacological therapy for adults as part of comprehensive obesity chronic care programmes. While not a standalone solution, this guideline represents one of many tools to support countries in designing comprehensive chronic care systems that incorporate pharmacological treatment as one option, while also building health systems that recognize obesity as the complex, lifelong condition.\n\n### References\n\n1. NCD Risk Factor Collaboration. Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults. The Lancet 2024. 16;403(10431):1027-1050. doi: [10.1016/S0140-6736(23)02750-2](https://doi.org/10.1016/s0140-6736(23)02750-2)\n2. United Nations Children’s Fund (UNICEF), World Health Organization, International Bank for Reconstruction and Development/The World Bank. Levels and trends in child malnutrition: Key Findings of the 2025 Edition of the Joint Child Malnutrition Estimates. Geneva: World Health Organization; 2025\n3. GBD 2021 Risk Factor Collaborators. “Global Burden of 88 Risk Factors in 204 Countries and Territories, 1990–2021: a systematic analysis for the Global Burden of Disease study 2021”. *Lancet.*[2024; 403:2162 2203](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)00933-4/fulltext).\n4. Okunogbe et al., “[Economic Impacts of Overweight and Obesity](https://data.worldobesity.org/resources/WOF-Economic-Impacts-2-V2.pdf).” 2nd Edition with Estimates for 161 Countries. World Obesity Federation, 2022.\n",
+  "char_count": 14519,
+  "word_count": 2224,
+  "headings": [
+    {
+      "level": 2,
+      "text": "Key facts",
+      "line": 7
+    },
+    {
+      "level": 2,
+      "text": "Overview",
+      "line": 16
+    },
+    {
+      "level": 2,
+      "text": "Definition of overweight and obesity",
+      "line": 26
+    },
+    {
+      "level": 3,
+      "text": "Adults",
+      "line": 30
+    },
+    {
+      "level": 3,
+      "text": "Children",
+      "line": 37
+    },
+    {
+      "level": 3,
+      "text": "Children aged between 5–19 years",
+      "line": 41
+    },
+    {
+      "level": 3,
+      "text": "Children under 5 years of age",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "text": "Prevalence of overweight and obesity",
+      "line": 59
+    },
+    {
+      "level": 2,
+      "text": "Causes of overweight and obesity",
+      "line": 71
+    },
+    {
+      "level": 2,
+      "text": "Common health consequences",
+      "line": 79
+    },
+    {
+      "level": 2,
+      "text": "Facing a double burden of malnutrition",
+      "line": 91
+    },
+    {
+      "level": 2,
+      "text": "Prevention and management",
+      "line": 101
+    },
+    {
+      "level": 2,
+      "text": "WHO response",
+      "line": 139
+    },
+    {
+      "level": 3,
+      "text": "References",
+      "line": 149
+    }
+  ],
+  "tables": [],
+  "parser_metadata": {},
+  "source_headers": {
+    "title": "Obesity and overweight",
+    "url_source": "http://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+  },
+  "quality_flags": [],
+  "error": null
+}
