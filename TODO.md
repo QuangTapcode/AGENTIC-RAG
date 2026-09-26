@@ -86,13 +86,13 @@
 
 ## 8. Answer Generation và Citation
 
-- [ ] Viết system prompt bắt buộc LLM chỉ dùng context được cung cấp.
-- [ ] Yêu cầu LLM từ chối khi không đủ bằng chứng.
-- [ ] Hiển thị citation gồm tên tài liệu, trang và section.
-- [ ] Kiểm tra citation có tồn tại trong context được retrieve.
-- [ ] Ngăn citation giả hoặc citation sai trang.
-- [ ] Thêm cảnh báo: thông tin chỉ mang tính tham khảo, không thay thế bác sĩ.
-- [ ] Test các câu hỏi có nhiều thuốc, liều lượng và chống chỉ định.
+- [x] Viết system prompt bắt buộc LLM chỉ dùng context được cung cấp.
+- [x] Yêu cầu LLM từ chối khi không đủ bằng chứng.
+- [x] Hiển thị citation gồm tên tài liệu, trang và section; nếu WHO thiếu page thì ghi page unavailable và source lines.
+- [x] Kiểm tra citation có tồn tại trong context được retrieve.
+- [x] Ngăn citation giả hoặc citation sai trang.
+- [x] Thêm cảnh báo: thông tin chỉ mang tính tham khảo, không thay thế bác sĩ.
+- [x] Test các câu hỏi có nhiều thuốc, liều lượng và chống chỉ định/viết tắt.
 
 ## 9. Evaluation Dataset
 
