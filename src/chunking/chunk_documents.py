@@ -107,7 +107,8 @@ def split_sections(content: str) -> list[Section]:
             flush()
             level = len(match.group("marks"))
             title = match.group("title").strip()
-            heading_stack = heading_stack[: level - 1]
+            while heading_stack and heading_stack[-1][0] >= level:
+                heading_stack.pop()
             heading_stack.append((level, title))
             current_name = " > ".join(title for _, title in heading_stack)
             current_heading = _normalise_heading(match)

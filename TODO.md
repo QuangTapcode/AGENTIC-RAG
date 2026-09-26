@@ -44,14 +44,14 @@
 
 ## 4. Embedding và Vector Database
 
-- [ ] Chọn model embedding hỗ trợ cross-lingual Việt–Anh.
-- [ ] Chạy Qdrant local bằng Docker.
-- [ ] Tạo collection multilingual cho chunk 300 và chunk 800.
-- [ ] Embed query gốc bằng multilingual embedding.
-- [ ] Lưu dense vector cho semantic search xuyên ngôn ngữ.
-- [ ] Lưu sparse vector/BM25 cho keyword search.
-- [ ] Lưu toàn bộ metadata chunk trong payload.
-- [ ] Kiểm tra số lượng vector và metadata sau ingestion.
+- [x] Chọn model embedding hỗ trợ cross-lingual Việt–Anh: `intfloat/multilingual-e5-small`.
+- [x] Chạy Qdrant local bằng Docker Compose.
+- [x] Tạo collection multilingual cho chunk 300 và chunk 800.
+- [x] Embed query gốc bằng multilingual embedding với prefix `query:`.
+- [x] Lưu dense vector 384 chiều với prefix `passage:` cho semantic search xuyên ngôn ngữ.
+- [x] Lưu sparse vector BM25 cho keyword search và artifact vocabulary/IDF riêng từng corpus.
+- [x] Lưu toàn bộ metadata chunk trong payload.
+- [x] Kiểm tra số lượng vector và metadata sau ingestion: 476/476 và 350/350.
 
 ## 5. Scope Router và Agent Tools
 

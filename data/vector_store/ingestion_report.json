@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-09-26T19:34:41.465188+00:00",
+  "qdrant_url": "http://localhost:6333",
+  "model": "intfloat/multilingual-e5-small",
+  "dense_query_prefix": "query:",
+  "dense_passage_prefix": "passage:",
+  "reports": [
+    {
+      "input": "D:/HocTap/Nam4/HKDN/AISOEASY/data/chunks_300/chunks.jsonl",
+      "collection": "medical_chunks_300",
+      "chunk_count": 476,
+      "model": "intfloat/multilingual-e5-small",
+      "dense_dimension": 384,
+      "dense_prefix": "passage:",
+      "sparse": {
+        "algorithm": "bm25",
+        "vocabulary_size": 5597,
+        "average_document_length": 122.43697478991596,
+        "artifact": "D:/HocTap/Nam4/HKDN/AISOEASY/data/vector_store/chunks_300/bm25_index.json"
+      },
+      "verification": {
+        "collection_name": "medical_chunks_300",
+        "points_count": 476,
+        "expected_points": 476,
+        "payload_fields_verified": [
+          "chunk_id",
+          "document_id",
+          "source_url",
+          "text"
+        ],
+        "dense_dimension": 384,
+        "dense_vector_name": "dense",
+        "sparse_vector_name": "sparse",
+        "status": "ok",
+        "collection_status": "green"
+      }
+    },
+    {
+      "input": "D:/HocTap/Nam4/HKDN/AISOEASY/data/chunks_800/chunks.jsonl",
+      "collection": "medical_chunks_800",
+      "chunk_count": 350,
+      "model": "intfloat/multilingual-e5-small",
+      "dense_dimension": 384,
+      "dense_prefix": "passage:",
+      "sparse": {
+        "algorithm": "bm25",
+        "vocabulary_size": 5597,
+        "average_document_length": 162.38,
+        "artifact": "D:/HocTap/Nam4/HKDN/AISOEASY/data/vector_store/chunks_800/bm25_index.json"
+      },
+      "verification": {
+        "collection_name": "medical_chunks_800",
+        "points_count": 350,
+        "expected_points": 350,
+        "payload_fields_verified": [
+          "chunk_id",
+          "document_id",
+          "source_url",
+          "text"
+        ],
+        "dense_dimension": 384,
+        "dense_vector_name": "dense",
+        "sparse_vector_name": "sparse",
+        "status": "ok",
+        "collection_status": "green"
+      }
+    }
+  ]
+}

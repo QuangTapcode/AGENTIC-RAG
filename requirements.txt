@@ -1,2 +1,4 @@
 kreuzberg==4.10.4
 tiktoken==0.14.0
+sentence-transformers==6.1.0
+qdrant-client==1.19.1

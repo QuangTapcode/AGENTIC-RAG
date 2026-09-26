@@ -12,6 +12,7 @@ Dataset hiện tại gồm 30 WHO fact sheets về bệnh và sức khỏe.
 - File parsed: `data/parsed/*.json`
 - File chunks 300 tokens: `data/chunks_300/chunks.jsonl`
 - File chunks 800 tokens: `data/chunks_800/chunks.jsonl`
+- Vector store artifacts: `data/vector_store/`
 - Metadata và source URL: `data/manifest.json`
 
 ## Cách xử lý query tiếng Việt
@@ -43,3 +44,5 @@ Sau khi chunking, hai cấu hình được tạo để so sánh retrieval:
 - `data/chunks_800/`: 350 chunks, overlap mục tiêu 120 tokens.
 
 Thống kê chi tiết và lỗi của mỗi cấu hình nằm trong `chunk_report.json` tương ứng.
+
+Phần 4 dùng Qdrant local với hai collection `medical_chunks_300` và `medical_chunks_800`. Mỗi point có named vector `dense` (multilingual E5, 384 chiều), named vector `sparse` (BM25) và payload đầy đủ metadata chunk. Báo cáo ingestion nằm tại `data/vector_store/ingestion_report.json`.
