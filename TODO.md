@@ -64,15 +64,15 @@
 
 ## 6. Hybrid Retrieval
 
-- [ ] Detect ngôn ngữ query.
-- [ ] Tạo `original_query`, `normalized_query` và `translated_query_en`.
-- [ ] Implement multilingual dense retrieval bằng `original_query`.
-- [ ] Implement BM25/sparse retrieval bằng `translated_query_en` cho corpus tiếng Anh.
-- [ ] Lấy top-k riêng cho dense và BM25.
-- [ ] Kết hợp kết quả bằng Reciprocal Rank Fusion (RRF).
-- [ ] So sánh dense multilingual-only, BM25-only và multilingual hybrid.
-- [ ] Lưu lại score, rank và chunk ID của từng retriever.
-- [ ] Tối ưu `top_k_dense`, `top_k_bm25` và `top_k_fused`.
+- [x] Detect ngôn ngữ query.
+- [x] Tạo `original_query`, `normalized_query` và `translated_query_en`.
+- [x] Implement multilingual dense retrieval bằng `original_query`.
+- [x] Implement BM25/sparse retrieval bằng `translated_query_en` cho corpus tiếng Anh.
+- [x] Lấy top-k riêng cho dense và BM25.
+- [x] Kết hợp kết quả bằng Reciprocal Rank Fusion (RRF).
+- [x] So sánh dense multilingual-only, BM25-only và multilingual hybrid.
+- [x] Lưu lại score, rank và chunk ID của từng retriever.
+- [x] Tối ưu `top_k_dense`, `top_k_bm25` và `top_k_fused` trên smoke set; cần retune ở Phần 9/10.
 
 ## 7. Reranking
 

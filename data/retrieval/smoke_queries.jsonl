@@ -1,0 +1,6 @@
+{"id":"vi_diabetes_symptoms","query":"Bệnh tiểu đường có triệu chứng gì?","expected_document_ids":["who_diabetes"],"language":"vi"}
+{"id":"vi_asthma_treatment","query":"Hen suyễn được phòng ngừa và điều trị như thế nào?","expected_document_ids":["who_asthma"],"language":"vi"}
+{"id":"vi_tuberculosis_medicine","query":"Thuốc điều trị bệnh lao là gì?","expected_document_ids":["who_tuberculosis"],"language":"vi"}
+{"id":"vi_rabies_transmission","query":"Bệnh dại lây truyền như thế nào?","expected_document_ids":["who_rabies"],"language":"vi"}
+{"id":"vi_depression_signs","query":"Trầm cảm có những dấu hiệu nào?","expected_document_ids":["who_depression"],"language":"vi"}
+{"id":"en_hypertension_symptoms","query":"What are the symptoms and treatment of hypertension?","expected_document_ids":["who_hypertension"],"language":"en"}
