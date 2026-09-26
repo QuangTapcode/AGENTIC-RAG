@@ -1,0 +1,353 @@
+{
+  "dataset_id": "who_fact_sheets_30_2026_09_27",
+  "generated_at": "2026-09-26T19:05:30.755495+00:00",
+  "chunk_size": 800,
+  "overlap_target_tokens": 120,
+  "tokenizer": "cl100k_base",
+  "input": {
+    "manifest": "D:/HocTap/Nam4/HKDN/AISOEASY/data/manifest.json",
+    "parsed_directory": "D:/HocTap/Nam4/HKDN/AISOEASY/data/parsed"
+  },
+  "policy": {
+    "section_first": true,
+    "atomic_blocks": [
+      "table",
+      "fenced_block",
+      "list",
+      "paragraph"
+    ],
+    "oversized_atomic_block_policy": "token_split_with_quality_flag",
+    "page_metadata": "null_for_markdown_inputs"
+  },
+  "lessons_learned": [
+    "Token count must include heading and Markdown separators; checking only the sum of block tokens can exceed the budget.",
+    "Long lists should be split at item boundaries before tokenizer splitting so medical instruction items remain intact.",
+    "Section-first chunking preserves context but can produce short chunks when a section is smaller than the target budget."
+  ],
+  "summary": {
+    "expected_documents": 30,
+    "documents_with_chunks": 30,
+    "total_chunks": 350,
+    "total_tokens": 89952,
+    "token_statistics": {
+      "min": 16,
+      "max": 799,
+      "mean": 257.01,
+      "median": 193.5
+    },
+    "chunks_with_overlap": 32,
+    "overlap_statistics": {
+      "min": 58,
+      "max": 120,
+      "mean": 109.22,
+      "median": 111.5
+    },
+    "section_count": 318,
+    "quality_flag_counts": {},
+    "over_limit_chunks": 0,
+    "failure_count": 0
+  },
+  "documents": {
+    "who_anaemia": {
+      "chunk_count": 9,
+      "token_count": 1807,
+      "token_statistics": {
+        "min": 28,
+        "max": 444,
+        "mean": 200.78,
+        "median": 167
+      }
+    },
+    "who_antimicrobial_resistance": {
+      "chunk_count": 10,
+      "token_count": 2515,
+      "token_statistics": {
+        "min": 33,
+        "max": 679,
+        "mean": 251.5,
+        "median": 199.0
+      }
+    },
+    "who_asthma": {
+      "chunk_count": 8,
+      "token_count": 1596,
+      "token_statistics": {
+        "min": 84,
+        "max": 367,
+        "mean": 199.5,
+        "median": 183.5
+      }
+    },
+    "who_cancer": {
+      "chunk_count": 13,
+      "token_count": 2631,
+      "token_statistics": {
+        "min": 30,
+        "max": 442,
+        "mean": 202.38,
+        "median": 202
+      }
+    },
+    "who_cardiovascular_diseases": {
+      "chunk_count": 10,
+      "token_count": 2023,
+      "token_statistics": {
+        "min": 39,
+        "max": 387,
+        "mean": 202.3,
+        "median": 234.5
+      }
+    },
+    "who_cholera": {
+      "chunk_count": 17,
+      "token_count": 2482,
+      "token_statistics": {
+        "min": 29,
+        "max": 457,
+        "mean": 146.0,
+        "median": 139
+      }
+    },
+    "who_copd": {
+      "chunk_count": 8,
+      "token_count": 1772,
+      "token_statistics": {
+        "min": 46,
+        "max": 428,
+        "mean": 221.5,
+        "median": 196.5
+      }
+    },
+    "who_covid19": {
+      "chunk_count": 8,
+      "token_count": 2382,
+      "token_statistics": {
+        "min": 39,
+        "max": 695,
+        "mean": 297.75,
+        "median": 237.0
+      }
+    },
+    "who_dementia": {
+      "chunk_count": 10,
+      "token_count": 2107,
+      "token_statistics": {
+        "min": 27,
+        "max": 344,
+        "mean": 210.7,
+        "median": 236.0
+      }
+    },
+    "who_dengue": {
+      "chunk_count": 11,
+      "token_count": 2595,
+      "token_statistics": {
+        "min": 34,
+        "max": 664,
+        "mean": 235.91,
+        "median": 175
+      }
+    },
+    "who_depression": {
+      "chunk_count": 7,
+      "token_count": 1888,
+      "token_statistics": {
+        "min": 31,
+        "max": 528,
+        "mean": 269.71,
+        "median": 243
+      }
+    },
+    "who_diabetes": {
+      "chunk_count": 11,
+      "token_count": 1705,
+      "token_statistics": {
+        "min": 27,
+        "max": 320,
+        "mean": 155.0,
+        "median": 148
+      }
+    },
+    "who_diarrhoeal_disease": {
+      "chunk_count": 8,
+      "token_count": 1655,
+      "token_statistics": {
+        "min": 35,
+        "max": 425,
+        "mean": 206.88,
+        "median": 144.5
+      }
+    },
+    "who_epilepsy": {
+      "chunk_count": 10,
+      "token_count": 1963,
+      "token_statistics": {
+        "min": 30,
+        "max": 392,
+        "mean": 196.3,
+        "median": 187.0
+      }
+    },
+    "who_heart_attack": {
+      "chunk_count": 9,
+      "token_count": 2052,
+      "token_statistics": {
+        "min": 29,
+        "max": 519,
+        "mean": 228.0,
+        "median": 224
+      }
+    },
+    "who_hepatitis_b": {
+      "chunk_count": 10,
+      "token_count": 2360,
+      "token_statistics": {
+        "min": 30,
+        "max": 497,
+        "mean": 236.0,
+        "median": 215.0
+      }
+    },
+    "who_hepatitis_c": {
+      "chunk_count": 10,
+      "token_count": 2629,
+      "token_statistics": {
+        "min": 30,
+        "max": 786,
+        "mean": 262.9,
+        "median": 185.0
+      }
+    },
+    "who_hiv_aids": {
+      "chunk_count": 11,
+      "token_count": 2090,
+      "token_statistics": {
+        "min": 30,
+        "max": 349,
+        "mean": 190.0,
+        "median": 201
+      }
+    },
+    "who_hypertension": {
+      "chunk_count": 10,
+      "token_count": 1909,
+      "token_statistics": {
+        "min": 30,
+        "max": 405,
+        "mean": 190.9,
+        "median": 192.0
+      }
+    },
+    "who_influenza_seasonal": {
+      "chunk_count": 10,
+      "token_count": 2016,
+      "token_statistics": {
+        "min": 52,
+        "max": 377,
+        "mean": 201.6,
+        "median": 185.0
+      }
+    },
+    "who_malaria": {
+      "chunk_count": 15,
+      "token_count": 2968,
+      "token_statistics": {
+        "min": 104,
+        "max": 330,
+        "mean": 197.87,
+        "median": 199
+      }
+    },
+    "who_measles": {
+      "chunk_count": 10,
+      "token_count": 2121,
+      "token_statistics": {
+        "min": 29,
+        "max": 327,
+        "mean": 212.1,
+        "median": 223.0
+      }
+    },
+    "who_meningitis": {
+      "chunk_count": 14,
+      "token_count": 2405,
+      "token_statistics": {
+        "min": 29,
+        "max": 343,
+        "mean": 171.79,
+        "median": 133.5
+      }
+    },
+    "who_obesity": {
+      "chunk_count": 15,
+      "token_count": 3037,
+      "token_statistics": {
+        "min": 16,
+        "max": 583,
+        "mean": 202.47,
+        "median": 155
+      }
+    },
+    "who_pneumonia_children": {
+      "chunk_count": 26,
+      "token_count": 14023,
+      "token_statistics": {
+        "min": 79,
+        "max": 795,
+        "mean": 539.35,
+        "median": 776.5
+      }
+    },
+    "who_rabies": {
+      "chunk_count": 13,
+      "token_count": 2798,
+      "token_statistics": {
+        "min": 27,
+        "max": 552,
+        "mean": 215.23,
+        "median": 188
+      }
+    },
+    "who_sepsis": {
+      "chunk_count": 10,
+      "token_count": 2376,
+      "token_statistics": {
+        "min": 97,
+        "max": 672,
+        "mean": 237.6,
+        "median": 157.5
+      }
+    },
+    "who_stroke": {
+      "chunk_count": 10,
+      "token_count": 1901,
+      "token_statistics": {
+        "min": 26,
+        "max": 510,
+        "mean": 190.1,
+        "median": 175.5
+      }
+    },
+    "who_tuberculosis": {
+      "chunk_count": 12,
+      "token_count": 2393,
+      "token_statistics": {
+        "min": 30,
+        "max": 383,
+        "mean": 199.42,
+        "median": 209.5
+      }
+    },
+    "who_yellow_fever": {
+      "chunk_count": 25,
+      "token_count": 13753,
+      "token_statistics": {
+        "min": 85,
+        "max": 799,
+        "mean": 550.12,
+        "median": 781
+      }
+    }
+  },
+  "failures": []
+}

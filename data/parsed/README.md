@@ -7,7 +7,7 @@ Các file JSON trong thư mục này là output của Kreuzberg từ 30 tài li�
 - Tài liệu nguồn hiện tại là Markdown tiếng Anh được trích xuất từ các trang WHO.
 - `source_url` trong mỗi file vẫn trỏ về trang WHO gốc để giữ provenance và phục vụ citation.
 - Kreuzberg được cấu hình với `OutputFormat.MARKDOWN` để giữ heading, danh sách và cấu trúc Markdown trước khi chunking.
-- Dữ liệu parsed chưa phải là chunk. Chunking 300/800 tokens sẽ thực hiện ở Bước 3.
+- Dữ liệu parsed là đầu vào cho Bước 3; output chunking nằm tại `data/chunks_300/` và `data/chunks_800/`.
 - Corpus hiện chưa có PDF scan hoặc ảnh nên OCR chưa được kích hoạt.
 - Nếu Kreuzberg lỗi, parser giữ lại raw UTF-8 bằng fallback và ghi lỗi vào trường `error`.
 - Không nên sửa trực tiếp các file JSON trong thư mục này; hãy sửa dữ liệu nguồn hoặc parser rồi chạy lại.

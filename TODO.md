@@ -33,12 +33,14 @@
 
 ## 3. Chunking
 
-- [ ] Thiết kế chunk theo heading/section trước khi cắt theo kích thước.
-- [ ] Tạo bộ chunk `300 tokens`, overlap khoảng 50–80 tokens.
-- [ ] Tạo bộ chunk `800 tokens`, overlap khoảng 100–160 tokens.
-- [ ] Không cắt giữa bảng, liều lượng, danh sách chống chỉ định hoặc câu quan trọng.
-- [ ] Lưu metadata `chunk_id`, `document_id`, trang, section và chunk size.
-- [ ] Lưu hai bộ dữ liệu tại `data/chunks_300/` và `data/chunks_800/`.
+- [x] Thiết kế chunk theo heading/section trước khi cắt theo kích thước.
+- [x] Tạo bộ chunk `300 tokens`, overlap mục tiêu 60 tokens (khoảng 50–80 tokens).
+- [x] Tạo bộ chunk `800 tokens`, overlap mục tiêu 120 tokens (khoảng 100–160 tokens).
+- [x] Không cắt giữa bảng, liều lượng, danh sách chống chỉ định hoặc câu quan trọng khi block/item còn vừa budget; ghi `quality_flags` nếu phải split.
+- [x] Lưu metadata `chunk_id`, `document_id`, trang, source line, section và chunk size.
+- [x] Lưu hai bộ dữ liệu tại `data/chunks_300/` và `data/chunks_800/`.
+- [x] Dùng `tiktoken` với `cl100k_base` để kiểm tra token count chính xác.
+- [x] Tạo `chunk_report.json` và kiểm tra không có chunk vượt giới hạn, thiếu document hoặc lỗi chunking.
 
 ## 4. Embedding và Vector Database
 

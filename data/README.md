@@ -10,6 +10,8 @@ Dataset hiện tại gồm 30 WHO fact sheets về bệnh và sức khỏe.
 - Ngày thu thập: 2026-09-27
 - File raw: `data/raw/*.md`
 - File parsed: `data/parsed/*.json`
+- File chunks 300 tokens: `data/chunks_300/chunks.jsonl`
+- File chunks 800 tokens: `data/chunks_800/chunks.jsonl`
 - Metadata và source URL: `data/manifest.json`
 
 ## Cách xử lý query tiếng Việt
@@ -34,3 +36,10 @@ Giữ nguyên attribution và URL nguồn WHO. Trước khi public dataset hoặ
 Dataset phải có 30 file Markdown trong `data/raw/`, mỗi file có nội dung không rỗng và tương ứng với một `document_id` trong `data/manifest.json`.
 
 Sau khi parsing, mỗi document có một file JSON tương ứng trong `data/parsed/` và báo cáo tổng hợp tại `data/parsed/parse_report.json`.
+
+Sau khi chunking, hai cấu hình được tạo để so sánh retrieval:
+
+- `data/chunks_300/`: 476 chunks, overlap mục tiêu 60 tokens.
+- `data/chunks_800/`: 350 chunks, overlap mục tiêu 120 tokens.
+
+Thống kê chi tiết và lỗi của mỗi cấu hình nằm trong `chunk_report.json` tương ứng.
