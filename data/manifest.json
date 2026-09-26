@@ -1,0 +1,260 @@
+{
+  "dataset_id": "who_fact_sheets_30_2026_09_27",
+  "description": "30 WHO fact sheets về bệnh và sức khỏe dùng cho prototype Agentic RAG Y tế.",
+  "organization": "World Health Organization",
+  "language": "en",
+  "source_language": "en",
+  "supported_query_languages": ["vi", "en"],
+  "supported_answer_languages": ["vi", "en"],
+  "retrieval_strategy": "multilingual_hybrid",
+  "dense_retrieval_text": "original_query",
+  "sparse_retrieval_text": "translated_query_en_for_bm25",
+  "reranking_strategy": "cross_lingual_reranker",
+  "collection_date": "2026-09-27",
+  "document_count": 30,
+  "source_catalog": "https://www.who.int/news-room/fact-sheets",
+  "retrieval_method": "Nội dung Markdown được trích xuất từ URL WHO qua reader proxy; source_url luôn trỏ về trang WHO gốc.",
+  "license_note": "Giữ attribution và source_url của WHO. Kiểm tra điều khoản bản quyền trước khi public redistribution hoặc dùng thương mại.",
+  "documents": [
+    {
+      "document_id": "who_asthma",
+      "title": "Asthma",
+      "topic": "respiratory disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+      "raw_file": "data/raw/who_asthma.md",
+      "published_date": "2026-04-28"
+    },
+    {
+      "document_id": "who_cancer",
+      "title": "Cancer",
+      "topic": "cancer",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+      "raw_file": "data/raw/who_cancer.md",
+      "published_date": "2026-07-03"
+    },
+    {
+      "document_id": "who_dengue",
+      "title": "Dengue and severe dengue",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+      "raw_file": "data/raw/who_dengue.md",
+      "published_date": "2025-08-21"
+    },
+    {
+      "document_id": "who_diabetes",
+      "title": "Diabetes",
+      "topic": "metabolic disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "raw_file": "data/raw/who_diabetes.md",
+      "published_date": "2024-11-14"
+    },
+    {
+      "document_id": "who_heart_attack",
+      "title": "Heart attack",
+      "topic": "cardiovascular disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/heart-attack",
+      "raw_file": "data/raw/who_heart_attack.md",
+      "published_date": "2026-09-10"
+    },
+    {
+      "document_id": "who_hypertension",
+      "title": "Hypertension",
+      "topic": "cardiovascular disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+      "raw_file": "data/raw/who_hypertension.md",
+      "published_date": "2025-09-25"
+    },
+    {
+      "document_id": "who_malaria",
+      "title": "Malaria",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+      "raw_file": "data/raw/who_malaria.md",
+      "published_date": "2025-12-04"
+    },
+    {
+      "document_id": "who_tuberculosis",
+      "title": "Tuberculosis",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "raw_file": "data/raw/who_tuberculosis.md",
+      "published_date": "2026-03-24"
+    },
+    {
+      "document_id": "who_covid19",
+      "title": "Coronavirus disease (COVID-19)",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)",
+      "raw_file": "data/raw/who_covid19.md",
+      "published_date": "2025-11-27"
+    },
+    {
+      "document_id": "who_copd",
+      "title": "Chronic obstructive pulmonary disease (COPD)",
+      "topic": "respiratory disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+      "raw_file": "data/raw/who_copd.md",
+      "published_date": "2026-06-10"
+    },
+    {
+      "document_id": "who_depression",
+      "title": "Depressive disorder (depression)",
+      "topic": "mental health",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+      "raw_file": "data/raw/who_depression.md",
+      "published_date": "2026-09-11"
+    },
+    {
+      "document_id": "who_epilepsy",
+      "title": "Epilepsy",
+      "topic": "neurological disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+      "raw_file": "data/raw/who_epilepsy.md",
+      "published_date": "2024-02-07"
+    },
+    {
+      "document_id": "who_hepatitis_b",
+      "title": "Hepatitis B",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+      "raw_file": "data/raw/who_hepatitis_b.md",
+      "published_date": "2026-07-28"
+    },
+    {
+      "document_id": "who_hiv_aids",
+      "title": "HIV and AIDS",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+      "raw_file": "data/raw/who_hiv_aids.md",
+      "published_date": "2026-07-27"
+    },
+    {
+      "document_id": "who_measles",
+      "title": "Measles",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+      "raw_file": "data/raw/who_measles.md",
+      "published_date": "2026-07-15"
+    },
+    {
+      "document_id": "who_meningitis",
+      "title": "Meningitis",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+      "raw_file": "data/raw/who_meningitis.md",
+      "published_date": "2025-04-01"
+    },
+    {
+      "document_id": "who_obesity",
+      "title": "Obesity and overweight",
+      "topic": "metabolic disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "raw_file": "data/raw/who_obesity.md",
+      "published_date": "2025-12-08"
+    },
+    {
+      "document_id": "who_rabies",
+      "title": "Rabies",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "raw_file": "data/raw/who_rabies.md",
+      "published_date": "2026-09-17"
+    },
+    {
+      "document_id": "who_stroke",
+      "title": "Stroke",
+      "topic": "neurological disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/stroke",
+      "raw_file": "data/raw/who_stroke.md",
+      "published_date": "2025-12-19"
+    },
+    {
+      "document_id": "who_yellow_fever",
+      "title": "Yellow fever",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+      "raw_file": "data/raw/who_yellow_fever.md",
+      "published_date": "2025-10-20"
+    },
+    {
+      "document_id": "who_anaemia",
+      "title": "Anaemia",
+      "topic": "blood disorder",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+      "raw_file": "data/raw/who_anaemia.md",
+      "published_date": "2025-02-10"
+    },
+    {
+      "document_id": "who_antimicrobial_resistance",
+      "title": "Antimicrobial resistance",
+      "topic": "medicines and infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "raw_file": "data/raw/who_antimicrobial_resistance.md",
+      "published_date": "2026-07-16"
+    },
+    {
+      "document_id": "who_cardiovascular_diseases",
+      "title": "Cardiovascular diseases (CVDs)",
+      "topic": "cardiovascular disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+      "raw_file": "data/raw/who_cardiovascular_diseases.md",
+      "published_date": "2025-07-31"
+    },
+    {
+      "document_id": "who_cholera",
+      "title": "Cholera",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+      "raw_file": "data/raw/who_cholera.md",
+      "published_date": "2024-12-05"
+    },
+    {
+      "document_id": "who_dementia",
+      "title": "Dementia",
+      "topic": "neurological disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "raw_file": "data/raw/who_dementia.md",
+      "published_date": "2026-07-03"
+    },
+    {
+      "document_id": "who_diarrhoeal_disease",
+      "title": "Diarrhoeal disease",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+      "raw_file": "data/raw/who_diarrhoeal_disease.md",
+      "published_date": "2024-03-07"
+    },
+    {
+      "document_id": "who_hepatitis_c",
+      "title": "Hepatitis C",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c",
+      "raw_file": "data/raw/who_hepatitis_c.md",
+      "published_date": "2026-07-28"
+    },
+    {
+      "document_id": "who_influenza_seasonal",
+      "title": "Influenza (seasonal)",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+      "raw_file": "data/raw/who_influenza_seasonal.md",
+      "published_date": "2025-02-28"
+    },
+    {
+      "document_id": "who_pneumonia_children",
+      "title": "Pneumonia in children",
+      "topic": "respiratory disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/pneumonia",
+      "raw_file": "data/raw/who_pneumonia_children.md",
+      "published_date": "2022-11-11"
+    },
+    {
+      "document_id": "who_sepsis",
+      "title": "Sepsis",
+      "topic": "infectious disease",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+      "raw_file": "data/raw/who_sepsis.md",
+      "published_date": "2024-05-03"
+    }
+  ]
+}

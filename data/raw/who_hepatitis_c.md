@@ -1,0 +1,125 @@
+Title: Hepatitis C
+
+URL Source: http://www.who.int/news-room/fact-sheets/detail/hepatitis-c
+
+Markdown Content:
+## Key facts
+
+*   Hepatitis C is an inflammation of the liver caused by the hepatitis C virus.
+*   The virus can cause both acute and chronic hepatitis, ranging in severity from a mild illness to a serious, lifelong illness including liver cirrhosis and cancer.
+*   The hepatitis C virus is a bloodborne virus and most infection occurs through exposure to blood from unsafe injections and procedures in health care, unscreened blood transfusions, sharing of needles and syringes among people who inject drugs and sexual practices that lead to exposure to blood.
+*   Globally, an estimated 47 million people have chronic hepatitis C virus infection, with about 0.9 million new infections occurring per year.
+*   WHO estimated that in 2024, approximately 239 000 people died from hepatitis C, mostly from cirrhosis and hepatocellular carcinoma (primary liver cancer).
+*   Direct-acting antiviral medicines (DAAs) can cure more than 95% of persons with hepatitis C infection, but access to diagnosis and treatment is low.
+*   There is currently no effective vaccine against hepatitis C.
+
+* * *
+
+## Overview
+
+Hepatitis C is a viral infection that affects the liver. It can cause both acute (short term) and chronic (long term) illness. It can be life-threatening.
+
+Hepatitis C is spread through contact with infected blood. This can happen through unsafe injections and procedures in health care, unscreened blood transfusions, sharing of needles and syringes among people who inject drugs and sexual practices that lead to exposure to blood.
+
+Symptoms can include fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, dark urine and yellowing of the skin or eyes (jaundice).
+
+There is no vaccine for hepatitis C, but it can be treated and cured with antiviral medications.
+
+Early detection and treatment can prevent serious liver damage and improve long-term health.
+
+Acute HCV infections are usually asymptomatic and most do not lead to a life-threatening disease. Around 30% (15–45%) of infected persons spontaneously clear the virus within 6 months of infection without any treatment.
+
+The remaining 70% (55–85%) of persons will develop chronic HCV infection. Of those with chronic HCV infection, the risk of cirrhosis ranges from 15% to 30% within 20 years.
+
+## Geographical distribution
+
+Hepatitis C virus infection occurs in all WHO regions. The highest burden of disease is in the Eastern Mediterranean Region with 12 million people chronically infected. In the South-East Asia Region (9 million), European Region (9 million) and the Western Pacific Region (7 million) people are chronically infected. Eight million people are chronically infected in the African Region and 5 million the Region of the Americas.
+
+## Transmission
+
+The hepatitis C virus is a bloodborne virus. It is most commonly transmitted through:
+
+*   the reuse or inadequate sterilization of medical equipment, especially syringes and needles in healthcare settings;
+*   the transfusion of unscreened blood and blood products; and
+*   injecting drug use through the sharing of injection equipment.
+
+HCV can be passed from an infected mother to her baby and via sexual practices that lead to exposure to blood (for example, people with multiple sexual partners and among men who have sex with men); however, these modes of transmission are less common.
+
+Hepatitis C is not spread through breast milk, food, water or casual contact such as hugging, kissing and sharing food or drinks with an infected person.
+
+## Symptoms
+
+Symptomatic acute HCV infection is uncommon; if it occurs, most people do not have symptoms in the first weeks after infection. It can take between two weeks and six months to have symptoms.
+
+When symptoms do appear, they may include:
+
+*   fever
+*   feeling very tired
+*   loss of appetite
+*   nausea and vomiting 
+*   abdominal pain
+*   dark urine
+*   pale faeces
+*   joint pain
+*   jaundice (yellowing of the skin or eyes).
+
+## Testing and diagnosis
+
+Because new HCV infections are usually asymptomatic, few people are diagnosed when the infection is recent. In those people who develop chronic HCV infection, the infection is often undiagnosed because it remains asymptomatic until decades after infection when symptoms develop secondary to serious liver damage.
+
+HCV infection is diagnosed in 2 steps:
+
+1.   Testing for anti-HCV antibodies with a serological test identifies people who have been infected with the virus.
+2.   If the test is positive for anti-HCV antibodies, a nucleic acid test for HCV ribonucleic acid (RNA) is needed to confirm chronic infection and the need for treatment. This test is important because about 30% of people infected with HCV spontaneously clear the infection by a strong immune response without the need for treatment. Although no longer infected, they will still test positive for anti-HCV antibodies. This nucleic acid for HCV RNA can either be done in a lab or using a simple point-of-care machine in the clinic. 
+
+After a person has been diagnosed with chronic HCV infection, an assessment should be conducted to determine the degree of liver damage (fibrosis and cirrhosis). This can be done by liver biopsy or through a variety of non-invasive blood tests. The degree of liver damage is used to guide treatment decisions and management of the disease.
+
+Early diagnosis can prevent health problems that may result from infection and prevent transmission of the virus. WHO recommends testing people who may be at increased risk of infection in all settings, including among blood donors, people with signs of liver disease, migrants from endemic regions, health-care workers, people who inject drugs (PWID), people in prisons and other closed settings, men who have sex with men (MSM), transgender people, sex workers and HIV- and TB-infected persons.
+
+In settings with intermediate and high HCV antibody seroprevalence in the general population (defined as >2% HCV antibody seroprevalence), WHO also recommends general population testing in all adolescents and adults.
+
+In 2024, WHO released an[operational guide](http://www.who.int/publications/i/item/9789240104082)on priorities in planning hepatitis B and C testing services that consolidates all guidance related to viral hepatitis testing and supports countries in developing policies and practices that define a strategic mix of hepatitis B and C testing approaches.
+
+Treatment
+
+In November 2013 and January 2014, the Food and Drug Administration and the European Medicines Agency approved the very first interferon-free treatment options for chronic hepatitis C. This marked an impressive and truly unique milestone in modern medicine and public health, as it became possible to cure a severe, life-threatening chronic infectious disease within 8–12 weeks of therapy in nearly all patients.
+
+WHO recommends therapy with pan-genotypic direct-acting antivirals (DAAs) for all adults, adolescents and children down to 3 years of age with chronic hepatitis C infection. The short-course oral, curative DAA treatment regimens has few if any side-effects. DAAs can cure most persons with HCV infection, and treatment duration is short (usually 12 to 24 weeks), depending on the absence or presence of cirrhosis. In 2022, WHO included new recommendations for treatment of adolescents and children using the same pangenotypic treatments used for adults.
+
+Pan-genotypic DAAs remain expensive in many high- and upper-middle-income countries. However, prices have dropped dramatically in many countries (primarily low-income and lower-middle-income countries) due to the introduction of generic versions of these medicines. The most widely used and low-cost pangenotypic DAA regimen is sofosbuvir and daclatasvir. In many low- and middle-income countries the standard curative treatment course is available for less than US$50.
+
+Access to HCV treatment is improving but remains limited. Of the cumulative total 68 million people (95% uncertainty interval (UI): 46–103 million) ever infected with HCV infection globally during the period 2015–2024, 36% (95% UI: 17-57%) knew their diagnosis, which is equivalent to 24 million people (95% UI: 18–25 million). Of those diagnosed with chronic HCV infection, around 20% (95% UI: 10–31%) had been treated with DAAs by the end of 2024, which is equivalent to 13 million people (95% UI: 12–20 million). As of 2024, 11 million people (95% UI: 7.4–15 million) had been diagnosed with HCV infection but were not yet on treatment.
+
+People with hepatitis C may also benefit from lifestyle changes, such as avoiding alcohol and maintaining a healthy weight. With proper treatment, many people can be cured from hepatitis C infection and live healthy lives.
+
+Service delivery
+
+Until recently, delivery of hepatitis C testing and treatment in many countries relied on specialist-led (usually by a hepatologist or gastroenterologist) care models in hospital settings to administer complex treatment. With the short-course oral, curative pangenotypic HCV DAA treatment regimens with few if any side-effects, minimal expertise and monitoring are required. WHO recommends that testing, care and treatment for persons with chronic hepatitis C infection can be provided by trained non-specialist doctors and nurses, using simplified service delivery that includes decentralization, integration and task shifting. This can be done in primary care, harm reduction services and prisons which is more accessible and convenient for patients.
+
+Testing, care and treatment can now also be provided safely in primary care, harm reduction services and prisons which is more accessible and convenient for patients.
+
+## Prevention
+
+There is no effective vaccine against hepatitis C. The best way to prevent the disease is to avoid contact with infected blood.
+
+People at higher risk of infection include those who inject drugs, men who have sex with men,those living with HIV and those exposed to repeated health-care procedures.
+
+Ways to prevent hepatitis C include:
+
+*   safe and appropriate use of health-care injections and procedures;
+*   safe handling and disposal of needles and medical waste;
+*   harm-reduction services for people who inject drugs, such as needle exchange programmes, substance use counselling and use of opiate agonist therapy (OAT);
+*   testing of donated blood for the hepatitis C virus and other viruses; and
+*   practicing safe sex by using barrier methods such as condoms. 
+
+## WHO response
+
+Global health sector strategies on, respectively, HIV, viral hepatitis, and sexually transmitted infections for the period 2022–2030 (GHSS) guide the health sector in implementing strategically focused responses to achieve the goals of ending AIDS, viral hepatitis (especially chronic hepatitis B and C)and sexually transmitted infections by 2030.
+
+The GHSS recommend shared and disease-specific country actions supported by actions by WHO and partners. They consider the epidemiological, technological, and contextual shifts of previous years, foster learnings across the disease areas, and create opportunities to leverage innovations and new knowledge for effective responses to the diseases. They call to scale up prevention, testing and treatment of viral hepatitis with a focus to reach populations and communities most affected and at risk for each disease, as well as addressing gaps and inequities. They promote synergies under a universal health coverage and primary health care framework and contribute to achieving the goals of the 2030 Agenda for Sustainable Development.WHO supports countries to develop national strategies in line with this vision.
+
+Furthermore, WHO develops and updates guidelines for the prevention, testing and treatment of HCV and supports countries to reflect the latest science and recommendations in their public health response.
+
+Moreover, WHO collaborates with UNITAID in the implementation of a HCV investment in 10 countries for people who use drugs and people in prisons to catalyse best practice in integrating HCV prevention and treatment in community harm reduction settings and in facilitating introduction of innovative and under-used HCV prevention products (long-acting depot buprenorphine and low dead-space syringes).
+
+WHO organizes annual [World Hepatitis Day campaigns](https://www.who.int/campaigns/world-hepatitis-day)on 28 July to increase awareness and understanding of viral hepatitis.

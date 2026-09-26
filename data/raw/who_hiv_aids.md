@@ -1,0 +1,126 @@
+Title: HIV and AIDS
+
+URL Source: http://www.who.int/news-room/fact-sheets/detail/hiv-aids
+
+Markdown Content:
+## **Key facts**
+
+*   HIV remains a major global public health issue, having claimed an estimated 44.2 million lives to date. Transmission is ongoing in all countries globally.
+*   There were an estimated 41.0 million people living with HIV at the end of 2025, 64% of whom are in the WHO African Region.
+*   In 2025, an estimated 570 000 people died from HIV-related causes and an estimated 1.2 million people acquired HIV.
+*   There is no cure for HIV infection. However, with access to effective HIV prevention, diagnosis, treatment and care, including for opportunistic infections, HIV infection has become a manageable chronic health condition, enabling people living with HIV to lead long and healthy lives.
+*   WHO, the Global Fund and UNAIDS all have global HIV strategies that are aligned with the SDG target 3.3 of ending the HIV epidemic by 2030.
+*   In 2025, 88% of people living with HIV knew their HIV status, 89% of people who knew their HIV-positive status were receiving antiretroviral therapy (ART) and 95% of those on ART had suppressed viral loads, close to the “95-95-95” targets.
+
+* * *
+
+## **Overview**
+
+Human immunodeficiency virus (HIV) is a virus that attacks the body’s immune system. Acquired immunodeficiency syndrome (AIDS) occurs at the most advanced stage of infection.
+
+HIV targets the body’s white blood cells, weakening the immune system. This makes it easier to get sick with diseases like tuberculosis, infections and some cancers.
+
+HIV is spread from the body fluids of an infected person, including blood, breast milk, semen and vaginal fluids. It is not spread by kisses, hugs or sharing food. It can also spread from a mother to her baby.
+
+HIV can be prevented and treated with ART. Untreated HIV can progress to AIDS, often after many years.
+
+WHO now defines Advanced HIV Disease (AHD) as a CD4 cell count of less than 200 cells/mm3 or WHO stage 3 or 4 event in adults and adolescents. All children younger than 5 years of age living with HIV are considered to have advanced HIV disease, regardless of clinical or immunological status.
+
+## **Signs and symptoms**
+
+The signs and symptoms of HIV vary depending on the stage of infection.
+
+HIV spreads more easily in the first few months after a person is infected, but many are unaware of their status until the later stages. In the first few weeks after being infected people may not experience symptoms. Others may have an influenza-like illness including:
+
+*   fever
+*   headache
+*   rash
+*   sore throat.
+
+The infection progressively weakens the immune system. This can cause other signs and symptoms:
+
+*   swollen lymph nodes
+*   weight loss
+*   fever
+*   diarrhoea
+*   cough.
+
+Without treatment, people living with HIV infection can also develop severe illnesses:
+
+*   tuberculosis (TB)
+*   cryptococcal meningitis
+*   severe bacterial infections
+*   cancers such as lymphomas and Kaposi's sarcoma.
+
+HIV can make other infections, such as hepatitis C, hepatitis B and mpox, get worse.
+
+## **Transmission**
+
+HIV can be transmitted via the exchange of body fluids from people living with HIV, including blood, breast milk, semen, and vaginal secretions. HIV can also be transmitted to a child during pregnancy and delivery. People cannot become infected with HIV through ordinary day-to-day contact such as kissing, hugging, shaking hands, or sharing personal objects, food or water.
+
+People living with HIV who are taking ART and have an undetectable viral load will not transmit HIV to their sexual partners. Early access to ART and support to remain on treatment is therefore critical not only to improve the health of people living with HIV but also to prevent HIV transmission.
+
+## **Risk factors**
+
+Behaviours and conditions that put people at greater risk of contracting HIV include:
+
+*   having anal or vaginal sex without a condom;
+*   having another sexually transmitted infection (STI) such as syphilis, herpes, chlamydia, gonorrhoea and bacterial vaginosis;
+*   harmful use of alcohol or drugs in the context of sexual behaviour;
+*   sharing contaminated needles, syringes and other injecting equipment, or drug solutions when injecting drugs;
+*   receiving unsafe injections, blood transfusions, or tissue transplantation; and
+*   medical procedures that involve unsterile cutting or piercing; or accidental needle stick injuries, including among health workers.
+
+## **Diagnosis**
+
+[HIV can be diagnosed](https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/hiv/testing-diagnostics/hiv-testing-services)through rapid diagnostic tests that provide same-day results. This greatly facilitates early diagnosis and linkage with treatment and prevention. People can also use HIV self-tests to test themselves. However, no single test can provide a full HIV positive diagnosis; confirmatory testing is required, conducted by a qualified and trained health worker or community worker. HIV infection can be detected with great accuracy using WHO prequalified tests within a nationally approved testing strategy and algorithm.
+
+Most widely used HIV diagnostic tests detect antibodies produced by a person as part of their immune response to fight HIV. In most cases, people develop antibodies to HIV within 28 days of infection. During this time, people are in the so-called “window period” when they have low levels of antibodies which cannot be detected by many rapid tests, but they may still transmit HIV to others. People who have had a recent high-risk exposure and test negative can have a further test after 28 days.
+
+Following a positive diagnosis, people should be retested before they are enrolled in treatment and care to rule out any potential testing or reporting error. While testing for adolescents and adults has been made simple and efficient, this is not the case for babies born to HIV-positive mothers. For children less than 18 months of age, rapid antibody testing is not sufficient to identify HIV infection – virological testing must be provided as early as birth or at 6 weeks of age. New technologies are now available to perform this test at the point of care and enable same-day results, which will accelerate appropriate linkage with treatment and care.
+
+## **Prevention**
+
+HIV is a preventable disease. The risk of HIV infection can be reduced by:
+
+*   using a male or female condom during sex
+*   being tested for HIV and other sexually transmitted infections
+*   being circumcised if you are a man
+*   using harm reduction services if you inject and use drugs.
+
+Pre-exposure prophylaxis (PrEP) is an additional prevention option. It is an antiretroviral (ARV) medication used by HIV-negative people to reduce the risk of HIV acquisition. WHO recommends the following PrEP methods:
+
+*   oral tenofovir (TDF)-based PrEP 
+*   dapivirine vaginal ring
+*   long-acting injectable cabotegravir
+*   long-acting injectable lenacapavir.
+
+ARVs can also be used to prevent mothers from passing HIV to their children.
+
+People taking ART and who have no evidence of virus in the blood will not pass HIV to their sexual partners. Access to testing and ART is an important part of preventing HIV.
+
+## **Antiretroviral drugs given to people without HIV can prevent infection**
+
+When given before possible exposures to HIV it is called pre-exposure prophylaxis (PrEP) and when given after an exposure it is called post-exposure prophylaxis (PEP). People can use PrEP or PEP when the risk of contracting HIV is high; people should seek advice from a clinician when thinking about using PrEP or PEP.
+
+## **Treatment**
+
+There is no cure for HIV infection. It is treated with antiretroviral drugs, which stop the virus from replicating in the body.
+
+Current ART does not cure HIV infection but allows a person’s immune system to get stronger. This helps them to fight other infections.
+
+ART lowers the amount of the virus in a person’s body. This stops symptoms and allows people to live full and healthy lives. People living with HIV who are taking ART and who have no evidence of virus in the blood will not spread the virus to their sexual partners.
+
+Pregnant women with HIV should have access to, and take, ART as soon as possible. This protects the health of the mother and will help prevent HIV transmission to the fetus before birth, or through breast milk.
+
+Advanced HIV disease remains a persistent problem in the HIV response. WHO is supporting countries to implement the advanced HIV disease package of care to reduce illness and death. Newer HIV medicines and short course treatments for opportunistic infections like cryptococcal meningitis are being developed that may change the way people take ART and prevention medicines, including access to long-acting injectable formulations,such as lenacapavir which now has been approved by the FDA for HIV prevention.
+
+[More information on HIV treatments](https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/hiv/treatment)
+
+## **WHO response**
+
+Global health sector strategies on HIV, viral hepatitis, and sexually transmitted infections for the period 2022–2030 ([GHSS](https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/strategies/global-health-sector-strategies)) guide strategic responses to achieve the goals of ending AIDS, viral hepatitis B and C, and sexually transmitted infections by 2030.
+
+WHO’s Department for HIV, Tuberculosis, Hepatitis, and Sexually Transmitted Infections recommend shared and disease-specific country actions supported by WHO and partners. They consider the epidemiological, technological, and contextual shifts of previous years, foster learning, and create opportunities to leverage innovation and new knowledge.
+
+WHO’s programmes call to reach the people most affected and most at risk for each disease, and to address inequities. Under a framework of universal health coverage and primary health care, WHO’s programmes contribute to achieving the goals of the 2030 Agenda for Sustainable Development.
