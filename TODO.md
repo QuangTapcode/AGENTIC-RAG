@@ -55,12 +55,12 @@
 
 ## 5. Scope Router và Agent Tools
 
-- [ ] Tạo classifier xác định query có thuộc chủ đề Y tế hay không.
-- [ ] Kết hợp rule-based keywords với LLM/classifier.
-- [ ] Tạo tool `reject_out_of_scope(query)`.
-- [ ] Nếu query ngoài phạm vi, gọi tool và kết thúc pipeline ngay.
-- [ ] Nếu confidence thấp, trả lời yêu cầu người dùng làm rõ hoặc thông báo không xác định được phạm vi.
-- [ ] Tạo log cho các trường hợp router phân loại sai.
+- [x] Tạo classifier xác định query có thuộc chủ đề Y tế hay không.
+- [x] Kết hợp rule-based keywords/manifest terms với hook LLM/classifier cho query mơ hồ.
+- [x] Tạo tool `reject_out_of_scope(query)`.
+- [x] Nếu query ngoài phạm vi, gọi tool và kết thúc pipeline ngay.
+- [x] Nếu confidence thấp, trả lời yêu cầu người dùng làm rõ.
+- [x] Tạo log feedback cho các trường hợp router phân loại sai, gồm expected, actual, root cause, fix và lesson learned.
 
 ## 6. Hybrid Retrieval
 
