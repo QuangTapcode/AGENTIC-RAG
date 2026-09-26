@@ -76,13 +76,13 @@
 
 ## 7. Reranking
 
-- [ ] Chọn cross-lingual cross-encoder/reranker hỗ trợ Việt–Anh.
-- [ ] Rerank khoảng 20 candidate từ hybrid retrieval.
-- [ ] Chọn top 5–8 chunk đưa vào LLM.
-- [ ] So sánh hybrid không reranking và hybrid có reranking.
-- [ ] Ghi nhận latency và điểm trước/sau reranking.
-- [ ] Xử lý trường hợp reranker chạy quá chậm hoặc xếp sai chunk.
-- [ ] Kiểm tra lỗi dịch query, tên thuốc, hoạt chất và viết tắt.
+- [x] Chọn cross-lingual cross-encoder/reranker hỗ trợ Việt–Anh: `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1`.
+- [x] Rerank khoảng 20 candidate từ hybrid retrieval.
+- [x] Chọn top 5–8 chunk đưa vào LLM; mặc định prototype chọn top 5.
+- [x] So sánh hybrid không reranking và hybrid có reranking trên smoke set.
+- [x] Ghi nhận latency và điểm trước/sau reranking.
+- [x] Xử lý trường hợp reranker chạy lỗi/quá chậm bằng fallback về hybrid order và ghi failure note.
+- [x] Kiểm tra bảo toàn query gốc, tên thuốc, hoạt chất và viết tắt; cần mở rộng evaluation chính thức.
 
 ## 8. Answer Generation và Citation
 

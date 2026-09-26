@@ -1,0 +1,3209 @@
+{
+  "generated_at": "2026-09-26T20:14:37Z",
+  "query_file": "data/retrieval/smoke_queries.jsonl",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "candidate_limit": 20,
+  "output_k": 5,
+  "model_load_status": "ok",
+  "model_load_error": null,
+  "model_load_latency_ms": 7084.383,
+  "chunk_sizes": {
+    "300": {
+      "before": {
+        "metrics": {
+          "hit_at_1": 0.5,
+          "hit_at_5": 1,
+          "mrr": 0.6667
+        }
+      },
+      "after": {
+        "metrics": {
+          "hit_at_1": 0.5,
+          "hit_at_5": 1,
+          "mrr": 0.6583
+        }
+      },
+      "latency_ms": {
+        "retrieval_p50": 56.329,
+        "retrieval_p95": 9286.802,
+        "rerank_p50": 1102.868,
+        "rerank_p95": 1160.053
+      },
+      "statuses": {
+        "ok": 6
+      },
+      "traces": [
+        {
+          "id": "vi_diabetes_symptoms",
+          "query": {
+            "original_query": "Bệnh tiểu đường có triệu chứng gì?",
+            "normalized_query": "bệnh tiểu đường có triệu chứng gì?",
+            "translated_query_en": "diabetes symptoms?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "có triệu chứng gì",
+              "bệnh tiểu đường"
+            ]
+          },
+          "expected_document_ids": [
+            "who_diabetes"
+          ],
+          "retrieval_latency_ms": 9286.802,
+          "rerank_latency_ms": 1045.11,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_diabetes__300__00045",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__300__00047",
+              "document_id": "who_diabetes",
+              "section": "Type 2 diabetes",
+              "rank": 2,
+              "rrf_score": 0.03200204813108039,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": 3,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__300__00057",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": 0.03149801587301587,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__300__00051",
+              "document_id": "who_diabetes",
+              "section": "Diagnosis and treatment",
+              "rank": 4,
+              "rrf_score": 0.029709507042253523,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 4,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__300__00049",
+              "document_id": "who_diabetes",
+              "section": "Impaired glucose tolerance and impaired fasting glycaemia",
+              "rank": 5,
+              "rrf_score": 0.027046783625730993,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 16,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_diabetes__300__00045",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.585024356842041,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hepatitis_b__300__00155",
+              "document_id": "who_hepatitis_b",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 2.3151094913482666,
+              "before_rank": 11,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__300__00057",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 2.105748414993286,
+              "before_rank": 3,
+              "before_rrf_score": 0.03149801587301587,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__300__00310",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 1.0445711612701416,
+              "before_rank": 7,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": 5,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_measles__300__00179",
+              "document_id": "who_measles",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 0.6137931942939758,
+              "before_rank": 9,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": 6,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_diabetes__300__00045",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.585024356842041,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hepatitis_b__300__00155",
+              "document_id": "who_hepatitis_b",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 2.3151094913482666,
+              "before_rank": 11,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__300__00057",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 2.105748414993286,
+              "before_rank": 3,
+              "before_rrf_score": 0.03149801587301587,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__300__00310",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 1.0445711612701416,
+              "before_rank": 7,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": 5,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_measles__300__00179",
+              "document_id": "who_measles",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 0.6137931942939758,
+              "before_rank": 9,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": 6,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_asthma_treatment",
+          "query": {
+            "original_query": "Hen suyễn được phòng ngừa và điều trị như thế nào?",
+            "normalized_query": "hen suyễn được phòng ngừa và điều trị như thế nào?",
+            "translated_query_en": "asthma prevention and treatment?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "được phòng ngừa và điều trị như thế nào",
+              "hen suyễn"
+            ]
+          },
+          "expected_document_ids": [
+            "who_asthma"
+          ],
+          "retrieval_latency_ms": 75.342,
+          "rerank_latency_ms": 1132.28,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_asthma__300__00009",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 1,
+              "rrf_score": 0.030017921146953404,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 12,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_copd__300__00126",
+              "document_id": "who_copd",
+              "section": "WHO response",
+              "rank": 2,
+              "rrf_score": 0.02819138376017471,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 13,
+              "bm25_rank": 9,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_dengue__300__00038",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 3,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00008",
+              "document_id": "who_asthma",
+              "section": "Self-care",
+              "rank": 4,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_pneumonia_children__300__00437",
+              "document_id": "who_pneumonia_children",
+              "section": "Preamble",
+              "rank": 5,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_dengue__300__00038",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 1.0150939226150513,
+              "before_rank": 3,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.21111145615577698,
+              "before_rank": 11,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": null,
+              "bm25_rank": 5,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00009",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.1219909191131592,
+              "before_rank": 1,
+              "before_rrf_score": 0.030017921146953404,
+              "dense_rank": 12,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00001",
+              "document_id": "who_asthma",
+              "section": "Preamble",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.4577271938323975,
+              "before_rank": 9,
+              "before_rrf_score": 0.015625,
+              "dense_rank": null,
+              "bm25_rank": 4,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00003",
+              "document_id": "who_asthma",
+              "section": "Impact",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.1610867977142334,
+              "before_rank": 7,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_dengue__300__00038",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 1.0150939226150513,
+              "before_rank": 3,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.21111145615577698,
+              "before_rank": 11,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": null,
+              "bm25_rank": 5,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00009",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.1219909191131592,
+              "before_rank": 1,
+              "before_rrf_score": 0.030017921146953404,
+              "dense_rank": 12,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00001",
+              "document_id": "who_asthma",
+              "section": "Preamble",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.4577271938323975,
+              "before_rank": 9,
+              "before_rrf_score": 0.015625,
+              "dense_rank": null,
+              "bm25_rank": 4,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00003",
+              "document_id": "who_asthma",
+              "section": "Impact",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.1610867977142334,
+              "before_rank": 7,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_tuberculosis_medicine",
+          "query": {
+            "original_query": "Thuốc điều trị bệnh lao là gì?",
+            "normalized_query": "thuốc điều trị bệnh lao là gì?",
+            "translated_query_en": "medicine treatment tuberculosis what is?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "bệnh lao",
+              "điều trị",
+              "là gì",
+              "thuốc"
+            ]
+          },
+          "expected_document_ids": [
+            "who_tuberculosis"
+          ],
+          "retrieval_latency_ms": 56.329,
+          "rerank_latency_ms": 1102.868,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_pneumonia_children__300__00422",
+              "document_id": "who_pneumonia_children",
+              "section": "Preamble",
+              "rank": 1,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__300__00085",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 2,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__300__00267",
+              "document_id": "who_yellow_fever",
+              "section": "Preamble",
+              "rank": 3,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__300__00097",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 4,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__300__00268",
+              "document_id": "who_yellow_fever",
+              "section": "Preamble",
+              "rank": 5,
+              "rrf_score": 0.015873015873015872,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_malaria__300__00085",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.7478335499763489,
+              "before_rank": 2,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__300__00083",
+              "document_id": "who_malaria",
+              "section": "Prevention > Preventive chemotherapies",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.7644438743591309,
+              "before_rank": 10,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": null,
+              "bm25_rank": 5,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -0.8754733204841614,
+              "before_rank": 20,
+              "before_rrf_score": 0.014285714285714285,
+              "dense_rank": null,
+              "bm25_rank": 10,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__300__00097",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.2882215976715088,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__300__00093",
+              "document_id": "who_tuberculosis",
+              "section": "Overview",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.7884024381637573,
+              "before_rank": 6,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_malaria__300__00085",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.7478335499763489,
+              "before_rank": 2,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__300__00083",
+              "document_id": "who_malaria",
+              "section": "Prevention > Preventive chemotherapies",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.7644438743591309,
+              "before_rank": 10,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": null,
+              "bm25_rank": 5,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__300__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -0.8754733204841614,
+              "before_rank": 20,
+              "before_rrf_score": 0.014285714285714285,
+              "dense_rank": null,
+              "bm25_rank": 10,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__300__00097",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.2882215976715088,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__300__00093",
+              "document_id": "who_tuberculosis",
+              "section": "Overview",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.7884024381637573,
+              "before_rank": 6,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_rabies_transmission",
+          "query": {
+            "original_query": "Bệnh dại lây truyền như thế nào?",
+            "normalized_query": "bệnh dại lây truyền như thế nào?",
+            "translated_query_en": "rabies transmission how?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "như thế nào",
+              "lây truyền",
+              "bệnh dại"
+            ]
+          },
+          "expected_document_ids": [
+            "who_rabies"
+          ],
+          "retrieval_latency_ms": 71.351,
+          "rerank_latency_ms": 1145.583,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_pneumonia_children__300__00411",
+              "document_id": "who_pneumonia_children",
+              "section": "Preamble",
+              "rank": 1,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00231",
+              "document_id": "who_rabies",
+              "section": "Prevention > Vaccinating dogs",
+              "rank": 2,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__300__00256",
+              "document_id": "who_yellow_fever",
+              "section": "Preamble",
+              "rank": 3,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00228",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 4,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__300__00298",
+              "document_id": "who_yellow_fever",
+              "section": "Yellow fever > Diagnosis",
+              "rank": 5,
+              "rrf_score": 0.015873015873015872,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_rabies__300__00228",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.6708247661590576,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00229",
+              "document_id": "who_rabies",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.9008901715278625,
+              "before_rank": 16,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": null,
+              "bm25_rank": 8,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00226",
+              "document_id": "who_rabies",
+              "section": "Overview > Dog-mediated rabies",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -2.16679310798645,
+              "before_rank": 6,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00225",
+              "document_id": "who_rabies",
+              "section": "Key facts",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -2.5911452770233154,
+              "before_rank": 18,
+              "before_rrf_score": 0.014492753623188406,
+              "dense_rank": null,
+              "bm25_rank": 9,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00234",
+              "document_id": "who_rabies",
+              "section": "Prevention > Vaccinating people",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -3.228422164916992,
+              "before_rank": 20,
+              "before_rrf_score": 0.014285714285714285,
+              "dense_rank": null,
+              "bm25_rank": 10,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_rabies__300__00228",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.6708247661590576,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00229",
+              "document_id": "who_rabies",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.9008901715278625,
+              "before_rank": 16,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": null,
+              "bm25_rank": 8,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00226",
+              "document_id": "who_rabies",
+              "section": "Overview > Dog-mediated rabies",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -2.16679310798645,
+              "before_rank": 6,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00225",
+              "document_id": "who_rabies",
+              "section": "Key facts",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -2.5911452770233154,
+              "before_rank": 18,
+              "before_rrf_score": 0.014492753623188406,
+              "dense_rank": null,
+              "bm25_rank": 9,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__300__00234",
+              "document_id": "who_rabies",
+              "section": "Prevention > Vaccinating people",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -3.228422164916992,
+              "before_rank": 20,
+              "before_rrf_score": 0.014285714285714285,
+              "dense_rank": null,
+              "bm25_rank": 10,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_depression_signs",
+          "query": {
+            "original_query": "Trầm cảm có những dấu hiệu nào?",
+            "normalized_query": "trầm cảm có những dấu hiệu nào?",
+            "translated_query_en": "depression signs?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "có những dấu hiệu nào",
+              "trầm cảm"
+            ]
+          },
+          "expected_document_ids": [
+            "who_depression"
+          ],
+          "retrieval_latency_ms": 49.333,
+          "rerank_latency_ms": 1160.053,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_stroke__300__00245",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": 0.03028233151183971,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_epilepsy__300__00141",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 2,
+              "rrf_score": 0.0288981288981289,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 14,
+              "bm25_rank": 5,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00248",
+              "document_id": "who_stroke",
+              "section": "Complications",
+              "rank": 3,
+              "rrf_score": 0.027417840375586856,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 15,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_depression__300__00129",
+              "document_id": "who_depression",
+              "section": "Key facts",
+              "rank": 4,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_pneumonia_children__300__00424",
+              "document_id": "who_pneumonia_children",
+              "section": "Preamble",
+              "rank": 5,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_sepsis__300__00469",
+              "document_id": "who_sepsis",
+              "section": "Signs and symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 2.002035617828369,
+              "before_rank": 17,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": null,
+              "bm25_rank": 8,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00245",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 1.3812053203582764,
+              "before_rank": 1,
+              "before_rrf_score": 0.03028233151183971,
+              "dense_rank": 1,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_epilepsy__300__00141",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.3446040749549866,
+              "before_rank": 2,
+              "before_rrf_score": 0.0288981288981289,
+              "dense_rank": 14,
+              "bm25_rank": 5,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00248",
+              "document_id": "who_stroke",
+              "section": "Complications",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -2.0670487880706787,
+              "before_rank": 3,
+              "before_rrf_score": 0.027417840375586856,
+              "dense_rank": 15,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_depression__300__00129",
+              "document_id": "who_depression",
+              "section": "Key facts",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.1622588634490967,
+              "before_rank": 4,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_sepsis__300__00469",
+              "document_id": "who_sepsis",
+              "section": "Signs and symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 2.002035617828369,
+              "before_rank": 17,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": null,
+              "bm25_rank": 8,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00245",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 1.3812053203582764,
+              "before_rank": 1,
+              "before_rrf_score": 0.03028233151183971,
+              "dense_rank": 1,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_epilepsy__300__00141",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.3446040749549866,
+              "before_rank": 2,
+              "before_rrf_score": 0.0288981288981289,
+              "dense_rank": 14,
+              "bm25_rank": 5,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00248",
+              "document_id": "who_stroke",
+              "section": "Complications",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -2.0670487880706787,
+              "before_rank": 3,
+              "before_rrf_score": 0.027417840375586856,
+              "dense_rank": 15,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_depression__300__00129",
+              "document_id": "who_depression",
+              "section": "Key facts",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.1622588634490967,
+              "before_rank": 4,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "en_hypertension_symptoms",
+          "query": {
+            "original_query": "What are the symptoms and treatment of hypertension?",
+            "normalized_query": "what are the symptoms and treatment of hypertension?",
+            "translated_query_en": "what are the symptoms and treatment of hypertension?",
+            "detected_language": "en",
+            "translation_method": "identity_en",
+            "translated_terms": []
+          },
+          "expected_document_ids": [
+            "who_hypertension"
+          ],
+          "retrieval_latency_ms": 35.761,
+          "rerank_latency_ms": 1021.679,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_hypertension__300__00068",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00073",
+              "document_id": "who_hypertension",
+              "section": "WHO response",
+              "rank": 2,
+              "rrf_score": 0.031009615384615385,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 4,
+              "bm25_rank": 5,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00066",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 3,
+              "rrf_score": 0.029386529386529386,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__300__00251",
+              "document_id": "who_stroke",
+              "section": "WHO response",
+              "rank": 4,
+              "rrf_score": 0.029236022193768675,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 6,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00071",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 5,
+              "rrf_score": 0.028814262023217248,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 7,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_hypertension__300__00068",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.010270595550537,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00066",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.6151710748672485,
+              "before_rank": 3,
+              "before_rrf_score": 0.029386529386529386,
+              "dense_rank": 3,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00071",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.4642324447631836,
+              "before_rank": 5,
+              "before_rrf_score": 0.028814262023217248,
+              "dense_rank": 7,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__300__00057",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.7675697803497314,
+              "before_rank": 14,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": 8,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00069",
+              "document_id": "who_hypertension",
+              "section": "Treatment",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.8273375034332275,
+              "before_rank": 6,
+              "before_rrf_score": 0.028371628371628373,
+              "dense_rank": 5,
+              "bm25_rank": 17,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_hypertension__300__00068",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.010270595550537,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00066",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.6151710748672485,
+              "before_rank": 3,
+              "before_rrf_score": 0.029386529386529386,
+              "dense_rank": 3,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00071",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.4642324447631836,
+              "before_rank": 5,
+              "before_rrf_score": 0.028814262023217248,
+              "dense_rank": 7,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__300__00057",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.7675697803497314,
+              "before_rank": 14,
+              "before_rrf_score": 0.014705882352941176,
+              "dense_rank": 8,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__300__00069",
+              "document_id": "who_hypertension",
+              "section": "Treatment",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.8273375034332275,
+              "before_rank": 6,
+              "before_rrf_score": 0.028371628371628373,
+              "dense_rank": 5,
+              "bm25_rank": 17,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        }
+      ]
+    },
+    "800": {
+      "before": {
+        "metrics": {
+          "hit_at_1": 0.5,
+          "hit_at_5": 0.8333,
+          "mrr": 0.6167
+        }
+      },
+      "after": {
+        "metrics": {
+          "hit_at_1": 0.3333,
+          "hit_at_5": 0.8333,
+          "mrr": 0.5
+        }
+      },
+      "latency_ms": {
+        "retrieval_p50": 36.969,
+        "retrieval_p95": 11035.072,
+        "rerank_p50": 1211.61,
+        "rerank_p95": 1336.494
+      },
+      "statuses": {
+        "ok": 6
+      },
+      "traces": [
+        {
+          "id": "vi_diabetes_symptoms",
+          "query": {
+            "original_query": "Bệnh tiểu đường có triệu chứng gì?",
+            "normalized_query": "bệnh tiểu đường có triệu chứng gì?",
+            "translated_query_en": "diabetes symptoms?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "có triệu chứng gì",
+              "bệnh tiểu đường"
+            ]
+          },
+          "expected_document_ids": [
+            "who_diabetes"
+          ],
+          "retrieval_latency_ms": 11035.072,
+          "rerank_latency_ms": 1082.232,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_diabetes__800__00036",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__800__00038",
+              "document_id": "who_diabetes",
+              "section": "Type 2 diabetes",
+              "rank": 2,
+              "rrf_score": 0.03200204813108039,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": 3,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__800__00047",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": 0.03149801587301587,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__800__00042",
+              "document_id": "who_diabetes",
+              "section": "Diagnosis and treatment",
+              "rank": 4,
+              "rrf_score": 0.029910714285714284,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 4,
+              "bm25_rank": 10,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_diabetes__800__00040",
+              "document_id": "who_diabetes",
+              "section": "Impaired glucose tolerance and impaired fasting glycaemia",
+              "rank": 5,
+              "rrf_score": 0.028594771241830064,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 8,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_diabetes__800__00036",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.585022926330566,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hepatitis_b__800__00127",
+              "document_id": "who_hepatitis_b",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 2.315108060836792,
+              "before_rank": 12,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__800__00047",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 2.105748176574707,
+              "before_rank": 3,
+              "before_rrf_score": 0.03149801587301587,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00065",
+              "document_id": "who_malaria",
+              "section": "Symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 1.3458497524261475,
+              "before_rank": 6,
+              "before_rrf_score": 0.02658450704225352,
+              "dense_rank": 11,
+              "bm25_rank": 20,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__800__00234",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 1.044572114944458,
+              "before_rank": 8,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": 5,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_diabetes__800__00036",
+              "document_id": "who_diabetes",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.585022926330566,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hepatitis_b__800__00127",
+              "document_id": "who_hepatitis_b",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 2.315108060836792,
+              "before_rank": 12,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__800__00047",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 2.105748176574707,
+              "before_rank": 3,
+              "before_rrf_score": 0.03149801587301587,
+              "dense_rank": 3,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00065",
+              "document_id": "who_malaria",
+              "section": "Symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 1.3458497524261475,
+              "before_rank": 6,
+              "before_rrf_score": 0.02658450704225352,
+              "dense_rank": 11,
+              "bm25_rank": 20,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__800__00234",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 1.044572114944458,
+              "before_rank": 8,
+              "before_rrf_score": 0.015384615384615385,
+              "dense_rank": 5,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_asthma_treatment",
+          "query": {
+            "original_query": "Hen suyễn được phòng ngừa và điều trị như thế nào?",
+            "normalized_query": "hen suyễn được phòng ngừa và điều trị như thế nào?",
+            "translated_query_en": "asthma prevention and treatment?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "được phòng ngừa và điều trị như thế nào",
+              "hen suyễn"
+            ]
+          },
+          "expected_document_ids": [
+            "who_asthma"
+          ],
+          "retrieval_latency_ms": 33.755,
+          "rerank_latency_ms": 1336.494,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_asthma__800__00008",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 1,
+              "rrf_score": 0.03128054740957967,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 6,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_copd__800__00105",
+              "document_id": "who_copd",
+              "section": "WHO response",
+              "rank": 2,
+              "rrf_score": 0.030621785881252923,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": 9,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_dengue__800__00032",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 3,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__800__00007",
+              "document_id": "who_asthma",
+              "section": "Self-care",
+              "rank": 4,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__800__00207",
+              "document_id": "who_yellow_fever",
+              "section": "Preamble",
+              "rank": 5,
+              "rrf_score": 0.015873015873015872,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_dengue__800__00032",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 0.8563387393951416,
+              "before_rank": 3,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_cholera__800__00267",
+              "document_id": "who_cholera",
+              "section": "Prevention and control",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.17126263678073883,
+              "before_rank": 20,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": null,
+              "bm25_rank": 11,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__800__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.053793177008628845,
+              "before_rank": 11,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": null,
+              "bm25_rank": 6,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_influenza_seasonal__800__00312",
+              "document_id": "who_influenza_seasonal",
+              "section": "Prevention",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -0.3669448792934418,
+              "before_rank": 19,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": 11,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__800__00008",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.0457590818405151,
+              "before_rank": 1,
+              "before_rrf_score": 0.03128054740957967,
+              "dense_rank": 6,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_dengue__800__00032",
+              "document_id": "who_dengue",
+              "section": "Prevention and control",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 0.8563387393951416,
+              "before_rank": 3,
+              "before_rrf_score": 0.01639344262295082,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_cholera__800__00267",
+              "document_id": "who_cholera",
+              "section": "Prevention and control",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.17126263678073883,
+              "before_rank": 20,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": null,
+              "bm25_rank": 11,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__800__00006",
+              "document_id": "who_asthma",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.053793177008628845,
+              "before_rank": 11,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": null,
+              "bm25_rank": 6,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_influenza_seasonal__800__00312",
+              "document_id": "who_influenza_seasonal",
+              "section": "Prevention",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -0.3669448792934418,
+              "before_rank": 19,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": 11,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_asthma__800__00008",
+              "document_id": "who_asthma",
+              "section": "WHO response",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.0457590818405151,
+              "before_rank": 1,
+              "before_rrf_score": 0.03128054740957967,
+              "dense_rank": 6,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_tuberculosis_medicine",
+          "query": {
+            "original_query": "Thuốc điều trị bệnh lao là gì?",
+            "normalized_query": "thuốc điều trị bệnh lao là gì?",
+            "translated_query_en": "medicine treatment tuberculosis what is?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "bệnh lao",
+              "điều trị",
+              "là gì",
+              "thuốc"
+            ]
+          },
+          "expected_document_ids": [
+            "who_tuberculosis"
+          ],
+          "retrieval_latency_ms": 50.337,
+          "rerank_latency_ms": 1211.61,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_malaria__800__00072",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 1,
+              "rrf_score": 0.03131881575727918,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 7,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00070",
+              "document_id": "who_malaria",
+              "section": "Prevention > Preventive chemotherapies",
+              "rank": 2,
+              "rrf_score": 0.029910714285714284,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 10,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_pneumonia_children__800__00316",
+              "document_id": "who_pneumonia_children",
+              "section": "Preamble",
+              "rank": 3,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_yellow_fever__800__00207",
+              "document_id": "who_yellow_fever",
+              "section": "Preamble",
+              "rank": 4,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__800__00084",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 5,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_malaria__800__00072",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.7478346228599548,
+              "before_rank": 1,
+              "before_rrf_score": 0.03131881575727918,
+              "dense_rank": 7,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00070",
+              "document_id": "who_malaria",
+              "section": "Prevention > Preventive chemotherapies",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.7644438147544861,
+              "before_rank": 2,
+              "before_rrf_score": 0.029910714285714284,
+              "dense_rank": 10,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__800__00084",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.2882221937179565,
+              "before_rank": 5,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__800__00080",
+              "document_id": "who_tuberculosis",
+              "section": "Overview",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.7884032726287842,
+              "before_rank": 7,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00058",
+              "document_id": "who_hypertension",
+              "section": "Treatment",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.415367603302002,
+              "before_rank": 13,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": null,
+              "bm25_rank": 7,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_malaria__800__00072",
+              "document_id": "who_malaria",
+              "section": "Treatment",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.7478346228599548,
+              "before_rank": 1,
+              "before_rrf_score": 0.03131881575727918,
+              "dense_rank": 7,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00070",
+              "document_id": "who_malaria",
+              "section": "Prevention > Preventive chemotherapies",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.7644438147544861,
+              "before_rank": 2,
+              "before_rrf_score": 0.029910714285714284,
+              "dense_rank": 10,
+              "bm25_rank": 4,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__800__00084",
+              "document_id": "who_tuberculosis",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.2882221937179565,
+              "before_rank": 5,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_tuberculosis__800__00080",
+              "document_id": "who_tuberculosis",
+              "section": "Overview",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.7884032726287842,
+              "before_rank": 7,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": null,
+              "bm25_rank": 3,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00058",
+              "document_id": "who_hypertension",
+              "section": "Treatment",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -2.415367603302002,
+              "before_rank": 13,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": null,
+              "bm25_rank": 7,
+              "sources": [
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_rabies_transmission",
+          "query": {
+            "original_query": "Bệnh dại lây truyền như thế nào?",
+            "normalized_query": "bệnh dại lây truyền như thế nào?",
+            "translated_query_en": "rabies transmission how?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "như thế nào",
+              "lây truyền",
+              "bệnh dại"
+            ]
+          },
+          "expected_document_ids": [
+            "who_rabies"
+          ],
+          "retrieval_latency_ms": 32.348,
+          "rerank_latency_ms": 1321.558,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_yellow_fever__800__00225",
+              "document_id": "who_yellow_fever",
+              "section": "Yellow fever > Diagnosis",
+              "rank": 1,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00189",
+              "document_id": "who_rabies",
+              "section": "Prevention > Vaccinating dogs",
+              "rank": 2,
+              "rrf_score": 0.01639344262295082,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 1,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_dengue__800__00024",
+              "document_id": "who_dengue",
+              "section": "Overview",
+              "rank": 3,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00186",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 4,
+              "rrf_score": 0.016129032258064516,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_malaria__800__00064",
+              "document_id": "who_malaria",
+              "section": "Overview",
+              "rank": 5,
+              "rrf_score": 0.015873015873015872,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_malaria__800__00064",
+              "document_id": "who_malaria",
+              "section": "Overview",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.25601187348365784,
+              "before_rank": 5,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_meningitis__800__00158",
+              "document_id": "who_meningitis",
+              "section": "Transmission",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.49129900336265564,
+              "before_rank": 7,
+              "before_rrf_score": 0.015625,
+              "dense_rank": 4,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00186",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -0.6708247661590576,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00187",
+              "document_id": "who_rabies",
+              "section": "Symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -0.9008901715278625,
+              "before_rank": 12,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": null,
+              "bm25_rank": 6,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_dengue__800__00024",
+              "document_id": "who_dengue",
+              "section": "Overview",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.4493169784545898,
+              "before_rank": 3,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_malaria__800__00064",
+              "document_id": "who_malaria",
+              "section": "Overview",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": -0.25601187348365784,
+              "before_rank": 5,
+              "before_rrf_score": 0.015873015873015872,
+              "dense_rank": 3,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_meningitis__800__00158",
+              "document_id": "who_meningitis",
+              "section": "Transmission",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": -0.49129900336265564,
+              "before_rank": 7,
+              "before_rrf_score": 0.015625,
+              "dense_rank": 4,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00186",
+              "document_id": "who_rabies",
+              "section": "Overview > Rabies from sources other than dogs",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -0.6708247661590576,
+              "before_rank": 4,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": null,
+              "bm25_rank": 2,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_rabies__800__00187",
+              "document_id": "who_rabies",
+              "section": "Symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -0.9008901715278625,
+              "before_rank": 12,
+              "before_rrf_score": 0.015151515151515152,
+              "dense_rank": null,
+              "bm25_rank": 6,
+              "sources": [
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_dengue__800__00024",
+              "document_id": "who_dengue",
+              "section": "Overview",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.4493169784545898,
+              "before_rank": 3,
+              "before_rrf_score": 0.016129032258064516,
+              "dense_rank": 2,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "vi_depression_signs",
+          "query": {
+            "original_query": "Trầm cảm có những dấu hiệu nào?",
+            "normalized_query": "trầm cảm có những dấu hiệu nào?",
+            "translated_query_en": "depression signs?",
+            "detected_language": "vi",
+            "translation_method": "dictionary",
+            "translated_terms": [
+              "có những dấu hiệu nào",
+              "trầm cảm"
+            ]
+          },
+          "expected_document_ids": [
+            "who_depression"
+          ],
+          "retrieval_latency_ms": 46.433,
+          "rerank_latency_ms": 1237.886,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_epilepsy__800__00115",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 1,
+              "rrf_score": 0.03225806451612903,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 2,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__800__00200",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": 0.03047794966520434,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__800__00203",
+              "document_id": "who_stroke",
+              "section": "Complications",
+              "rank": 3,
+              "rrf_score": 0.030309988518943745,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 5,
+              "bm25_rank": 7,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_sepsis__800__00345",
+              "document_id": "who_sepsis",
+              "section": "Signs and symptoms",
+              "rank": 4,
+              "rrf_score": 0.02803921568627451,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 15,
+              "bm25_rank": 8,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__800__00234",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": 0.027402402402402402,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 12,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_sepsis__800__00345",
+              "document_id": "who_sepsis",
+              "section": "Signs and symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 2.0020358562469482,
+              "before_rank": 4,
+              "before_rrf_score": 0.02803921568627451,
+              "dense_rank": 15,
+              "bm25_rank": 8,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__800__00200",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 1.3812053203582764,
+              "before_rank": 2,
+              "before_rrf_score": 0.03047794966520434,
+              "dense_rank": 1,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_copd__800__00101",
+              "document_id": "who_copd",
+              "section": "Symptoms",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.49131476879119873,
+              "before_rank": 6,
+              "before_rrf_score": 0.02532051282051282,
+              "dense_rank": 18,
+              "bm25_rank": 20,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__800__00234",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 0.47645318508148193,
+              "before_rank": 5,
+              "before_rrf_score": 0.027402402402402402,
+              "dense_rank": 12,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_epilepsy__800__00115",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 0.3446037173271179,
+              "before_rank": 1,
+              "before_rrf_score": 0.03225806451612903,
+              "dense_rank": 2,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_sepsis__800__00345",
+              "document_id": "who_sepsis",
+              "section": "Signs and symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 2.0020358562469482,
+              "before_rank": 4,
+              "before_rrf_score": 0.02803921568627451,
+              "dense_rank": 15,
+              "bm25_rank": 8,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_stroke__800__00200",
+              "document_id": "who_stroke",
+              "section": "Symptoms",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 1.3812053203582764,
+              "before_rank": 2,
+              "before_rrf_score": 0.03047794966520434,
+              "dense_rank": 1,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_copd__800__00101",
+              "document_id": "who_copd",
+              "section": "Symptoms",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": 0.49131476879119873,
+              "before_rank": 6,
+              "before_rrf_score": 0.02532051282051282,
+              "dense_rank": 18,
+              "bm25_rank": 20,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_anaemia__800__00234",
+              "document_id": "who_anaemia",
+              "section": "Signs and symptoms",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": 0.47645318508148193,
+              "before_rank": 5,
+              "before_rrf_score": 0.027402402402402402,
+              "dense_rank": 12,
+              "bm25_rank": 14,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_epilepsy__800__00115",
+              "document_id": "who_epilepsy",
+              "section": "Signs and symptoms",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": 0.3446037173271179,
+              "before_rank": 1,
+              "before_rrf_score": 0.03225806451612903,
+              "dense_rank": 2,
+              "bm25_rank": 2,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        },
+        {
+          "id": "en_hypertension_symptoms",
+          "query": {
+            "original_query": "What are the symptoms and treatment of hypertension?",
+            "normalized_query": "what are the symptoms and treatment of hypertension?",
+            "translated_query_en": "what are the symptoms and treatment of hypertension?",
+            "detected_language": "en",
+            "translation_method": "identity_en",
+            "translated_terms": []
+          },
+          "expected_document_ids": [
+            "who_hypertension"
+          ],
+          "retrieval_latency_ms": 36.969,
+          "rerank_latency_ms": 1206.875,
+          "reranker_status": "ok",
+          "hybrid_top": [
+            {
+              "chunk_id": "who_hypertension__800__00057",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00062",
+              "document_id": "who_hypertension",
+              "section": "WHO response",
+              "rank": 2,
+              "rrf_score": 0.03125763125763126,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 5,
+              "bm25_rank": 3,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00058",
+              "document_id": "who_hypertension",
+              "section": "Treatment",
+              "rank": 3,
+              "rrf_score": 0.029910714285714284,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 4,
+              "bm25_rank": 10,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00055",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 4,
+              "rrf_score": 0.02976190476190476,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 3,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00060",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 5,
+              "rrf_score": 0.029236022193768675,
+              "rerank_score": null,
+              "before_rank": null,
+              "before_rrf_score": null,
+              "dense_rank": 6,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            }
+          ],
+          "reranked_top": [
+            {
+              "chunk_id": "who_hypertension__800__00057",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.010268211364746,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00055",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.6151697039604187,
+              "before_rank": 4,
+              "before_rrf_score": 0.02976190476190476,
+              "dense_rank": 3,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00060",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.4642333984375,
+              "before_rank": 5,
+              "before_rrf_score": 0.029236022193768675,
+              "dense_rank": 6,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_cardiovascular_diseases__800__00258",
+              "document_id": "who_cardiovascular_diseases",
+              "section": "How the burden of cardiovascular diseases can be reduced",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.683493733406067,
+              "before_rank": 19,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": 11,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__800__00047",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.7675689458847046,
+              "before_rank": 15,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "candidate_scores_before_after": [
+            {
+              "chunk_id": "who_hypertension__800__00057",
+              "document_id": "who_hypertension",
+              "section": "Symptoms",
+              "rank": 1,
+              "rrf_score": null,
+              "rerank_score": 4.010268211364746,
+              "before_rank": 1,
+              "before_rrf_score": 0.03278688524590164,
+              "dense_rank": 1,
+              "bm25_rank": 1,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00055",
+              "document_id": "who_hypertension",
+              "section": "Overview",
+              "rank": 2,
+              "rrf_score": null,
+              "rerank_score": 0.6151697039604187,
+              "before_rank": 4,
+              "before_rrf_score": 0.02976190476190476,
+              "dense_rank": 3,
+              "bm25_rank": 12,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_hypertension__800__00060",
+              "document_id": "who_hypertension",
+              "section": "Complications of uncontrolled hypertension",
+              "rank": 3,
+              "rrf_score": null,
+              "rerank_score": -1.4642333984375,
+              "before_rank": 5,
+              "before_rrf_score": 0.029236022193768675,
+              "dense_rank": 6,
+              "bm25_rank": 11,
+              "sources": [
+                "dense",
+                "bm25"
+              ]
+            },
+            {
+              "chunk_id": "who_cardiovascular_diseases__800__00258",
+              "document_id": "who_cardiovascular_diseases",
+              "section": "How the burden of cardiovascular diseases can be reduced",
+              "rank": 4,
+              "rrf_score": null,
+              "rerank_score": -1.683493733406067,
+              "before_rank": 19,
+              "before_rrf_score": 0.014084507042253521,
+              "dense_rank": 11,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            },
+            {
+              "chunk_id": "who_heart_attack__800__00047",
+              "document_id": "who_heart_attack",
+              "section": "**Symptoms**",
+              "rank": 5,
+              "rrf_score": null,
+              "rerank_score": -1.7675689458847046,
+              "before_rank": 15,
+              "before_rrf_score": 0.014925373134328358,
+              "dense_rank": 7,
+              "bm25_rank": null,
+              "sources": [
+                "dense"
+              ]
+            }
+          ],
+          "notes": [
+            "reranker_query_source=original_query",
+            "cross_encoder_max_length=512"
+          ]
+        }
+      ]
+    }
+  }
+}
