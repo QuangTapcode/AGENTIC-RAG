@@ -67,6 +67,8 @@ DEFAULT_MEDICAL_TERMS = {
     "contraindication",
     "public health",
     "who",
+    # Common inflection of the manifest title "Heart attack".
+    "heart attacks",
 }
 
 DEFAULT_OUT_OF_SCOPE_TERMS = {

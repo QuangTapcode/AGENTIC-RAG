@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-29T17:50:20.674791+00:00",
+  "parsing": {
+    "available": true,
+    "path": "parse_report.json",
+    "document_count": 30,
+    "success_count": 30,
+    "fallback_count": 0,
+    "quality_flag_count": 0,
+    "total_ms": 193.36,
+    "per_document_ms": {
+      "count": 30,
+      "mean": 6.445,
+      "p50": 5.515,
+      "p95": 10.894,
+      "max": 17.8
+    },
+    "total_chars": 388147
+  },
+  "chunking": {
+    "300": {
+      "available": true,
+      "total_chunks": 476,
+      "documents_with_chunks": 30,
+      "total_tokens": 92419,
+      "token_statistics": {
+        "min": 16,
+        "max": 300,
+        "mean": 194.16,
+        "median": 200.5
+      },
+      "overlap_target_tokens": 60
+    },
+    "800": {
+      "available": true,
+      "total_chunks": 350,
+      "documents_with_chunks": 30,
+      "total_tokens": 89952,
+      "token_statistics": {
+        "min": 16,
+        "max": 799,
+        "mean": 257.01,
+        "median": 193.5
+      },
+      "overlap_target_tokens": 120
+    }
+  },
+  "ingestion": {
+    "available": true,
+    "generated_at": "2026-09-28T19:34:10.485518+00:00",
+    "model": "intfloat/multilingual-e5-small",
+    "collections": [
+      {
+        "collection": "medical_chunks_300",
+        "chunk_count": 476,
+        "dense_dimension": 384,
+        "sparse_vocabulary_size": 5597,
+        "sparse_average_document_length": 122.43697478991596,
+        "verification": "ok"
+      },
+      {
+        "collection": "medical_chunks_800",
+        "chunk_count": 350,
+        "dense_dimension": 384,
+        "sparse_vocabulary_size": 5597,
+        "sparse_average_document_length": 162.38,
+        "verification": "ok"
+      }
+    ]
+  },
+  "retrieval": {
+    "available": true,
+    "chunk_sizes": {
+      "300": {
+        "query_count": 6,
+        "latency_ms": {
+          "count": 6,
+          "mean": 2065.162,
+          "p50": 40.073,
+          "p95": 9154.909,
+          "max": 12192.74
+        }
+      },
+      "800": {
+        "query_count": 6,
+        "latency_ms": {
+          "count": 6,
+          "mean": 1824.491,
+          "p50": 45.159,
+          "p95": 8052.842,
+          "max": 10716.719
+        }
+      }
+    }
+  },
+  "reranking": {
+    "available": true,
+    "chunk_sizes": {
+      "300": {
+        "query_count": 6,
+        "latency_ms": {
+          "count": 6,
+          "mean": 1101.262,
+          "p50": 1117.574,
+          "p95": 1156.436,
+          "max": 1160.053
+        }
+      },
+      "800": {
+        "query_count": 6,
+        "latency_ms": {
+          "count": 6,
+          "mean": 1232.776,
+          "p50": 1224.748,
+          "p95": 1332.76,
+          "max": 1336.494
+        }
+      }
+    },
+    "model_preload_ms": null
+  },
+  "storage": {
+    "available": true,
+    "url": "http://localhost:6333",
+    "collections": {
+      "medical_chunks_300": {
+        "exists": true,
+        "points_count": 476,
+        "status": "green",
+        "indexed_vectors_count": 476,
+        "segments_count": 6
+      },
+      "medical_chunks_800": {
+        "exists": true,
+        "points_count": 350,
+        "status": "green",
+        "indexed_vectors_count": 350,
+        "segments_count": 6
+      }
+    }
+  },
+  "cost_estimate": {
+    "query_count": 30,
+    "assumed_tokens_per_query": {
+      "llm_input_tokens_per_query": 1800,
+      "llm_output_tokens_per_query": 220,
+      "embedding_calls_per_query": 1,
+      "reranker_calls_per_query": 1
+    },
+    "assumed_pricing": {
+      "llm_input_usd_per_1k": 0.0,
+      "llm_output_usd_per_1k": 0.0,
+      "embedding_usd_per_1k": 0.0,
+      "reranker_usd_per_call": 0.0,
+      "notes": "Prototype default. Set explicit prices when using a paid LLM (e.g. Claude/GPT)."
+    },
+    "llm_input_tokens_total": 54000,
+    "llm_output_tokens_total": 6600,
+    "estimated_llm_cost_usd": 0.0,
+    "estimated_embedding_cost_usd": 0.0,
+    "estimated_reranker_cost_usd": 0.0,
+    "estimated_total_cost_usd": 0.0,
+    "estimated_cost_per_query_usd": 0.0
+  }
+}

@@ -24,6 +24,7 @@ import re
 import sys
 import time
 from dataclasses import asdict, dataclass, field
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Callable, Iterable, Mapping, Sequence
 
@@ -162,6 +163,98 @@ class MedicalQueryTranslator:
 
 
 @dataclass(frozen=True)
+class DiseaseCatalogEntry:
+    """One manifest document plus the query phrases that identify it."""
+
+    document_id: str
+    title: str
+    aliases: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class DiseaseMatch:
+    document_id: str
+    title: str
+    term: str
+
+
+class DiseaseCatalog:
+    """Resolve disease names to manifest document IDs before keyword retrieval."""
+
+    def __init__(self, entries: Sequence[DiseaseCatalogEntry]) -> None:
+        self.entries = tuple(entries)
+
+    @staticmethod
+    def _aliases(document_id: str, title: str) -> tuple[str, ...]:
+        normalized_title = normalise_query(title)
+        aliases = {normalized_title}
+        without_parentheses = normalise_query(re.sub(r"\([^)]*\)", "", title))
+        if without_parentheses:
+            aliases.add(without_parentheses)
+        for parenthetical in re.findall(r"\(([^)]*)\)", title):
+            if parenthetical.strip():
+                aliases.add(normalise_query(parenthetical))
+
+        id_alias = normalise_query(document_id.removeprefix("who_").replace("_", " "))
+        if id_alias:
+            aliases.add(id_alias)
+
+        # Match the common singular form as well (for example "disease" vs
+        # the manifest title "diseases") without attempting general stemming.
+        for alias in tuple(aliases):
+            words = alias.split()
+            if words and words[-1].endswith("s") and len(words[-1]) > 3:
+                aliases.add(" ".join(words[:-1] + [words[-1][:-1]]))
+
+        return tuple(sorted((alias for alias in aliases if alias), key=lambda value: (-len(value), value)))
+
+    @classmethod
+    def from_manifest(cls, manifest_path: Path) -> "DiseaseCatalog":
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        entries = [
+            DiseaseCatalogEntry(
+                document_id=str(document.get("document_id", "")).strip(),
+                title=str(document.get("title", "")).strip(),
+                aliases=cls._aliases(
+                    str(document.get("document_id", "")),
+                    str(document.get("title", "")),
+                ),
+            )
+            for document in manifest.get("documents", [])
+            if document.get("document_id") and document.get("title")
+        ]
+        return cls(entries)
+
+    def match(self, *texts: str) -> list[DiseaseMatch]:
+        searchable_text = " ".join(
+            normalise_query(text) for text in texts if str(text).strip()
+        )
+        matches: list[DiseaseMatch] = []
+        for entry in self.entries:
+            matched_term = next(
+                (alias for alias in entry.aliases if _phrase_pattern(alias).search(searchable_text)),
+                None,
+            )
+            if matched_term:
+                matches.append(
+                    DiseaseMatch(
+                        document_id=entry.document_id,
+                        title=entry.title,
+                        term=matched_term,
+                    )
+                )
+        return matches
+
+
+@lru_cache(maxsize=1)
+def _default_disease_catalog() -> DiseaseCatalog:
+    manifest_path = Path(__file__).resolve().parents[2] / "data" / "manifest.json"
+    if not manifest_path.exists():
+        return DiseaseCatalog(())
+    return DiseaseCatalog.from_manifest(manifest_path)
+
+
+@dataclass(frozen=True)
 class QueryBundle:
     original_query: str
     normalized_query: str
@@ -169,15 +262,25 @@ class QueryBundle:
     detected_language: str
     translation_method: str
     translated_terms: list[str] = field(default_factory=list)
+    disease_document_ids: list[str] = field(default_factory=list)
+    disease_titles: list[str] = field(default_factory=list)
+    disease_terms: list[str] = field(default_factory=list)
+
+    @property
+    def document_scope_filter(self) -> dict[str, Any] | None:
+        if not self.disease_document_ids:
+            return None
+        return {"document_id": {"$in": list(self.disease_document_ids)}}
 
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        return asdict(self) | {"document_scope_filter": self.document_scope_filter}
 
 
 def build_query_bundle(
     query: str,
     *,
     translator: MedicalQueryTranslator | None = None,
+    disease_catalog: DiseaseCatalog | None = None,
 ) -> QueryBundle:
     original_query = query.strip()
     if not original_query:
@@ -189,6 +292,8 @@ def build_query_bundle(
         normalized_query,
         language=detected,
     )
+    catalog = disease_catalog or _default_disease_catalog()
+    disease_matches = catalog.match(normalized_query, translated_query)
     return QueryBundle(
         original_query=original_query,
         normalized_query=normalized_query,
@@ -196,6 +301,9 @@ def build_query_bundle(
         detected_language=detected,
         translation_method=method,
         translated_terms=terms,
+        disease_document_ids=[match.document_id for match in disease_matches],
+        disease_titles=[match.title for match in disease_matches],
+        disease_terms=[match.term for match in disease_matches],
     )
 
 
@@ -317,6 +425,7 @@ class HybridRetriever:
         client: QdrantClient | None = None,
         encoder: Any | None = None,
         translator: MedicalQueryTranslator | None = None,
+        disease_catalog: DiseaseCatalog | None = None,
     ) -> None:
         self.collection_name = collection_name
         self.bm25_artifact_path = bm25_artifact_path
@@ -324,6 +433,7 @@ class HybridRetriever:
         self.client = client or QdrantClient(url=qdrant_url)
         self.encoder = encoder
         self.translator = translator or MedicalQueryTranslator()
+        self.disease_catalog = disease_catalog or _default_disease_catalog()
         self.bm25_artifact = json.loads(bm25_artifact_path.read_text(encoding="utf-8"))
 
     def _get_encoder(self) -> Any:
@@ -343,31 +453,49 @@ class HybridRetriever:
             payload=payload,
         )
 
-    def _dense_search(self, query: str, top_k: int) -> list[RetrievalHit]:
+    def _dense_search(
+        self,
+        query: str,
+        top_k: int,
+        *,
+        query_filter: models.Filter | None = None,
+    ) -> list[RetrievalHit]:
         vector = embed_query(self._get_encoder(), query)
-        response = self.client.query_points(
-            collection_name=self.collection_name,
-            query=vector.tolist(),
-            using=DENSE_VECTOR_NAME,
-            limit=top_k,
-            with_payload=True,
-        )
+        search_kwargs: dict[str, Any] = {
+            "collection_name": self.collection_name,
+            "query": vector.tolist(),
+            "using": DENSE_VECTOR_NAME,
+            "limit": top_k,
+            "with_payload": True,
+        }
+        if query_filter is not None:
+            search_kwargs["query_filter"] = query_filter
+        response = self.client.query_points(**search_kwargs)
         return [
             self._point_to_hit(point, source="dense", rank=rank)
             for rank, point in enumerate(response.points, start=1)
         ]
 
-    def _sparse_search(self, query_en: str, top_k: int) -> tuple[list[RetrievalHit], str | None]:
+    def _sparse_search(
+        self,
+        query_en: str,
+        top_k: int,
+        *,
+        query_filter: models.Filter | None = None,
+    ) -> tuple[list[RetrievalHit], str | None]:
         vector: models.SparseVector = query_sparse_vector(query_en, self.bm25_artifact)
         if not vector.indices:
             return [], "translated_query_en_has_no_corpus_terms"
-        response = self.client.query_points(
-            collection_name=self.collection_name,
-            query=vector,
-            using=SPARSE_VECTOR_NAME,
-            limit=top_k,
-            with_payload=True,
-        )
+        search_kwargs: dict[str, Any] = {
+            "collection_name": self.collection_name,
+            "query": vector,
+            "using": SPARSE_VECTOR_NAME,
+            "limit": top_k,
+            "with_payload": True,
+        }
+        if query_filter is not None:
+            search_kwargs["query_filter"] = query_filter
+        response = self.client.query_points(**search_kwargs)
         return (
             [
                 self._point_to_hit(point, source="bm25", rank=rank)
@@ -392,12 +520,22 @@ class HybridRetriever:
         ):
             if value < 1:
                 raise ValueError(f"{name} must be positive")
-        bundle = build_query_bundle(query, translator=self.translator)
+        bundle = build_query_bundle(
+            query,
+            translator=self.translator,
+            disease_catalog=self.disease_catalog,
+        )
+        document_filter = self._document_filter(bundle)
         started = time.perf_counter()
-        dense_results = self._dense_search(bundle.original_query, top_k_dense)
+        dense_results = self._dense_search(
+            bundle.original_query,
+            top_k_dense,
+            query_filter=document_filter,
+        )
         sparse_results, sparse_note = self._sparse_search(
             bundle.translated_query_en,
             top_k_bm25,
+            query_filter=document_filter,
         )
         fused_results = rrf_fuse(
             dense_results,
@@ -406,6 +544,8 @@ class HybridRetriever:
             rrf_k=rrf_k,
         )
         notes = [sparse_note] if sparse_note else []
+        if bundle.disease_document_ids:
+            notes.append("disease_scope=" + ",".join(bundle.disease_document_ids))
         return RetrievalResult(
             query=bundle,
             dense_results=dense_results,
@@ -418,6 +558,19 @@ class HybridRetriever:
             rrf_k=rrf_k,
             latency_ms=(time.perf_counter() - started) * 1000.0,
             notes=notes,
+        )
+
+    @staticmethod
+    def _document_filter(bundle: QueryBundle) -> models.Filter | None:
+        if not bundle.disease_document_ids:
+            return None
+        return models.Filter(
+            must=[
+                models.FieldCondition(
+                    key="document_id",
+                    match=models.MatchAny(any=bundle.disease_document_ids),
+                )
+            ]
         )
 
 

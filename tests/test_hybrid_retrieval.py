@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from retrieval.hybrid_retriever import (  # noqa: E402
+    DiseaseCatalog,
     MedicalQueryTranslator,
     RetrievalHit,
     build_query_bundle,
@@ -17,6 +18,30 @@ from retrieval.hybrid_retriever import (  # noqa: E402
 
 
 class HybridRetrievalTests(unittest.TestCase):
+    def test_disease_anchor_is_extracted_before_keyword_retrieval(self) -> None:
+        catalog = DiseaseCatalog.from_manifest(PROJECT_ROOT / "data" / "manifest.json")
+        bundle = build_query_bundle(
+            "Bệnh tiểu đường có những triệu chứng gì?",
+            disease_catalog=catalog,
+        )
+
+        self.assertEqual(bundle.disease_document_ids, ["who_diabetes"])
+        self.assertEqual(bundle.disease_titles, ["Diabetes"])
+        self.assertIn("diabetes", bundle.disease_terms)
+
+    def test_disease_scope_filter_targets_only_matched_documents(self) -> None:
+        catalog = DiseaseCatalog.from_manifest(PROJECT_ROOT / "data" / "manifest.json")
+        bundle = build_query_bundle(
+            "What are the symptoms of diabetes?",
+            disease_catalog=catalog,
+        )
+
+        self.assertEqual(bundle.disease_document_ids, ["who_diabetes"])
+        self.assertEqual(
+            bundle.document_scope_filter,
+            {"document_id": {"$in": ["who_diabetes"]}},
+        )
+
     def test_vietnamese_query_bundle_keeps_original_and_translates_terms(self) -> None:
         bundle = build_query_bundle("Bệnh tiểu đường có triệu chứng gì?")
         self.assertEqual(bundle.original_query, "Bệnh tiểu đường có triệu chứng gì?")

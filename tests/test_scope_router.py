@@ -28,6 +28,10 @@ class ScopeRouterTests(unittest.TestCase):
         result = self.router.route("What are the symptoms of asthma?")
         self.assertEqual(result["action"], "retrieve")
 
+    def test_plural_manifest_title_is_in_scope(self) -> None:
+        result = self.router.route("What are the main causes of heart attacks?")
+        self.assertEqual(result["action"], "retrieve")
+
     def test_out_of_scope_query_calls_terminal_tool(self) -> None:
         result = self.router.route("Viết code Python để sắp xếp danh sách")
         self.assertEqual(result["action"], "tool_call")

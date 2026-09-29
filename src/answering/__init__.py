@@ -7,8 +7,11 @@ from .answer_generator import (
     AnswerResult,
     Citation,
     CitationValidationError,
+    RESPONSE_LANGUAGE_MODES,
     SYSTEM_PROMPT,
+    normalize_response_language,
 )
+from .local_qwen import OllamaQwenClient
 
 __all__ = [
     "MEDICAL_WARNING_EN",
@@ -17,5 +20,8 @@ __all__ = [
     "AnswerResult",
     "Citation",
     "CitationValidationError",
+    "RESPONSE_LANGUAGE_MODES",
     "SYSTEM_PROMPT",
+    "OllamaQwenClient",
+    "normalize_response_language",
 ]
